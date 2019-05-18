@@ -1,0 +1,14 @@
+    • C++ and Java
+    • Windows (Batch) and Linux (Batch).
+    • OS Kernel programming on Linux.
+    • Databases: Oracle SQL, mySQL, MongoDB.
+    • Git; using GitHub for collaboration and version control.
+    • XML, JSON, CSS, JavaScript, PHP, HTML5. Used Bootstrap-5 and additional frameworks.
+    • Favorite IDE: Dreamweaver (Windows) and Wappler (Linux).
+    • OpenSource Matomo (Formally PIWIK)
+    • Google Analytics
+    • Microsoft Internet Information Services (IIS)
+    • Linux with Apache Server (for testing before going live)
+    • Computer/Network Security: Burp, Wireshark, and Packet Tracing.
+    • MS Office programs including advanced skills such as physics tables with Excel.
+    • Adobe Photoshop and Premier.

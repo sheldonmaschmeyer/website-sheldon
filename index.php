@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
-  <meta name="norton-safeweb-site-verification" content="7-7xiqq-b38mayk91gk7lju2b4m1yunwkwf3l2mip0fjm4i5un-1i-ky5lcuvpfymkjunspl1qnpc33wx2v1lxucn7f05s0hzxferv1lxifpvdfcccmskshpqh442zwy"> 
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="norton-safeweb-site-verification" content="7-7xiqq-b38mayk91gk7lju2b4m1yunwkwf3l2mip0fjm4i5un-1i-ky5lcuvpfymkjunspl1qnpc33wx2v1lxucn7f05s0hzxferv1lxifpvdfcccmskshpqh442zwy">
 
   <title>Sheldon Maschmeyer</title>
 
@@ -18,16 +18,32 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/sheldon.resume.min.css" rel="stylesheet">
+<style>
+
+  .headingChange > a:before {
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f150\00a0\00a0"; 
+  }
+
+  .headingChange > a.collapsed:before {
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f152\00a0\00a0";
+  }
+</style>
+
 </head>
 <body id="page-top">
-  
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Sheldon Maschmeyer</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +66,15 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#services">Services</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#volunteering">Volunteering</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#activities">Activities</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#lifeGoals">Life Goals</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -58,19 +83,20 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
+      <div class="d-lg-none d-xl-none"><img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt=""></div>
         <h1 class="mb-0">Sheldon W. B. <span class="text-primary">Maschmeyer</span></h1>
-        <div class="subheading mb-5">284 Main Street · Ottawa, Ontario, Canada, K1S 1E1 · 1-613-889-4320 ·
-          <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
+        <div class="subheading mb-5">
+        Primary: 515-740 Springland Dr., Ottawa, Ontario <br>
+        Secondary: 4060 Farrier Court, Mississauga, Ontario (suburb of Toronto) <br> 
+        1-613-889-4320  · <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
         </div>
-        <p class="lead mb-5">• Creative &amp; Analytical Programmer<br>
-          <br>• Excellent researcher, with strong problem-solving skills.<br>
-          <br>• Strong organizational skills and ability to multi-task<br>
-          <br>• Exceptional relationship building and account management skills<br>
-          <br>• Sales and Customer Service Experience (B2C)<br>
-          <br>• Enhanced Reliability Security Clearance (Canada) Nov 2016 - Nov 2026<br>
-          <br>• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading and, much more.</p>
-        <div class="social-icons" style="width: 200px; float: left">
-          Professional Network:
+        <ul><?php 
+            $file = file_get_contents('ExportWeb/profile.txt');
+            $file = str_replace("•", "<p><li>", $file);
+            echo $file;
+            ?> </ul>
+        <div class="social-icons dont-print p-3" style="width: 200px; float: left">
+          Professional Network
           <a href="https://www.linkedin.com/in/sheldonmaschmeyer/">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -78,12 +104,21 @@
             <i class="fab fa-github"></i>
           </a>
         </div>
-        <div class="social-icons" style="width: 200px; float: left">
-          Download Résumé:
-          <a href="data/resume.docx">
+        <div class="social-icons dont-print p-3" style="width: 200px; float: left">
+          My Ottawa Résumé
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeOttawa.docx">
             <i class="fas fa-file-word"></i>
           </a>
-          <a href="data/resume.pdf">
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeOttawa.pdf">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+        <div class="social-icons dont-print p-3" style="width: 200px; float: left">
+          My Toronto Résumé
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeToronto.docx">
+            <i class="fas fa-file-word"></i>
+          </a>
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeToronto.pdf">
             <i class="fas fa-file-pdf"></i>
           </a>
         </div>
@@ -95,47 +130,84 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
-
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Bachelor of Science: Computer Science</h3>
-            <div class="subheading mb-3">Minor: Sociology · Carleton University</div>
-            <div>Major cGPA: 7.86 out of 12.00</div>
-            <p>Minor cGPA: 7.75 out of 12.00 <br> 
-              Overall cGPA: 7.48 out of 12.00</p>
-          </div>
-          <div class="resume-date text-md-right">
+            <h3 class="mb-0">BS: Computer Science (Minor Sociology)</h3>
+            <div class="subheading mb-3 headingChange"><a href="#compSci" data-toggle="collapse" style="text-decoration:none;">Carleton University</a></div>
+            <div id="compSci" class="collapse">
+            <div class="dont-print"> <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Section</th>
+                    <th scope="col">12.00 Points</th>
+                    <th scope="col">4.0 Points</th>
+                    <th scope="col">Alpha</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Major</td>
+                    <td>7.86</td>
+                    <td>3.0</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <td>Minor</td>
+                    <td>7.75</td>
+                    <td>3.0</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <td>Overall</td>
+                    <td>7.48</td>
+                    <td>3.0</td>
+                    <td>B</td>
+                  </tr>
+                </tbody>
+              </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div></div>
+            </div>
+              <div class="resume-date text-md-right">
             <span class="text-primary">September 2015 - June 2019</span>
           </div>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Bachelor of Science: Integrated Science</h3>
-            <div class="subheading mb-3">Concentration: Science and Technology · Carleton University</div>
-            <div>Major cGPA: </div>
-            <p>Concentration cGPA: <br> 
-            Overall cGPA: </p>
-          </div>
-          <div class="resume-date text-md-right">
+            <h3 class="mb-0">BS: Integrated Science and Technology</h3>
+            <div class="subheading mb-3 headingChange"><a href="#sci" data-toggle="collapse" style="text-decoration:none;">Carleton University</a></div>
+            <div id="sci" class="collapse">
+            <div class="dont-print"> <table class="table dont-print">
+                <thead>
+                  <tr>
+                    <th scope="col">Section</th>
+                    <th scope="col">12.00 Points</th>
+                    <th scope="col">4.0 Points</th>
+                    <th scope="col">Alpha</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Major</td>
+                    <td>6.11</td>
+                    <td>2.3</td>
+                    <td>C+</td>
+                  </tr>
+                  <tr>
+                    <td>Concentration</td>
+                    <td>8.60</td>
+                    <td>3.3</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <td>Overall</td>
+                    <td>6.54</td>
+                    <td>2.7</td>
+                    <td>B-</td>
+                  </tr>
+                </tbody>
+              </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div> </div>
+            </div>
+              <div class="resume-date text-md-right">
             <span class="text-primary">September 2009 - June 2014</span>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Secondary Schools</h3>
-            <div>Richmond Hill Adult Day School (Richmond Hill, Ontario) </div>
-            <p>Independent Learning Centre <br> 
-            Sir William Mulock Secondary School (Newmarket, Ontario) <br>
-            Thornhill Secondary School (Thornhill, Ontario) </p>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Elementary Schools</h3>
-            <div>E.J. Sand P.S. (Thornhill, Ontario) </div>
-            <p>Thornhill P.S. (Thornhill, Ontario) <br> 
-              Briergreen P.S. (Ottawa, Ontario) <br> 
-              Northview Elementary (Pointe Claire, Quebec) </p>
           </div>
         </div>
       </div>
@@ -149,101 +221,104 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
-            <div class="subheading mb-3">I-AM Retailer Solutions / Abaan &amp; Associates</div>
-            <p>I-AM is a small Canadian startup specializing in advanced retail display solutions. I-AM targets large retail outlets and, the grocery industry.<br>
-              <br>Key Responsibilities: <br>
-              </p><ul> 
-                <li>Graphic art design/creation of multimedia business support materials, including concept renditions, situational prototype designs and presentation images, videos and animations </li>
-                <li>Created compelling sales demonstration content for executive level presentations and display on video screens and retail mobile devices. </li>
-                <li>Source, install, repair and maintain all corporate computers, accessories, etc.</li></ul><p></p>
-          </div>
+            <h3 class="mb-0">Supervisor, Primary Cashier & Merchandiser </h3>
+            <div class="subheading mb-3 headingChange"> <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> Shoppers Drug Mart </a></div>
+            <div id="shop" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Shop.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+            </div></div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2008 - Present</span>
+            <span class="text-primary">May 2016 - Present </span>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
+            <div class="subheading mb-3 headingChange"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · i-aminc.com · Abaan &amp; Associates</a></div>
+            <div id="IAM" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_IAM.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+              </div> 
+        </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2008 - September 2020</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Head Cashier (Part-Time)</h3>
-            <div class="subheading mb-3">Shoppers Drug Mart</div>
-            <p>Key Responsibilities:
-              </p><ul> 
-                <li>Efficiently and accurately operate cash register, OLG lottery, Load Presto Cards. </li>
-                <li>Promote retail promotions, contests and charity initiatives. </li>
-                <li>Performed merchandising responsibilities.</li></ul><p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2016 - November 2018</span>
-          </div>
-        </div>
-    
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
             <h3 class="mb-0">Field Training &amp; Support Representative<br>Field Service Representative</h3>
-            <div class="subheading mb-3">Dominion Voting Systems</div>
-            <p>Dominion Voting Systems began in 1895 with the invention of the first ever Direct Recording lever machines in New York. Dominion is still known for its innovation in election technology, leveraging its history of innovation through its vast pool of election specialists. Through partnering with and learning from top level suppliers and employees in the election automation industry,&nbsp;Dominion is taking part in the world’s most challenging and innovative democracy projects.</p>
-            <p>Key Responsibilities:</p>
-            <ul> 
-            <b>2018</b>
-            <li>Provided advanced training and on site (day of) support for the 2018 Ontario Election. </li>
-            <li>Trained all Poll Officials in Ottawa. </li>
-            <li>Assisted with equipment setup and conducted Logic &amp; Accuracy testing.</li>
-            <li>Provided support during polling hours and while votes were being tabulated.</li>
-            <b>2014</b>
-            <li>Assisted TDRO with regards to set-up.</li>
-            <li>Assisted TDRO with Logic and Accuracy testing of Dominion Voting Systems.</li>
-            <li>Ensured that assigned polling station was opened and closed on time.</li>
-            <li>Ensured that all voting machines remained operational throughout all polling days.</li></ul><p></p>
-          </div>
+            <div class="subheading mb-3 headingChange"><a href="#domVote" data-toggle="collapse" style="text-decoration:none;">Dominion Voting Systems</a></div>
+            <div id="domVote" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_vot.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:", $file);
+            $file = str_replace("2018:", "<br>2018:<ul>", $file);
+            $file = str_replace("2014:", "</ul>2014:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div></div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
+            <span class="text-primary">May 2018 - June 2018 <br> October 2014 &amp; June 2014</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Customer Service Representative</h3>
-            <div class="subheading mb-3">Canada Computers</div>
-            <p>Ontario and Quebec computers and electronics retail store.</p>
-            <p>Key Responsibilities:
-              </p><ul> 
-                <li>Service Desk representative responsible for aiding clients with troubleshooting technical issues and suggesting appropriate solutions.</li>
-                <li>Responsible for assisting clients in finding the right software or hardware to meet their needs.</li>
-                <li>Used POS system to order required services and parts for pickup or delivery as well as inventory transfer between customer service department and sales (for custom builds and repairs).</li></ul><p></p>
-          </div>
+            <h3 class="mb-0">Customer Service Representative</h3> 
+            <div class="subheading mb-3 headingChange"><a href="#cdn" data-toggle="collapse" style="text-decoration:none;">Canada Computers</a></div>
+            <div id="cdn" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_CC.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2014 - August 2015</span>
           </div>
         </div>
-        
+
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Deputy Returning Officer (By-Election)</h3>
-            <div class="subheading mb-3">Elections Canada</div>
-            <p>Key Responsibilities:
-              </p><ul> 
-                <li>Responsible for setting up the polling station with necessary supplies.</li>
-                <li>Ensure voters provided proof of identity and address before voting as well as provide ballots to voters.</li>
-                <li>Ensured all polling clerks and party representatives followed all rules and procedures.</li>
-                <li>Managed registration process at polling station when required.</li>
-                <li>Tabulated votes, completed all required paper work, informed Elections Canada of polling station voting results and returned the ballot box and related materials to the Returning Officer.</li></ul><p></p>
-          </div>
+            <div class="subheading mb-3 headingChange"><a href="#elec" data-toggle="collapse" style="text-decoration:none;">Elections Canada</a></div>
+            <div id="elec" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Elect.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div> </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2014</span>
           </div>
         </div>
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
-            <h3 class="mb-0">Sales Associate</h3>
-            <div class="subheading mb-3">Fox Wireless Comm. (Now Telus)</div>
-            <p>Key Responsibilities:
-              </p><ul> 
-                <li>Responsible for meeting and exceeding sales quota of Telus Mobile devices, contracts and accessories.</li>
-                <li>Responsible for assisting in store opening and closing duties.</li>
-                <li>Responsible for ensuring a clean and welcoming environment for customers.</li></ul><p></p>
-          </div>
+            <h3 class="mb-0">Sales Associate</h3> 
+            <div class="subheading mb-3 headingChange"><a href="#fox" data-toggle="collapse" style="text-decoration:none;">Fox Wireless Comm. (Now Telus)</a></div>
+            <div id="fox" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Fox.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2008 - August 2008</span>
           </div>
@@ -252,14 +327,19 @@
       </div>
 
     </section>
-    
+
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-3 headingChange"><a href="#lang" data-toggle="collapse" style="text-decoration:none;"> Programming Languages &amp; Tools</a></div>
+        <div id="lang" class="collapse">
+        <ul><?php 
+            $file = file_get_contents('ExportWeb/skills.txt');
+            $file = str_replace("•", "<li>", $file);
+            echo $file;
+            ?> </ul></div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-java" data-toggle="tooltip" title="Java"></i>
@@ -315,22 +395,72 @@
         </ul>
       </div>
     </section>
-    
+
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="services">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center dont-print" id="services">
       <div class="w-100">
         <h2 class="mb-5">Maschmeyer Services
         <div class="subheading mb-3">Computer Repair &amp; Traiing <br> IT &amp; Media Arts Services</div></h2>
-        <p>In Thornhill and Newmarket, I provided computer repair and training services to members of the community.<br>
-        I continue to provide the same services, in my spare time, in Ottawa.</p>
+        <p>In Thornhill and Newmarket, I provided computer software (Windows, Mac & Linux) and, <br> hardware repairs and training services to members of the community. <br>
+        Hardware is primarily desktops or basic laptop servicing.<br>
+        I continue to provide the same services, in my spare time, in Ottawa. <br>
+        Very few clients in Ottawa but, phone calls during the pandemic have increased. <br> 
+        Due to COVID-19 risks, concerned about close proximity to clients for prolonged periods, <br> I am reluctant to continue this student side-job for the time being.</p>
         <p>Call or Email for a Free Consultation and Estimates <br> Personalized Service: On-Site or Drop-off <br>
         <b>100% Customer Satisfaction Guaranteed</b></p>
-        <p>10+ Years of Experience Providing Computer Related Services<br> 
-          References &amp; Testimonials Available Upon Request.<br>
-        Masters Busienss License (MBL) for Ontario: 270798713</p>
+        <p>10+ Years of Experience Providing Computer Related Services<br>
+          References &amp; Testimonials Available Upon Request.<br>MBL for Ontario: 270798713</p>
       </div>
     </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="volunteering">
+        <div class="w-100">
+          <h2 class="mb-5">Volunteering</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content white-space: pre-wrap;">
+            <?php 
+              $file = file_get_contents('ExportWeb/volunteer.txt');
+              echo str_replace("\n","<p>", $file);
+            ?>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="activities">
+        <div class="w-100">
+          <h2 class="mb-5">Activities</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content white-space: pre-wrap;">
+            <?php 
+              $file = file_get_contents('ExportWeb/activities.txt');
+              echo str_replace("\n","<p>", $file);
+            ?>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lifeGoals">
+      <div class="w-100">
+        <h2 class="mb-5">Life Goals</h2>
+        <?php 
+            $file = file_get_contents('ExportWeb/lifeGoals.txt');
+            $file = str_replace("•", "<li>", $file);
+            echo $file;
+            ?> </div>
+      </div>
+    </section>
+
   </div>
 
   <!-- Bootstrap core JavaScript -->
@@ -342,13 +472,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
-  
+
   <script>
 		$(document).ready(function(){
   		$('[data-toggle="tooltip"]').tooltip();
 		});
   </script>
-
-
 
 </body></html>

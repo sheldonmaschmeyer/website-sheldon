@@ -1,0 +1,11 @@
+I-AM Retailer Solutions specializes in advanced retail display solutions, featuring video and mobile advertising capabilities. 
+Assignments and Projects completed:
+    • Provide employees with  IT support in a Windows 10 and Office 365 environment, as well as desktop applications, hardware and mobile devices.
+    • Setup Google Apps for Business and configured all employees Outlook 365 desktop applications and, mobiles (iPhone, Android). 
+    • Regularly update and maintain all employee hardware and software with recent software updates, and security patches.
+    • Source and install all corporate hardware and software.
+    • Back up all corporate data regularly, utilizing tools such as Belarc Advisor and business cloud features. 
+    • Configured IMAP and Exchange Email for employees in Outlook. 
+    • Graphic art design/creation of multimedia business support materials, including concept renditions, situational prototype designs.
+    • Designed images, videos and animations for executive presentations.
+    • Installed Linux (Ubuntu) and ran advertising on the Digital Engines that run the I-AM  video screens and connected them to a gateway which had always-on cellular internet service. 

@@ -150,7 +150,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
-            <div class="subheading mb-3">I-AM Retailer Solutions / Abaan &amp; Associates</div>
+            <div class="subheading mb-3">I-AM Retailer Solutions · <a href="https://i-aminc.com">i-aminc.com</a> · Abaan &amp; Associates</div>
             <p>I-AM is a small Canadian startup specializing in advanced retail display solutions. I-AM targets large retail outlets and, the grocery industry.<br>
               <br>Key Responsibilities: <br>
               </p><ul> 

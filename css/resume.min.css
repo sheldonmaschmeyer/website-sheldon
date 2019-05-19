@@ -17,6 +17,21 @@ body {
   }
 }
 
+@media print {
+  @page {
+    size: auto;
+    /* auto is the initial value */
+    margin: 5;
+    /* this affects the margin in the printer settings */
+  }
+  section.resume-section {
+    page-break-before: avoid;
+    -webkit-column-break-before: avoid;
+    break-before: avoid;
+    min-height: 0vh;
+  }
+}
+
 h1,
 h2,
 h3,

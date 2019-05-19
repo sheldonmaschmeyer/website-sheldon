@@ -62,13 +62,13 @@
         <div class="subheading mb-5">284 Main Street · Ottawa, Ontario, Canada, K1S 1E1 · 1-613-889-4320 ·
           <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
         </div>
-        <p class="lead mb-5">• Creative &amp; Analytical Programmer<br>
-          <br>• Excellent researcher, with strong problem-solving skills.<br>
-          <br>• Strong organizational skills and ability to multi-task<br>
-          <br>• Exceptional relationship building and account management skills<br>
-          <br>• Sales and Customer Service Experience (B2C)<br>
-          <br>• Enhanced Reliability Security Clearance (Canada) Nov 2016 - Nov 2026<br>
-          <br>• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading and, much more.</p>
+        <p class="lead mb-5">• Quick at learning new programming skills.<br>
+          <br>• Excellent researcher, with strong problem-solving skills.<br><br>• Creative (Front-end development, GUI), and Analytical Programmer.<br>
+          <br>• Strong organizational skills, and ability to multi-task.<br>
+          <br>• Exceptional relationship building, and account management skills.<br>
+          <br>• Sales and Customer Service Experience (B2C).<br>
+          <br>• Enhanced Reliability Security Clearance (Canada) Nov 2016 - Nov 2026.<br>
+          <br>• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading, and much more.</p>
         <div class="social-icons" style="width: 200px; float: left">
           Professional Network:
           <a href="https://www.linkedin.com/in/sheldonmaschmeyer/">
@@ -133,7 +133,7 @@
           <div class="resume-content">
             <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
             <div class="subheading mb-3">I-AM Retailer Solutions · <a href="https://i-aminc.com">i-aminc.com</a> · Abaan &amp; Associates</div>
-            <p>I-AM is a small Canadian startup specializing in advanced retail display solutions. I-AM targets large retail outlets and, the grocery industry.<br>
+            <p>I-AM is a small Canadian startup specializing in advanced retail display solutions. I-AM targets large retail outlets, and the grocery industry.<br>
               <br>Key Responsibilities: <br>
               </p><ul> 
                 <li>Graphic art design/creation of multimedia business support materials, including concept renditions, situational prototype designs and presentation images, videos and animations </li>
@@ -143,7 +143,7 @@
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2008 - Present</span>
           </div>
-        </div>cd 
+        </div>
     
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">

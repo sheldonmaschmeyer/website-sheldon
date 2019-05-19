@@ -120,24 +120,6 @@
             <span class="text-primary">September 2009 - June 2014</span>
           </div>
         </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Secondary Schools</h3>
-            <div>Richmond Hill Adult Day School (Richmond Hill, Ontario) </div>
-            <p>Independent Learning Centre <br> 
-            Sir William Mulock Secondary School (Newmarket, Ontario) <br>
-            Thornhill Secondary School (Thornhill, Ontario) </p>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Elementary Schools</h3>
-            <div>E.J. Sand P.S. (Thornhill, Ontario) </div>
-            <p>Thornhill P.S. (Thornhill, Ontario) <br> 
-              Briergreen P.S. (Ottawa, Ontario) <br> 
-              Northview Elementary (Pointe Claire, Quebec) </p>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -161,22 +143,7 @@
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2008 - Present</span>
           </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Head Cashier (Part-Time)</h3>
-            <div class="subheading mb-3">Shoppers Drug Mart</div>
-            <p>Key Responsibilities:
-              </p><ul> 
-                <li>Efficiently and accurately operate cash register, OLG lottery, Load Presto Cards. </li>
-                <li>Promote retail promotions, contests and charity initiatives. </li>
-                <li>Performed merchandising responsibilities.</li></ul><p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2016 - November 2018</span>
-          </div>
-        </div>
+        </div>cd 
     
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">

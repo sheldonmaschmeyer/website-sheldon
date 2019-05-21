@@ -107,7 +107,7 @@
                     <th scope="col">Section</th>
                     <th scope="col">12.00 Points</th>
                     <th scope="col">4.0 Points</th>
-                    <th scope="col">Grade</th>
+                    <th scope="col">Alpha</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -145,6 +145,7 @@
                     <th scope="col">Section</th>
                     <th scope="col">12.00 Points</th>
                     <th scope="col">4.0 Points</th>
+                    <th scope="col">Alpha</th>
                   </tr>
                 </thead>
                 <tbody>

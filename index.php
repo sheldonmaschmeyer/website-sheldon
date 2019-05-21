@@ -68,7 +68,7 @@
           <br>• Strong organizational skills, and ability to multi-task.<br>
           <br>• Exceptional relationship building, and account management skills.<br>
           <br>• Sales and Customer Service Experience (B2C).<br>
-          <br>• Enhanced Reliability Security Clearance (Canada) Nov 2016 - Nov 2026.<br>
+          <br>• Enhanced Reliability Security Clearance (Canada): Expires 11 May, 2026.<br>
           <br>• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading, and much more.</p>
         <div class="social-icons" style="width: 200px; float: left">
           Professional Network:

@@ -101,7 +101,7 @@
           <div class="resume-content">
             <h3 class="mb-0">Bachelor of Science: Computer Science</h3>
             <div class="subheading mb-3">Minor: Sociology · Carleton University</div>
-            <div> <table class="table" style="Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji">
+            <div> <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">Section</th>
@@ -139,7 +139,7 @@
           <div class="resume-content">
             <h3 class="mb-0">Bachelor of Science: Integrated Science</h3>
             <div class="subheading mb-3">Concentration: Science and Technology · Carleton University</div>
-            <div> <table class="table" style="Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji">
+            <div> <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">Section</th>

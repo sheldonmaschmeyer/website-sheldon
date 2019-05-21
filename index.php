@@ -113,9 +113,9 @@
           <div class="resume-content">
             <h3 class="mb-0">Bachelor of Science: Integrated Science</h3>
             <div class="subheading mb-3">Concentration: Science and Technology · Carleton University</div>
-            <div>Major cGPA: </div>
-            <p>Concentration cGPA: <br> 
-            Overall cGPA: </p>
+            <div>Major cGPA: 6.11 out of 12.00 </div>
+            <p>Concentration cGPA: 8.60 out of 12.00 <br> 
+              Overall cGPA: 6.54 out of 12.00</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2009 - June 2014</span>

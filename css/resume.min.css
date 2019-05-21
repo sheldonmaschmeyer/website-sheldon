@@ -25,10 +25,14 @@ body {
     /* this affects the margin in the printer settings */
   }
   section.resume-section {
+    page-break-after: avoid;
     page-break-before: avoid;
     -webkit-column-break-before: avoid;
     break-before: avoid;
     min-height: 0vh;
+  }
+  body {
+    padding-top: 0px;
   }
 }
 

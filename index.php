@@ -123,7 +123,7 @@
                   <tr>
                     <td>Overall</td>
                     <td>7.48</td>
-                    <td>2.7</td>
+                    <td>3.0</td>
                   </tr>
                 </tbody>
               </table></div>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a> </div>

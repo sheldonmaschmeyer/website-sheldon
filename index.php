@@ -107,6 +107,7 @@
                     <th scope="col">Section</th>
                     <th scope="col">12.00 Points</th>
                     <th scope="col">4.0 Points</th>
+                    <th scope="col">Grade</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -114,16 +115,19 @@
                     <td>Major</td>
                     <td>7.86</td>
                     <td>3.0</td>
+                    <td>B</td>
                   </tr>
                   <tr>
                     <td>Minor</td>
                     <td>7.75</td>
                     <td>3.0</td>
+                    <td>B</td>
                   </tr>
                   <tr>
                     <td>Overall</td>
                     <td>7.48</td>
                     <td>3.0</td>
+                    <td>B</td>
                   </tr>
                 </tbody>
               </table></div>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a> </div>
@@ -148,16 +152,19 @@
                     <td>Major</td>
                     <td>6.11</td>
                     <td>2.3</td>
+                    <td>C+</td>
                   </tr>
                   <tr>
                     <td>Concentration</td>
                     <td>8.60</td>
                     <td>3.3</td>
+                    <td>B+</td>
                   </tr>
                   <tr>
                     <td>Overall</td>
                     <td>6.54</td>
                     <td>2.7</td>
+                    <td>B-</td>
                   </tr>
                 </tbody>
               </table></div>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a> </div>

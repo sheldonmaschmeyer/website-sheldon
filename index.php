@@ -101,10 +101,32 @@
           <div class="resume-content">
             <h3 class="mb-0">Bachelor of Science: Computer Science</h3>
             <div class="subheading mb-3">Minor: Sociology · Carleton University</div>
-            <div>Major cGPA: 7.86 out of 12.00</div>
-            <p>Minor cGPA: 7.75 out of 12.00 <br> 
-              Overall cGPA: 7.48 out of 12.00</p>
-          </div>
+            <div> <table class="table" style="Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji">
+                <thead>
+                  <tr>
+                    <th scope="col">Section</th>
+                    <th scope="col">12.00 Points</th>
+                    <th scope="col">4.0 Points</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Major</td>
+                    <td>7.86</td>
+                    <td>3.0</td>
+                  </tr>
+                  <tr>
+                    <td>Minor</td>
+                    <td>7.75</td>
+                    <td>3.0</td>
+                  </tr>
+                  <tr>
+                    <td>Overall</td>
+                    <td>7.48</td>
+                    <td>2.7</td>
+                  </tr>
+                </tbody>
+              </table></div>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a> </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2015 - June 2019</span>
           </div>
@@ -113,10 +135,32 @@
           <div class="resume-content">
             <h3 class="mb-0">Bachelor of Science: Integrated Science</h3>
             <div class="subheading mb-3">Concentration: Science and Technology · Carleton University</div>
-            <div>Major cGPA: 6.11 out of 12.00 </div>
-            <p>Concentration cGPA: 8.60 out of 12.00 <br> 
-              Overall cGPA: 6.54 out of 12.00</p>
-          </div>
+            <div> <table class="table" style="Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji">
+                <thead>
+                  <tr>
+                    <th scope="col">Section</th>
+                    <th scope="col">12.00 Points</th>
+                    <th scope="col">4.0 Points</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Major</td>
+                    <td>6.11</td>
+                    <td>2.3</td>
+                  </tr>
+                  <tr>
+                    <td>Concentration</td>
+                    <td>8.60</td>
+                    <td>3.3</td>
+                  </tr>
+                  <tr>
+                    <td>Overall</td>
+                    <td>6.54</td>
+                    <td>2.7</td>
+                  </tr>
+                </tbody>
+              </table></div>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a> </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2009 - June 2014</span>
           </div>

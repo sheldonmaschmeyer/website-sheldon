@@ -61,6 +61,12 @@ h3 {
   font-size: 2rem;
 }
 
+th,
+td {
+  font-family: Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  color: #868e96;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;

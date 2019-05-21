@@ -19,20 +19,23 @@ body {
 
 @media print {
   @page {
-    size: auto;
-    /* auto is the initial value */
-    margin: 5;
-    /* this affects the margin in the printer settings */
+    size: Letter portrait;
+    margin-top: 1.5cm;
+    margin-bottom: 1.5cm;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    page-break-after: avoid;
   }
   section.resume-section {
-    page-break-after: avoid;
     page-break-before: avoid;
-    -webkit-column-break-before: avoid;
-    break-before: avoid;
-    min-height: 0vh;
-  }
-  body {
-    padding-top: 0px;
+    page-break-inside: avoid;
+    page-break-after: avoid;
   }
 }
 

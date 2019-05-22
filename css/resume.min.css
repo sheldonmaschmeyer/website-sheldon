@@ -25,13 +25,11 @@ body {
   }
   body {
     padding-top: 6rem!important;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    page-break-after: avoid;
+    -webkit-transform: scale(.7);
+    transform: scale(.7);
+    position: absolute;
+    left: -9rem;
+    top: -32rem;
   }
   .m-0,
   .m-0 *,
@@ -47,7 +45,6 @@ body {
     margin-top: -10rem!important;
     padding-top: 0rem!important;
     padding-bottom: 0rem!important;
-    page-break-after: avoid;
   }
 }
 

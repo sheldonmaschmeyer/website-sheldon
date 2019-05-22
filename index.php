@@ -70,7 +70,7 @@
           <br>• Sales and Customer Service Experience (B2C).<br>
           <br>• Enhanced Reliability Security Clearance (Canada): Expires 11 May, 2026.<br>
           <br>• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading, and much more.</p>
-        <div class="social-icons" style="width: 200px; float: left">
+        <div class="social-icons dont-print" style="width: 200px; float: left">
           Professional Network:
           <a href="https://www.linkedin.com/in/sheldonmaschmeyer/">
             <i class="fab fa-linkedin-in"></i>
@@ -79,7 +79,7 @@
             <i class="fab fa-github"></i>
           </a>
         </div>
-        <div class="social-icons" style="width: 200px; float: left">
+        <div class="social-icons dont-print" style="width: 200px; float: left">
           Download Résumé:
           <a href="data/resume.docx">
             <i class="fas fa-file-word"></i>
@@ -338,7 +338,7 @@
     
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="services">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center dont-print" id="services">
       <div class="w-100">
         <h2 class="mb-5">Maschmeyer Services
         <div class="subheading mb-3">Computer Repair &amp; Traiing <br> IT &amp; Media Arts Services</div></h2>

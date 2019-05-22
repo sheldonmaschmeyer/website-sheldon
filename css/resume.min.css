@@ -2,6 +2,7 @@
  * Start Bootstrap - Resume v5.0.5 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Minor Modifications by Sheldon Maschmeyer
  */
 
 body {
@@ -20,10 +21,10 @@ body {
 @media print {
   @page {
     size: Letter portrait;
-    margin-top: 1.5cm;
-    margin-bottom: 1.5cm;
-    margin-left: 1.5cm;
-    margin-right: 1.5cm;
+    margin: 0.5cm;
+  }
+  body {
+    padding-top: 0px!important;
   }
   h1,
   h2,
@@ -32,9 +33,13 @@ body {
   h5 {
     page-break-after: avoid;
   }
+  .dont-print,
+  .dont-print * {
+    display: none!important;
+  }
   section.resume-section {
-    page-break-before: avoid;
-    page-break-inside: avoid;
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
     page-break-after: avoid;
   }
 }

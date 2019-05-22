@@ -2,7 +2,6 @@
  * Start Bootstrap - Resume v5.0.5 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- * Minor Modifications by Sheldon Maschmeyer
  */
 
 body {
@@ -17,6 +16,8 @@ body {
     padding-left: 17rem;
   }
 }
+
+/* Minor Printing Modification by Sheldon Maschmeyer */
 
 @media print {
   @page {
@@ -47,9 +48,6 @@ body {
     margin-top: -42rem!important;
     padding-top: 0rem!important;
     padding-bottom: 0rem!important;
-  }
-  section.resume-section .resume-item .resume-date {
-    float: right!important;
   }
 }
 

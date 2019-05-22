@@ -64,13 +64,13 @@
           <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
         </div>
         <p class="double">• Quick at learning new programming skills.</p>
-          <p class ="double">• Excellent researcher, with strong problem-solving skills.</p>
-          <p class ="double">• Creative (Front-end development, GUI), and Analytical Programmer.</p>
-          <p class ="double">• Strong organizational skills, and ability to multi-task.</p>
-          <p class ="double">• Exceptional relationship building, and account management skills.</p>
-          <p class ="double">• Sales and Customer Service Experience (B2C).</p>
-          <p class ="double">• Enhanced Reliability Security Clearance (Canada): Expires 11 May, 2026.</p>
-          <p class ="double">• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading, and much more.</p>
+          <p class="double">• Excellent researcher, with strong problem-solving skills.</p>
+          <p class="double">• Creative (Front-end development, GUI), and Analytical Programmer.</p>
+          <p class="double">• Strong organizational skills, and ability to multi-task.</p>
+          <p class="double">• Exceptional relationship building, and account management skills.</p>
+          <p class="double">• Sales and Customer Service Experience (B2C).</p>
+          <p class="double">• Enhanced Reliability Security Clearance (Canada): Expires 11 May, 2026.</p>
+          <p class="double">• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading, and much more.</p>
         <div class="social-icons dont-print p-3" style="width: 200px; float: left">
           Professional Network:
           <a href="https://www.linkedin.com/in/sheldonmaschmeyer/">
@@ -218,7 +218,7 @@
             <li>Ensured that all voting machines remained operational throughout all polling days.</li></ul><p></p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
+            <span class="text-primary">May 2018 - June 2018 <br> October 2014 &amp; June 2014</span>
           </div>
         </div>
 

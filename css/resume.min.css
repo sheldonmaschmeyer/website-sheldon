@@ -31,6 +31,9 @@ body {
     left: -9rem;
     top: -32rem;
   }
+  footer a img {
+    display: none;
+  }
   .m-0,
   .m-0 *,
   .dont-print,

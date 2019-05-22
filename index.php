@@ -198,8 +198,8 @@
             <span class="text-primary">June 2008 - Present</span>
           </div>
         </div>
-    
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
             <h3 class="mb-0">Field Training &amp; Support Representative<br>Field Service Representative</h3>
             <div class="subheading mb-3">Dominion Voting Systems</div>
@@ -255,7 +255,7 @@
           </div>
         </div>
         
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
             <h3 class="mb-0">Sales Associate</h3>
             <div class="subheading mb-3">Fox Wireless Comm. (Now Telus)</div>

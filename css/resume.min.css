@@ -20,19 +20,11 @@ body {
 
 @media print {
   @page {
-    size: Letter portrait;
+    size: Letter auto;
     margin: 1.0cm;
   }
   body {
-    padding-top: 6rem!important;
-    -webkit-transform: scale(.7);
-    transform: scale(.7);
-    position: absolute;
-    left: -9rem;
-    top: -32rem;
-  }
-  footer a img {
-    display: none;
+    padding-top: 10rem!important;
   }
   .m-0,
   .m-0 *,
@@ -44,10 +36,20 @@ body {
   .double * {
     line-height: 1!important;
   }
+  .page-break {
+    page-break-before: always;
+    padding-top: 5rem;
+  }
+  #education {
+    margin-top: -66rem!important;
+  }
   section.resume-section {
-    margin-top: -10rem!important;
+    margin-top: -42rem!important;
     padding-top: 0rem!important;
     padding-bottom: 0rem!important;
+  }
+  section.resume-section .resume-item .resume-date {
+    float: right!important;
   }
 }
 

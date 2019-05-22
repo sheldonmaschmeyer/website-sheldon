@@ -33,6 +33,8 @@ body {
   h5 {
     page-break-after: avoid;
   }
+  .m-0,
+  .m-0 *,
   .dont-print,
   .dont-print * {
     display: none!important;

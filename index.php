@@ -63,14 +63,15 @@
         <div class="subheading mb-5">284 Main Street · Ottawa, Ontario, Canada, K1S 1E1 · 1-613-889-4320 ·
           <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
         </div>
-        <p class="lead mb-5">• Quick at learning new programming skills.<br>
-          <br>• Excellent researcher, with strong problem-solving skills.<br><br>• Creative (Front-end development, GUI), and Analytical Programmer.<br>
-          <br>• Strong organizational skills, and ability to multi-task.<br>
-          <br>• Exceptional relationship building, and account management skills.<br>
-          <br>• Sales and Customer Service Experience (B2C).<br>
-          <br>• Enhanced Reliability Security Clearance (Canada): Expires 11 May, 2026.<br>
-          <br>• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading, and much more.</p>
-        <div class="social-icons dont-print" style="width: 200px; float: left">
+        <p class="double">• Quick at learning new programming skills.</p>
+          <p class ="double">• Excellent researcher, with strong problem-solving skills.</p>
+          <p class ="double">• Creative (Front-end development, GUI), and Analytical Programmer.</p>
+          <p class ="double">• Strong organizational skills, and ability to multi-task.</p>
+          <p class ="double">• Exceptional relationship building, and account management skills.</p>
+          <p class ="double">• Sales and Customer Service Experience (B2C).</p>
+          <p class ="double">• Enhanced Reliability Security Clearance (Canada): Expires 11 May, 2026.</p>
+          <p class ="double">• I like to go bike riding, socialize with friends, Sci-fi, I look forward to travelling, enjoy reading, and much more.</p>
+        <div class="social-icons dont-print p-3" style="width: 200px; float: left">
           Professional Network:
           <a href="https://www.linkedin.com/in/sheldonmaschmeyer/">
             <i class="fab fa-linkedin-in"></i>
@@ -79,7 +80,7 @@
             <i class="fab fa-github"></i>
           </a>
         </div>
-        <div class="social-icons dont-print" style="width: 200px; float: left">
+        <div class="social-icons dont-print p-3" style="width: 200px; float: left">
           Download Résumé:
           <a href="data/resume.docx">
             <i class="fas fa-file-word"></i>
@@ -101,7 +102,7 @@
           <div class="resume-content">
             <h3 class="mb-0">Bachelor of Science: Computer Science</h3>
             <div class="subheading mb-3">Minor: Sociology · Carleton University</div>
-            <div> <table class="table">
+            <div class="dont-print"> <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">Section</th>
@@ -130,7 +131,7 @@
                     <td>B</td>
                   </tr>
                 </tbody>
-              </table></div>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a> </div>
+              </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2015 - June 2019</span>
           </div>
@@ -139,7 +140,7 @@
           <div class="resume-content">
             <h3 class="mb-0">Bachelor of Science: Integrated Science</h3>
             <div class="subheading mb-3">Concentration: Science and Technology · Carleton University</div>
-            <div> <table class="table">
+            <div class="dont-print"> <table class="table dont-print">
                 <thead>
                   <tr>
                     <th scope="col">Section</th>
@@ -168,7 +169,7 @@
                     <td>B-</td>
                   </tr>
                 </tbody>
-              </table></div>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a> </div>
+              </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div> </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2009 - June 2014</span>
           </div>

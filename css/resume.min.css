@@ -21,7 +21,7 @@ body {
 @media print {
   @page {
     size: Letter portrait;
-    margin: 0.5cm;
+    margin: 1.0cm;
   }
   body {
     padding-top: 6rem!important;
@@ -38,6 +38,10 @@ body {
   .dont-print,
   .dont-print * {
     display: none!important;
+  }
+  .double,
+  .double * {
+    line-height: 1!important;
   }
   section.resume-section {
     margin-top: -10rem!important;

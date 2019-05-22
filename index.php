@@ -82,10 +82,10 @@
         </div>
         <div class="social-icons dont-print p-3" style="width: 200px; float: left">
           Download Résumé:
-          <a href="data/resume.docx">
+          <a href="https://github.com/sheldonmaschmeyer/website-sheldon/raw/master/data/resume.docx">
             <i class="fas fa-file-word"></i>
           </a>
-          <a href="data/resume.pdf">
+          <a href="https://github.com/sheldonmaschmeyer/website-sheldon/raw/master/data/resume.pdf">
             <i class="fas fa-file-pdf"></i>
           </a>
         </div>

@@ -20,6 +20,18 @@
 
   <!-- Custom styles for this template -->
   <link href="css/sheldon.resume.min.css" rel="stylesheet">
+<!-- <style>
+
+  .headingChange > a.collapsed:before {
+      float: right !important;
+      content:"\02C3 ";
+  }
+
+  .headingChange > a:before {
+    float: right !important;
+    content:"\02C5 ";
+}
+</style> -->
 
 </head>
 <body id="page-top">
@@ -95,11 +107,12 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
-
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Bachelor of Science: Computer Science</h3>
-            <div class="subheading mb-3">Minor: Sociology · Carleton University</div>
+            <h3 class="mb-0">BS: Computer Science (Minor Sociology)</h3>
+            <a href="#compSci" data-toggle="collapse" style="text-decoration:none;">
+            <div class="subheading mb-3">Carleton University</div></a>
+            <div id="compSci" class="collapse">
             <div class="dont-print"> <table class="table">
                 <thead>
                   <tr>
@@ -130,14 +143,17 @@
                   </tr>
                 </tbody>
               </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div></div>
-          <div class="resume-date text-md-right">
+            </div>
+              <div class="resume-date text-md-right">
             <span class="text-primary">September 2015 - June 2019</span>
           </div>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Bachelor of Science: Integrated Science</h3>
-            <div class="subheading mb-3">Concentration: Science and Technology · Carleton University</div>
+            <h3 class="mb-0">BS: Integrated Science and Technology</h3>
+            <a href="#sci" data-toggle="collapse" style="text-decoration:none;">
+            <div class="subheading mb-3">Carleton University</div></a>
+            <div id="sci" class="collapse">
             <div class="dont-print"> <table class="table dont-print">
                 <thead>
                   <tr>
@@ -168,7 +184,8 @@
                   </tr>
                 </tbody>
               </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div> </div>
-          <div class="resume-date text-md-right">
+            </div>
+              <div class="resume-date text-md-right">
             <span class="text-primary">September 2009 - June 2014</span>
           </div>
         </div>
@@ -184,14 +201,16 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
-            <div class="subheading mb-3">I-AM Retailer Solutions · <a href="https://i-aminc.com">i-aminc.com</a> · Abaan &amp; Associates</div>
+            <div class="headingChange"><div class="subheading mb-3"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · </a> <a href="https://i-aminc.com" target="_blank">i-aminc.com </a><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">· Abaan &amp; Associates</a></div></div>
+            <div id="IAM" class="collapse">
             <p>I-AM is a small Canadian startup specializing in advanced retail display solutions. I-AM targets large retail outlets, and the grocery industry.<br>
               <br>Key Responsibilities: <br>
               </p><ul>
                 <li>Graphic art design/creation of multimedia business support materials, including concept renditions, situational prototype designs and presentation images, videos and animations </li>
                 <li>Created compelling sales demonstration content for executive level presentations and display on video screens and retail mobile devices. </li>
                 <li>Source, install, repair and maintain all corporate computers, accessories, etc.</li></ul><p></p>
-          </div>
+              </div> 
+        </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2008 - Present</span>
           </div>
@@ -200,15 +219,18 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Primary Cashier & Merchandiser </h3>
-            <div class="subheading mb-3">Shoppers Drug Mart </div>
-            <p><ul>
+            <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> 
+            <div class="subheading mb-3">Shoppers Drug Mart </div></a>
+            <div id="shop" class="collapse">
+            <ul>
                 <li>Flexible hours while studying Computer Science and, looking for full time employment. </li>
                 <li>Efficiently and accurately operate cash register, OLG lottery, Load Presto Card.</li>
                 <li>Regularly ask for donations for charity events. I have occasionally been the top cashier at collecting donations.</li>
                 <li>Regularly handed out promotional loyalty pamphlets & asked for Optimum cards.</li>
                 <li>Performed merchandising tasks such as: Maintaining a temperature log, checking expiry dates, using a	PDT to print price tags, bin excess inventory, check prices and, check planogram when restocking.</li>
                 <li>Quit to complete my last term at Carleton U. Returned to retail for income while searching for career opportunities.</li></ul><p></p>
-          </div>
+              </div>
+            </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2016 - November 2018 <br> June 2019 - Present</span>
           </div>
@@ -217,7 +239,9 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
             <h3 class="mb-0">Field Training &amp; Support Representative<br>Field Service Representative</h3>
-            <div class="subheading mb-3">Dominion Voting Systems</div>
+            <a href="#domVote" data-toggle="collapse" style="text-decoration:none;"> 
+            <div class="subheading mb-3">Dominion Voting Systems</div></a>
+            <div id="domVote" class="collapse">
             <p>Dominion Voting Systems began in 1895 with the invention of the first ever Direct Recording lever machines in New York. Dominion is still known for its innovation in election technology, leveraging its history of innovation through its vast pool of election specialists. Through partnering with and learning from top level suppliers and employees in the election automation industry,&nbsp;Dominion is taking part in the world’s most challenging and innovative democracy projects.</p>
             <p>Key Responsibilities:</p>
             <ul>
@@ -231,7 +255,7 @@
             <li>Assisted TDRO with Logic and Accuracy testing of Dominion Voting Systems.</li>
             <li>Ensured that assigned polling station was opened and closed on time.</li>
             <li>Ensured that all voting machines remained operational throughout all polling days.</li></ul><p></p>
-          </div>
+          </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2018 - June 2018 <br> October 2014 &amp; June 2014</span>
           </div>
@@ -240,14 +264,16 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Customer Service Representative</h3>
-            <div class="subheading mb-3">Canada Computers</div>
+            <a href="#cdn" data-toggle="collapse" style="text-decoration:none;"> 
+            <div class="subheading mb-3">Canada Computers</div></a>
+            <div id="cdn" class="collapse">
             <p>Ontario and Quebec computers and electronics retail store.</p>
             <p>Key Responsibilities:
               </p><ul>
                 <li>Service Desk representative responsible for aiding clients with troubleshooting technical issues and suggesting appropriate solutions.</li>
                 <li>Responsible for assisting clients in finding the right software or hardware to meet their needs.</li>
                 <li>Used POS system to order required services and parts for pickup or delivery as well as inventory transfer between customer service department and sales (for custom builds and repairs).</li></ul><p></p>
-          </div>
+          </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2014 - August 2015</span>
           </div>
@@ -256,7 +282,9 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Deputy Returning Officer (By-Election)</h3>
-            <div class="subheading mb-3">Elections Canada</div>
+            <a href="#elec" data-toggle="collapse" style="text-decoration:none;"> 
+            <div class="subheading mb-3">Elections Canada</div></a>
+            <div id="elec" class="collapse">
             <p>Key Responsibilities:
               </p><ul>
                 <li>Responsible for setting up the polling station with necessary supplies.</li>
@@ -264,7 +292,7 @@
                 <li>Ensured all polling clerks and party representatives followed all rules and procedures.</li>
                 <li>Managed registration process at polling station when required.</li>
                 <li>Tabulated votes, completed all required paper work, informed Elections Canada of polling station voting results and returned the ballot box and related materials to the Returning Officer.</li></ul><p></p>
-          </div>
+          </div> </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2014</span>
           </div>
@@ -273,13 +301,15 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
             <h3 class="mb-0">Sales Associate</h3>
-            <div class="subheading mb-3">Fox Wireless Comm. (Now Telus)</div>
+            <a href="#fox" data-toggle="collapse" style="text-decoration:none;"> 
+            <div class="subheading mb-3">Fox Wireless Comm. (Now Telus)</div> </a>
+            <div id="fox" class="collapse">
             <p>Key Responsibilities:
               </p><ul>
                 <li>Responsible for meeting and exceeding sales quota of Telus Mobile devices, contracts and accessories.</li>
                 <li>Responsible for assisting in store opening and closing duties.</li>
                 <li>Responsible for ensuring a clean and welcoming environment for customers.</li></ul><p></p>
-          </div>
+          </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2008 - August 2008</span>
           </div>
@@ -383,7 +413,5 @@
   		$('[data-toggle="tooltip"]').tooltip();
 		});
   </script>
-
-
 
 </body></html>

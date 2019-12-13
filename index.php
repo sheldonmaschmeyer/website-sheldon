@@ -18,20 +18,23 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+
   <!-- Custom styles for this template -->
   <link href="css/sheldon.resume.min.css" rel="stylesheet">
-<!-- <style>
+<style>
 
   .headingChange > a.collapsed:before {
-      float: right !important;
-      content:"\02C3 ";
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f152\00a0\00a0";
   }
 
   .headingChange > a:before {
-    float: right !important;
-    content:"\02C5 ";
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f150\00a0\00a0"; 
 }
-</style> -->
+</style>
 
 </head>
 <body id="page-top">
@@ -109,8 +112,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">BS: Computer Science (Minor Sociology)</h3>
-            <a href="#compSci" data-toggle="collapse" style="text-decoration:none;">
-            <div class="subheading mb-3">Carleton University</div></a>
+            <div class="subheading mb-3 headingChange"><a href="#compSci" data-toggle="collapse" style="text-decoration:none;">Carleton University</a></div>
             <div id="compSci" class="collapse">
             <div class="dont-print"> <table class="table">
                 <thead>
@@ -150,8 +152,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">BS: Integrated Science and Technology</h3>
-            <a href="#sci" data-toggle="collapse" style="text-decoration:none;">
-            <div class="subheading mb-3">Carleton University</div></a>
+            <div class="subheading mb-3 headingChange"><a href="#sci" data-toggle="collapse" style="text-decoration:none;">Carleton University</a></div>
             <div id="sci" class="collapse">
             <div class="dont-print"> <table class="table dont-print">
                 <thead>
@@ -200,7 +201,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
-            <div class="headingChange"><div class="subheading mb-3"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · </a> <a href="https://i-aminc.com" target="_blank">i-aminc.com </a><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">· Abaan &amp; Associates</a></div></div>
+            <div class="subheading mb-3 headingChange"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · i-aminc.com · Abaan &amp; Associates</a></div>
             <div id="IAM" class="collapse">
             <?php 
             $file = file_get_contents('ExportWeb/exp_IAM.txt');
@@ -218,8 +219,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Primary Cashier & Merchandiser </h3>
-            <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> 
-            <div class="subheading mb-3">Shoppers Drug Mart </div></a>
+            <div class="subheading mb-3 headingChange"> <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> Shoppers Drug Mart </a></div>
             <div id="shop" class="collapse">
             <?php 
             $file = file_get_contents('ExportWeb/exp_Shop.txt');
@@ -236,8 +236,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
             <h3 class="mb-0">Field Training &amp; Support Representative<br>Field Service Representative</h3>
-            <a href="#domVote" data-toggle="collapse" style="text-decoration:none;"> 
-            <div class="subheading mb-3">Dominion Voting Systems</div></a>
+            <div class="subheading mb-3 headingChange"><a href="#domVote" data-toggle="collapse" style="text-decoration:none;">Dominion Voting Systems</a></div>
             <div id="domVote" class="collapse">
             <?php 
             $file = file_get_contents('ExportWeb/exp_vot.txt');
@@ -255,9 +254,8 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Customer Service Representative</h3>
-            <a href="#cdn" data-toggle="collapse" style="text-decoration:none;"> 
-            <div class="subheading mb-3">Canada Computers</div></a>
+            <h3 class="mb-0">Customer Service Representative</h3> 
+            <div class="subheading mb-3 headingChange"><a href="#cdn" data-toggle="collapse" style="text-decoration:none;">Canada Computers</a></div>
             <div id="cdn" class="collapse">
             <?php 
             $file = file_get_contents('ExportWeb/exp_CC.txt');
@@ -274,8 +272,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Deputy Returning Officer (By-Election)</h3>
-            <a href="#elec" data-toggle="collapse" style="text-decoration:none;"> 
-            <div class="subheading mb-3">Elections Canada</div></a>
+            <div class="subheading mb-3 headingChange"><a href="#elec" data-toggle="collapse" style="text-decoration:none;">Elections Canada</a></div>
             <div id="elec" class="collapse">
             <?php 
             $file = file_get_contents('ExportWeb/exp_Elect.txt');
@@ -291,9 +288,8 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
           <div class="resume-content">
-            <h3 class="mb-0">Sales Associate</h3>
-            <a href="#fox" data-toggle="collapse" style="text-decoration:none;"> 
-            <div class="subheading mb-3">Fox Wireless Comm. (Now Telus)</div> </a>
+            <h3 class="mb-0">Sales Associate</h3> 
+            <div class="subheading mb-3 headingChange"><a href="#fox" data-toggle="collapse" style="text-decoration:none;">Fox Wireless Comm. (Now Telus)</a></div>
             <div id="fox" class="collapse">
             <?php 
             $file = file_get_contents('ExportWeb/exp_Fox.txt');
@@ -316,8 +312,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
-        <a href="#lang" data-toggle="collapse" style="text-decoration:none;"> 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div> </a>
+        <div class="subheading mb-3 headingChange"><a href="#lang" data-toggle="collapse" style="text-decoration:none;"> Programming Languages &amp; Tools</a></div>
         <div id="lang" class="collapse">
         <ul><?php 
             $file = file_get_contents('ExportWeb/skills.txt');

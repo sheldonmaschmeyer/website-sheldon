@@ -203,12 +203,12 @@
             <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
             <div class="headingChange"><div class="subheading mb-3"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · </a> <a href="https://i-aminc.com" target="_blank">i-aminc.com </a><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">· Abaan &amp; Associates</a></div></div>
             <div id="IAM" class="collapse">
-            <p>I-AM is a small Canadian startup specializing in advanced retail display solutions. I-AM targets large retail outlets, and the grocery industry.<br>
-              <br>Key Responsibilities: <br>
-              </p><ul>
-                <li>Graphic art design/creation of multimedia business support materials, including concept renditions, situational prototype designs and presentation images, videos and animations </li>
-                <li>Created compelling sales demonstration content for executive level presentations and display on video screens and retail mobile devices. </li>
-                <li>Source, install, repair and maintain all corporate computers, accessories, etc.</li></ul><p></p>
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_IAM.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
               </div> 
         </div>
           <div class="resume-date text-md-right">

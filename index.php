@@ -75,12 +75,11 @@
         <div class="subheading mb-5">562 Reardon Private · Ottawa, Ontario, Canada, K1V 2L1 · 1-613-889-4320 ·
           <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
         </div>
-          <p class="double">• Creative and, Analytical thinking skills. Excellent researcher.</p>
-          <p class="double">• Strong organizational skills and, ability to multi-task.</p>
-          <p class="double">• Exceptional relationship building and, account management skills.</p>
-          <p class="double">• Sales and Customer Service Experience (B2C).</p>
-          <p class="double">• Secret Level Security Clearance (background check) for Canadian Government by Dyanamic Personnel Expires 7/4/2029.</p>
-          <p class="double">• I like to go bike riding, socialize with friends and, Sci-fi. I look forward to travelling, enjoy reading, and much more.</p>
+        <ul><?php 
+            $file = file_get_contents('ExportWeb/profile.txt');
+            $file = str_replace("•", "<p><li>", $file);
+            echo $file;
+            ?> </ul>
         <div class="social-icons dont-print p-3" style="width: 200px; float: left">
           Professional Network:
           <a href="https://www.linkedin.com/in/sheldonmaschmeyer/">

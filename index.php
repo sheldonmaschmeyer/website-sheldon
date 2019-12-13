@@ -222,15 +222,13 @@
             <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> 
             <div class="subheading mb-3">Shoppers Drug Mart </div></a>
             <div id="shop" class="collapse">
-            <ul>
-                <li>Flexible hours while studying Computer Science and, looking for full time employment. </li>
-                <li>Efficiently and accurately operate cash register, OLG lottery, Load Presto Card.</li>
-                <li>Regularly ask for donations for charity events. I have occasionally been the top cashier at collecting donations.</li>
-                <li>Regularly handed out promotional loyalty pamphlets & asked for Optimum cards.</li>
-                <li>Performed merchandising tasks such as: Maintaining a temperature log, checking expiry dates, using a	PDT to print price tags, bin excess inventory, check prices and, check planogram when restocking.</li>
-                <li>Quit to complete my last term at Carleton U. Returned to retail for income while searching for career opportunities.</li></ul><p></p>
-              </div>
-            </div>
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Shop.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+            </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2016 - November 2018 <br> June 2019 - Present</span>
           </div>
@@ -242,19 +240,14 @@
             <a href="#domVote" data-toggle="collapse" style="text-decoration:none;"> 
             <div class="subheading mb-3">Dominion Voting Systems</div></a>
             <div id="domVote" class="collapse">
-            <p>Dominion Voting Systems began in 1895 with the invention of the first ever Direct Recording lever machines in New York. Dominion is still known for its innovation in election technology, leveraging its history of innovation through its vast pool of election specialists. Through partnering with and learning from top level suppliers and employees in the election automation industry,&nbsp;Dominion is taking part in the world’s most challenging and innovative democracy projects.</p>
-            <p>Key Responsibilities:</p>
-            <ul>
-            <b>2018</b>
-            <li>Provided advanced training and on site (day of) support for the 2018 Ontario Election. </li>
-            <li>Trained all Poll Officials in Ottawa. </li>
-            <li>Assisted with equipment setup and conducted Logic &amp; Accuracy testing.</li>
-            <li>Provided support during polling hours and while votes were being tabulated.</li>
-            <b>2014</b>
-            <li>Assisted TDRO with regards to set-up.</li>
-            <li>Assisted TDRO with Logic and Accuracy testing of Dominion Voting Systems.</li>
-            <li>Ensured that assigned polling station was opened and closed on time.</li>
-            <li>Ensured that all voting machines remained operational throughout all polling days.</li></ul><p></p>
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_vot.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:", $file);
+            $file = str_replace("2018:", "<br>2018:<ul>", $file);
+            $file = str_replace("2014:", "</ul>2014:<ul>", $file);
+            echo $file;
+            ?> </ul>
           </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2018 - June 2018 <br> October 2014 &amp; June 2014</span>
@@ -267,12 +260,12 @@
             <a href="#cdn" data-toggle="collapse" style="text-decoration:none;"> 
             <div class="subheading mb-3">Canada Computers</div></a>
             <div id="cdn" class="collapse">
-            <p>Ontario and Quebec computers and electronics retail store.</p>
-            <p>Key Responsibilities:
-              </p><ul>
-                <li>Service Desk representative responsible for aiding clients with troubleshooting technical issues and suggesting appropriate solutions.</li>
-                <li>Responsible for assisting clients in finding the right software or hardware to meet their needs.</li>
-                <li>Used POS system to order required services and parts for pickup or delivery as well as inventory transfer between customer service department and sales (for custom builds and repairs).</li></ul><p></p>
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_CC.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
           </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2014 - August 2015</span>
@@ -285,13 +278,12 @@
             <a href="#elec" data-toggle="collapse" style="text-decoration:none;"> 
             <div class="subheading mb-3">Elections Canada</div></a>
             <div id="elec" class="collapse">
-            <p>Key Responsibilities:
-              </p><ul>
-                <li>Responsible for setting up the polling station with necessary supplies.</li>
-                <li>Ensure voters provided proof of identity and address before voting as well as provide ballots to voters.</li>
-                <li>Ensured all polling clerks and party representatives followed all rules and procedures.</li>
-                <li>Managed registration process at polling station when required.</li>
-                <li>Tabulated votes, completed all required paper work, informed Elections Canada of polling station voting results and returned the ballot box and related materials to the Returning Officer.</li></ul><p></p>
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Elect.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
           </div> </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2014</span>
@@ -304,11 +296,12 @@
             <a href="#fox" data-toggle="collapse" style="text-decoration:none;"> 
             <div class="subheading mb-3">Fox Wireless Comm. (Now Telus)</div> </a>
             <div id="fox" class="collapse">
-            <p>Key Responsibilities:
-              </p><ul>
-                <li>Responsible for meeting and exceeding sales quota of Telus Mobile devices, contracts and accessories.</li>
-                <li>Responsible for assisting in store opening and closing duties.</li>
-                <li>Responsible for ensuring a clean and welcoming environment for customers.</li></ul><p></p>
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Fox.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
           </div></div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2008 - August 2008</span>

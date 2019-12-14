@@ -43,7 +43,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Sheldon Maschmeyer</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile square-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,6 +65,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#volunteering">Volunteering</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#activities">Activities</a>
         </li>
       </ul>
     </div>
@@ -389,7 +395,43 @@
           References &amp; Testimonials Available Upon Request.<br>MBL for Ontario: 270798713</p>
       </div>
     </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="volunteering">
+        <div class="w-100">
+          <h2 class="mb-5">Volunteering</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content white-space: pre-wrap;">
+            <?php 
+              $file = file_get_contents('ExportWeb/volunteer.txt');
+              echo str_replace("\n","<p>", $file);
+            ?>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="activities">
+        <div class="w-100">
+          <h2 class="mb-5">Activities</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content white-space: pre-wrap;">
+            <?php 
+              $file = file_get_contents('ExportWeb/activities.txt');
+              echo str_replace("\n","<p>", $file);
+            ?>
+            </div>
+          </div>
+        </div>
+    </section>
   </div>
+
+            
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

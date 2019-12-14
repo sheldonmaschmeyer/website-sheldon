@@ -23,17 +23,17 @@
   <link href="css/sheldon.resume.min.css" rel="stylesheet">
 <style>
 
+  .headingChange > a:before {
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f150\00a0\00a0"; 
+  }
+
   .headingChange > a.collapsed:before {
     font-family: 'Font Awesome\ 5 Free';
     float: left;
     content: "\f152\00a0\00a0";
   }
-
-  .headingChange > a:before {
-    font-family: 'Font Awesome\ 5 Free';
-    float: left;
-    content: "\f150\00a0\00a0"; 
-}
 </style>
 
 </head>
@@ -43,7 +43,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Sheldon Maschmeyer</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile square-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,6 +80,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
+      <div class="d-lg-none d-xl-none"><img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt=""></div>
         <h1 class="mb-0">Sheldon W. B. <span class="text-primary">Maschmeyer</span></h1>
         <div class="subheading mb-5">562 Reardon Private · Ottawa, Ontario, Canada, K1V 2L1 · 1-613-889-4320 ·
           <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>

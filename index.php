@@ -72,6 +72,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#activities">Activities</a>
         </li>
+	<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#lifeGoals">Life Goals</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -430,9 +433,21 @@
           </div>
         </div>
     </section>
-  </div>
 
-            
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lifeGoals">
+      <div class="w-100">
+        <h2 class="mb-5">Life Goals</h2>
+        <?php 
+            $file = file_get_contents('ExportWeb/lifeGoals.txt');
+            $file = str_replace("•", "<li>", $file);
+            echo $file;
+            ?> </div>
+      </div>
+    </section>
+
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

@@ -17,6 +17,12 @@
     <div id="longTerm" class="collapse">
     • Pay off student loan <br>
 	<span style="padding-left: 20px;">-> without the need for repayment assistance</span>
+    • Visit Germany <br>
+	<span style="padding-left: 20px;">-> the fatherland </span>
+    • Visit India <br>
+	<span style="padding-left: 20px;">-> the motherland </span>
+    • Visit Philippines <br>
+	<span style="padding-left: 20px;">-> my girlfriend's land </span>
     • Start a family
 <p></p>
     </div>
@@ -26,12 +32,6 @@
 	<span style="padding-left: 20px;">-> Using the equivalent of student loan monthly payment </span>
     • Buy an economic electric vehicle <br>
 	<span style="padding-left: 20px;">-> if a vehicle is required </span><br>
-    • Visit Germany <br>
-	<span style="padding-left: 20px;">-> the fatherland </span>
-    • Visit India <br>
-	<span style="padding-left: 20px;">-> the motherland </span>
-    • Visit Philippines <br>
-	<span style="padding-left: 20px;">-> my girlfriend's land </span>
 <p></p>
     </div>
 

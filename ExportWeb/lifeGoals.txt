@@ -18,7 +18,9 @@
 	<span class="lf">-> used for educational expenses, a small business and personal entertainment</span>
     • New gaming PC <br>
 	<span class="lf">-> Currently runs Fortnite and CoD Warzone decently but not future games</span><br>
-	<span class="lf">-> semi-portable and meet or exceed current gen consoles within a budget</span>
+	<span class="lf">-> semi-portable and meet or exceed current gen consoles within a budget</span><br>
+        <span class="lf">-> Philiosophy: Never buy game consoles since PC hardware used for productivity and creativity</span> <br> 
+	<span class="lf"><span class="lf">i.e. compile C++ with Qt code in a VM or render Adobe Premiere faster</span></span>
     • Visit family in Alberta
 <p></p>
     </div>

@@ -8,8 +8,15 @@
     <div id="shortTerm" class="collapse">
     • Improve employment <br>
 	<span class="lf">-> income and career oriented </span>
-    • G Drivers License ready if required <br>
-	<span class="lf">-> currently enjoy cycling to and from work</span>
+    • Rent an apartment <br>
+	<span class="lf">-> Living with housemates can be fun but sometimes irritating </span>
+    • G Drivers License ready if required: Currently enrolled in Young Drivers Gold Automatic <br>
+	<span class="lf">-> Enjoy reliably cycling, 20-30min to and from work </span><br> 
+	<span class="lf">-> Cycle in the rain, with water-resistant overpants. </span><br> 
+	<span class="lf">-> Cycle during the winter reliably with 29" mountain bike with a 2.4" rear tire handmade in Germany </span><br> 
+	<span class="lf">-> Uber or bus in very poor conditions </span><br> 
+	<span class="lf">-> Cycling in poor conditions tends to be more reliable than OCTranspo and Uber</span><br>
+	<span class="lf">-> Even with community pass, cycling saves $50-$119 per month, not including bicycle maintance</span>
     <p></p>
     </div>
     <div class="subheading mb-3 headingChange"><a href="#mediumTerm" data-toggle="collapse" style="text-decoration:none;"> Within three years </a></div>

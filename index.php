@@ -210,6 +210,23 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Supervisor, Primary Cashier & Merchandiser </h3>
+            <div class="subheading mb-3 headingChange"> <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> Shoppers Drug Mart </a></div>
+            <div id="shop" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Shop.txt');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+            </div></div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2016 - November 2018 <br> June 2019 - Present</span>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
             <div class="subheading mb-3 headingChange"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · i-aminc.com · Abaan &amp; Associates</a></div>
             <div id="IAM" class="collapse">
@@ -223,23 +240,6 @@
         </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2008 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Primary Cashier & Merchandiser </h3>
-            <div class="subheading mb-3 headingChange"> <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> Shoppers Drug Mart </a></div>
-            <div id="shop" class="collapse">
-            <?php 
-            $file = file_get_contents('ExportWeb/exp_Shop.txt');
-            $file = str_replace("•", "<li>", $file);
-            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
-            echo $file;
-            ?> </ul>
-            </div></div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2016 - November 2018 <br> June 2019 - Present</span>
           </div>
         </div>
 

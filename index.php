@@ -85,8 +85,25 @@
       <div class="w-100">
       <div class="d-lg-none d-xl-none"><img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt=""></div>
         <h1 class="mb-0">Sheldon W. B. <span class="text-primary">Maschmeyer</span></h1>
-        <div class="subheading mb-5">562 Reardon Private · Ottawa, Ontario, Canada, K1V 2L1 · 1-613-889-4320 ·
-          <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
+        <div class="subheading mb-5">
+        
+        <table>
+	<tbody>
+	<tr>
+	<td>Ottawa</td>
+	<td align = "right">562 Reardon Private &middot; K1V 2L1</td>
+	</tr>
+	<tr>
+	<td>Mississauga &nbsp;</td>
+	<td align = "right">4060 Farrier Court &middot; L5L 2Y4</td>
+	</tr>
+	<tr>
+	<td>613 &middot; 889 &middot; 4320</td>
+	<td align = "right"><a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a></td>
+	</tr>
+	</tbody>
+	</table>
+	
         </div>
         <ul><?php 
             $file = file_get_contents('ExportWeb/profile.txt');

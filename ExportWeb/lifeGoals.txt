@@ -9,7 +9,8 @@
     • Improve employment <br>
 	<span class="lf">-> income and career oriented </span>
     • Rent an apartment <br>
-	<span class="lf">-> Living with housemates can be fun but sometimes irritating </span>
+	<span class="lf">-> Living with housemates is often fun however, people move for various reasons so it lacks stability </span> <br> 
+	<span class="lf">-> Moving almost yearly is a distraction from other tasks and, have to keep track of for background checks </span>
     • G Drivers License ready if required: Currently enrolled in Young Drivers Gold Automatic <br>
 	<span class="lf">-> Enjoy reliably cycling, 20-30min to and from work </span><br> 
 	<span class="lf">-> Cycle in the rain, with water-resistant overpants. </span><br> 
@@ -27,7 +28,7 @@
 	<span class="lf">-> Currently runs Fortnite and CoD Warzone decently but not future games</span><br>
 	<span class="lf">-> semi-portable and meet or exceed current gen consoles within a budget</span><br>
         <span class="lf">-> Philiosophy: Never buy game consoles since PC hardware used for productivity and creativity</span> <br> 
-	<span class="lf"><span class="lf">i.e. compile C++ with Qt code in a VM or render Adobe Premiere faster</span></span>
+	<span class="lf"><span class="lf">i.e. compile codem rendering in Adobe Premiere faster or folding@home</span></span>
     • Visit family in Alberta
 <p></p>
     </div>

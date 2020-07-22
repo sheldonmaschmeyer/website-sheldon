@@ -96,7 +96,7 @@
             echo $file;
             ?> </ul>
         <div class="social-icons dont-print p-3" style="width: 200px; float: left">
-          Professional Network:
+          Professional Network
           <a href="https://www.linkedin.com/in/sheldonmaschmeyer/">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -105,11 +105,20 @@
           </a>
         </div>
         <div class="social-icons dont-print p-3" style="width: 200px; float: left">
-          Download Résumé:
-          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResume.docx">
+          My Ottawa Résumé
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeOttawa.docx">
             <i class="fas fa-file-word"></i>
           </a>
-          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResume.pdf">
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeOttawa.pdf">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+        <div class="social-icons dont-print p-3" style="width: 200px; float: left">
+          My Toronto Résumé
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeToronto.docx">
+            <i class="fas fa-file-word"></i>
+          </a>
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeToronto.pdf">
             <i class="fas fa-file-pdf"></i>
           </a>
         </div>
@@ -223,7 +232,7 @@
             ?> </ul>
             </div></div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">May 2016 - November 2018 <br> June 2019 - Present</span>
+            <span class="text-primary">May 2016 - Present </span>
           </div>
         </div>
         

@@ -7,15 +7,16 @@
 <div class="subheading mb-3 headingChange"><a href="#shortTerm" data-toggle="collapse" style="text-decoration:none;"> Within one year </a></div>
     <div id="shortTerm" class="collapse">
     • Improve employment <br>
-	<span class="lf">-> income and career oriented </span>
+	<span class="lf">-> improved income to pay down debt and student loans and, career oriented </span>
     • Rent an apartment <br>
-	<span class="lf">-> Living with housemates is often fun however, people move for various reasons so it lacks stability </span> <br> 
-	<span class="lf">-> Moving almost yearly is a distraction from other tasks and, have to keep track of for background checks </span>
-    • G Drivers License ready if required: Currently enrolled in Young Drivers Gold Automatic <br>
-	<span class="lf">-> Enjoy reliably cycling, 20-30min to and from work </span><br> 
+	<span class="lf">-> Move-in October 1st or sooner </span> <br>
+	<span class="lf">-> Living alone reduces distractions and, safer during pandemic </span>
+    • G Drivers License ready, if required: <br>
+	<span class="lf">-> Currently enrolled in Young Drivers Gold Automatic, in-car lessons start in October </span><br>
+	<span class="lf">-> Enjoy reliably cycling, 20-30min to and from work. Moving walking distance to work in October. </span><br> 
 	<span class="lf">-> Cycle in the rain, with water-resistant overpants. </span><br> 
 	<span class="lf">-> Cycle during the winter reliably with 29" mountain bike with a 2.4" rear tire handmade in Germany </span><br> 
-	<span class="lf">-> Uber or bus in very poor conditions </span><br> 
+	<span class="lf">-> Uber or bus in very poor conditions. Higher risk during COVID pandemic. </span><br> 
 	<span class="lf">-> Cycling in poor conditions tends to be more reliable than OCTranspo and Uber</span><br>
 	<span class="lf">-> Even with community pass, cycling saves $50-$119 per month, not including bicycle maintance</span>
     <p></p>

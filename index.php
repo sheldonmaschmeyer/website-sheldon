@@ -86,8 +86,8 @@
       <div class="d-lg-none d-xl-none"><img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt=""></div>
         <h1 class="mb-0">Sheldon W. B. <span class="text-primary">Maschmeyer</span></h1>
         <div class="subheading mb-5">
-        Ottawa: 562 Reardon Private · K1V 2L1 <br>
-        Mississauga: 4060 Farrier Court · L5L 2Y4 <br> 
+        Ottawa: 740 Springland Dr. Unit 515 <br>
+        Mississauga: 4060 Farrier Court <br> 
         1-613-889-4320  · <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
         </div>
         <ul><?php 

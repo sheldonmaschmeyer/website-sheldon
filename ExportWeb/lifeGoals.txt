@@ -7,7 +7,7 @@
 <div class="subheading mb-3 headingChange"><a href="#shortTerm" data-toggle="collapse" style="text-decoration:none;"> Within one year </a></div>
     <div id="shortTerm" class="collapse">
     • Improve employment <br>
-	<span class="lf">-> improved income to pay down debt and student loans and, career oriented </span>
+	<span class="lf">-> improved income to pay down debt, student loans and, career oriented </span>
     • Rent an apartment <br>
 	<span class="lf">-> Move-in October 1st or sooner </span> <br>
 	<span class="lf">-> Living alone reduces distractions and, safer during pandemic </span>

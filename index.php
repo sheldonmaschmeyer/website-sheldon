@@ -402,8 +402,11 @@
       <div class="w-100">
         <h2 class="mb-5">Maschmeyer Services
         <div class="subheading mb-3">Computer Repair &amp; Traiing <br> IT &amp; Media Arts Services</div></h2>
-        <p>In Thornhill and Newmarket, I provided computer repair and training services to members of the community.<br>
-        I continue to provide the same services, in my spare time, in Ottawa.</p>
+        <p>In Thornhill and Newmarket, I provided computer software (Windows, Mac & Linux) and, <br> hardware repairs and training services to members of the community. <br>
+        Hardware is primarily desktops or basic laptop servicing.<br>
+        I continue to provide the same services, in my spare time, in Ottawa. <br>
+        Very few clients in Ottawa but, phone calls during the pandemic have increased. <br> 
+        Due to COVID-19 risks concerned, about close proximity to clients for prolonged periods, <br> I am reluctant to continue this student side-job for the time being.</p>
         <p>Call or Email for a Free Consultation and Estimates <br> Personalized Service: On-Site or Drop-off <br>
         <b>100% Customer Satisfaction Guaranteed</b></p>
         <p>10+ Years of Experience Providing Computer Related Services<br>

@@ -8,17 +8,14 @@
     <div id="shortTerm" class="collapse">
     • Improve employment <br>
 	<span class="lf">-> improved income to pay down debt, student loans and, career oriented </span>
-    • Rent an apartment <br>
-	<span class="lf">-> Move-in October 1st or sooner </span> <br>
-	<span class="lf">-> Living alone reduces distractions and, safer during pandemic </span>
     • G Drivers License ready, if required: <br>
 	<span class="lf">-> Currently enrolled in Young Drivers Gold Automatic, in-car lessons start in October </span><br>
-	<span class="lf">-> Enjoy reliably cycling, 20-30min to and from work. Moving walking distance to work in October. </span><br> 
-	<span class="lf">-> Cycle in the rain, with water-resistant overpants. </span><br> 
+	<span class="lf">-> Enjoy reliably cycling to and from work. As of Sept 1st, 2020, live within walking distance to work. </span><br> 
+	<span class="lf">-> Was cycling in the rain and snowy weather, with water-resistant overpants. </span><br> 
 	<span class="lf">-> Cycle during the winter reliably with 29" mountain bike with a 2.4" rear tire handmade in Germany </span><br> 
 	<span class="lf">-> Uber or bus in very poor conditions. Higher risk during COVID pandemic. </span><br> 
-	<span class="lf">-> Cycling in poor conditions tends to be more reliable than OCTranspo and Uber</span><br>
-	<span class="lf">-> Even with community pass, cycling saves $50-$119 per month, not including bicycle maintance</span>
+	<span class="lf">-> Cycling in poor conditions often more reliable than OCTranspo or Uber. Safer than walking are roads are cleared of ice better than sidewalks. </span><br>
+	<span class="lf">-> Even with community pass, cycling saves $50-$119 per month, not including bicycle maintance (at least $50 every 6 months).</span>
     <p></p>
     </div>
     <div class="subheading mb-3 headingChange"><a href="#mediumTerm" data-toggle="collapse" style="text-decoration:none;"> Within three years </a></div>
@@ -26,17 +23,17 @@
     • Pay-off Credit Card <br> 
 	<span class="lf">-> used for educational expenses, a small business and personal entertainment</span>
     • New gaming PC <br>
-	<span class="lf">-> Currently runs Fortnite and CoD Warzone decently but not future games</span><br>
+	<span class="lf">-> Currently runs Fortnite decently but not future games</span><br>
 	<span class="lf">-> semi-portable and meet or exceed current gen consoles within a budget</span><br>
         <span class="lf">-> Philiosophy: Never buy game consoles since PC hardware used for productivity and creativity</span> <br> 
-	<span class="lf"><span class="lf">i.e. compile codem rendering in Adobe Premiere faster or folding@home</span></span>
+	<span class="lf"><span class="lf">i.e. compile code and rendering in Adobe Premiere faster or, folding@home while web browsing or office program. </span></span>
     • Visit family in Alberta
 <p></p>
     </div>
     <div class="subheading mb-3 headingChange"><a href="#longTerm" data-toggle="collapse" style="text-decoration:none;"> Within nine years </a></div>
     <div id="longTerm" class="collapse">
     • Pay off student loan <br>
-	<span class="lf">-> without the need for repayment assistance</span>
+	<span class="lf">-> without continuing to use generous repayment assistance. </span>
     • Visit Germany <br>
 	<span class="lf">-> the fatherland </span>
     • Visit India <br>
@@ -54,5 +51,3 @@
 	<span class="lf">-> if a vehicle is required </span><br>
 <p></p>
     </div>
-
-

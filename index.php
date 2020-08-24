@@ -406,7 +406,7 @@
         Hardware is primarily desktops or basic laptop servicing.<br>
         I continue to provide the same services, in my spare time, in Ottawa. <br>
         Very few clients in Ottawa but, phone calls during the pandemic have increased. <br> 
-        Due to COVID-19 risks concerned, about close proximity to clients for prolonged periods, <br> I am reluctant to continue this student side-job for the time being.</p>
+        Due to COVID-19 risks, concerned about close proximity to clients for prolonged periods, <br> I am reluctant to continue this student side-job for the time being.</p>
         <p>Call or Email for a Free Consultation and Estimates <br> Personalized Service: On-Site or Drop-off <br>
         <b>100% Customer Satisfaction Guaranteed</b></p>
         <p>10+ Years of Experience Providing Computer Related Services<br>

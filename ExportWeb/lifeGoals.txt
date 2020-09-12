@@ -6,27 +6,23 @@
 
 <div class="subheading mb-3 headingChange"><a href="#shortTerm" data-toggle="collapse" style="text-decoration:none;"> Within one year </a></div>
     <div id="shortTerm" class="collapse">
-    • Improve employment <br>
-	<span class="lf">-> improved income to pay down debt, student loans and, career oriented </span>
+    • Improve employment: min $2000 per month <br>
+    	<span class="lf">-> Based on education, applying for jobs that are much more than $2000 per month.<br> </span>
+	<span class="lf">-> Currently make (net) $1500 or less a month working retail.<br> </span>
+	<span class="lf">-> min $2000 to meet basic needs, pay down debt, and take online career oriented courses <br></span>
+	<span class="lf">-> Greater than $2000 per month to start paying down 60k in student loans with less repayment assistance </span>
     • G Drivers License ready, if required: <br>
 	<span class="lf">-> Currently enrolled in Young Drivers Gold Automatic, in-car lessons start in October </span><br>
-	<span class="lf">-> Enjoy reliably cycling to and from work. As of Sept 1st, 2020, live within walking distance to work. </span><br> 
-	<span class="lf">-> Was cycling in the rain and snowy weather, with water-resistant overpants. </span><br> 
-	<span class="lf">-> Cycle during the winter reliably with 29" mountain bike with a 2.4" rear tire handmade in Germany </span><br> 
-	<span class="lf">-> Uber or bus in very poor conditions. Higher risk during COVID pandemic. </span><br> 
-	<span class="lf">-> Cycling in poor conditions often more reliable than OCTranspo or Uber. Safer than walking are roads are cleared of ice better than sidewalks. </span><br>
-	<span class="lf">-> Even with community pass, cycling saves $50-$119 per month, not including bicycle maintance (at least $50 every 6 months).</span>
     <p></p>
     </div>
     <div class="subheading mb-3 headingChange"><a href="#mediumTerm" data-toggle="collapse" style="text-decoration:none;"> Within three years </a></div>
     <div id="mediumTerm" class="collapse">
     • Pay-off Credit Card <br> 
 	<span class="lf">-> used for educational expenses, a small business and personal entertainment</span>
-    • New gaming PC <br>
+    • New PC <br>
 	<span class="lf">-> Currently runs Fortnite decently but not future games</span><br>
-	<span class="lf">-> semi-portable and meet or exceed current gen consoles within a budget</span><br>
-        <span class="lf">-> Philiosophy: Never buy game consoles since PC hardware used for productivity and creativity</span> <br> 
-	<span class="lf"><span class="lf">i.e. compile code and rendering in Adobe Premiere faster or, folding@home while web browsing or office program. </span></span>
+	<span class="lf">-> Meet or exceed current gen consoles within a budget</span><br>
+        <span class="lf">-> Philiosophy: Never buy game consoles since PC hardware/software could be used for productivity and creativity</span> <br> 
     • Visit family in Alberta
 <p></p>
     </div>

@@ -250,7 +250,7 @@
               </div> 
         </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2008 - Present</span>
+            <span class="text-primary">June 2008 - September 2020</span>
           </div>
         </div>
 

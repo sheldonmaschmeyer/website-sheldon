@@ -52,19 +52,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger" href="#about">Executive Summary</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#services">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#volunteering">Volunteering</a>
@@ -74,6 +68,9 @@
         </li>
 	<li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#lifeGoals">Life Goals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
       </ul>
     </div>
@@ -85,13 +82,12 @@
       <div class="w-100">
       <div class="d-lg-none d-xl-none"><img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt=""></div>
         <h1 class="mb-0">Sheldon W. B. <span class="text-primary">Maschmeyer</span></h1>
-        <div class="subheading mb-5">
-        Primary: 515-740 Springland Dr., Ottawa, Ontario <br>
-        Secondary: 4060 Farrier Court, Mississauga, Ontario (suburb of Toronto) <br> 
+        <div class="subheading mb-0">
+        740 Springland Drive, Apartment: 515. Ottawa, Ontario <br> 
         1-613-889-4320  · <a href="mailto:sheldon@maschmeyer.ca">sheldon@maschmeyer.ca</a>
         </div>
         <ul><?php 
-            $file = file_get_contents('ExportWeb/profile.txt');
+            $file = file_get_contents('ExportWeb/profile.html');
             $file = str_replace("•", "<p><li>", $file);
             echo $file;
             ?> </ul>
@@ -122,6 +118,253 @@
             <i class="fas fa-file-pdf"></i>
           </a>
         </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Full Stack Developer </h3>
+            <div class="subheading mb-3 headingChange"> <a href="#imrsv" data-toggle="collapse" style="text-decoration:none;"> IMRSV Data Labs. </a></div>
+            <div id="imrsv" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_imrsv.html');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+            </div></div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jan 2021 - Oct 2022 </span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Supervisor, Primary Cashier & Merchandiser </h3>
+            <div class="subheading mb-3 headingChange"> <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> Shoppers Drug Mart </a></div>
+            <div id="shop" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Shop.html');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+            </div></div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2016 - Jan 2021 </span>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
+            <div class="subheading mb-3 headingChange"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · i-aminc.com · Abaan &amp; Associates</a></div>
+            <div id="IAM" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_IAM.html');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+              </div> 
+        </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2008 - September 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
+          <div class="resume-content">
+            <h3 class="mb-0">Field Training &amp; Support Representative<br>Field Service Representative</h3>
+            <div class="subheading mb-3 headingChange"><a href="#domVote" data-toggle="collapse" style="text-decoration:none;">Dominion Voting Systems</a></div>
+            <div id="domVote" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_vot.html');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:", $file);
+            $file = str_replace("2018:", "<br>2018:<ul>", $file);
+            $file = str_replace("2014:", "</ul>2014:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div></div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2018 - June 2018 <br> October 2014 &amp; June 2014</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Customer Service Representative</h3> 
+            <div class="subheading mb-3 headingChange"><a href="#cdn" data-toggle="collapse" style="text-decoration:none;">Canada Computers</a></div>
+            <div id="cdn" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_CC.html');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div></div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2014 - August 2015</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Deputy Returning Officer (By-Election)</h3>
+            <div class="subheading mb-3 headingChange"><a href="#elec" data-toggle="collapse" style="text-decoration:none;">Elections Canada</a></div>
+            <div id="elec" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Elect.html');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div> </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2014</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
+          <div class="resume-content">
+            <h3 class="mb-0">Sales Associate</h3> 
+            <div class="subheading mb-3 headingChange"><a href="#fox" data-toggle="collapse" style="text-decoration:none;">Fox Wireless Comm. (Now Telus)</a></div>
+            <div id="fox" class="collapse">
+            <?php 
+            $file = file_get_contents('ExportWeb/exp_Fox.html');
+            $file = str_replace("•", "<li>", $file);
+            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
+            echo $file;
+            ?> </ul>
+          </div></div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2008 - August 2008</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3 headingChange"><a href="#lang" data-toggle="collapse" style="text-decoration:none;"> Programming Languages &amp; Tools</a></div>
+        <div id="lang" class="collapse">
+        <ul><?php 
+            $file = file_get_contents('ExportWeb/skills.html');
+            $file = str_replace("•", "<li>", $file);
+            echo $file;
+            ?> </ul></div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-java" data-toggle="tooltip" title="Java"></i>
+          </li>
+          <li class="list-inline-item">
+            <img src="img/c.png" data-toggle="tooltip" title="C Programming Language">
+          </li>
+          <li class="list-inline-item">
+            <img src="img/cpp.png" data-toggle="tooltip" title="C++ Programming Language">
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-html5" data-toggle="tooltip" title="HTML5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python" data-toggle="tooltip" title="Python"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node" data-toggle="tooltip" title="NodeJS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm" data-toggle="tooltip" title="Node Package Manager"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-linux" data-toggle="tooltip" title="Linux OS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-windows" data-toggle="tooltip" title="Windows OS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-network-wired" data-toggle="tooltip" title="Network security: Burp, Wireshark tools"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-terminal" data-toggle="tooltip" title="Shell Script, Bash, Batch, Terminal, CMD, PowerShell"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-database" data-toggle="tooltip" title="Access, SPSS, Oracle SQL, mySQL, MongoDB"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-microsoft" data-toggle="tooltip" title="Office: Word, Excel, Outlook, PowerPoint, Publisher"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-adobe" data-toggle="tooltip" title="Adobe: Photoshop, Premier, Acrobat, Dreamweaver"></i>
+          </li>
+          <li class="list-inline-item">
+            <img src="img/latex.png" data-toggle="tooltip" title="LaTeX: Used for all computer science documents">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="volunteering">
+        <div class="w-100">
+          <h2 class="mb-5">Volunteering & Donations</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content white-space: pre-wrap;">
+            <?php 
+              $file = file_get_contents('ExportWeb/volunteer.html');
+              echo str_replace("\n","<p>", $file);
+            ?>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="activities">
+        <div class="w-100">
+          <h2 class="mb-5">Activities</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content white-space: pre-wrap;">
+            <?php 
+              $file = file_get_contents('ExportWeb/activities.html');
+              echo str_replace("\n","<p>", $file);
+            ?>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lifeGoals">
+      <div class="w-100">
+        <h2 class="mb-5">Life Goals</h2>
+        <?php 
+            $file = file_get_contents('ExportWeb/lifeGoals.html');
+            $file = str_replace("•", "<li>", $file);
+            echo $file;
+            ?> </div>
       </div>
     </section>
 
@@ -210,254 +453,6 @@
             <span class="text-primary">September 2009 - June 2014</span>
           </div>
         </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Supervisor, Primary Cashier & Merchandiser </h3>
-            <div class="subheading mb-3 headingChange"> <a href="#shop" data-toggle="collapse" style="text-decoration:none;"> Shoppers Drug Mart </a></div>
-            <div id="shop" class="collapse">
-            <?php 
-            $file = file_get_contents('ExportWeb/exp_Shop.txt');
-            $file = str_replace("•", "<li>", $file);
-            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
-            echo $file;
-            ?> </ul>
-            </div></div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2016 - Present </span>
-          </div>
-        </div>
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">IT &amp; Media Arts (Part-Time)</h3>
-            <div class="subheading mb-3 headingChange"><a href="#IAM" data-toggle="collapse" style="text-decoration:none;">I-AM Retailer Solutions · i-aminc.com · Abaan &amp; Associates</a></div>
-            <div id="IAM" class="collapse">
-            <?php 
-            $file = file_get_contents('ExportWeb/exp_IAM.txt');
-            $file = str_replace("•", "<li>", $file);
-            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
-            echo $file;
-            ?> </ul>
-              </div> 
-        </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2008 - September 2020</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
-          <div class="resume-content">
-            <h3 class="mb-0">Field Training &amp; Support Representative<br>Field Service Representative</h3>
-            <div class="subheading mb-3 headingChange"><a href="#domVote" data-toggle="collapse" style="text-decoration:none;">Dominion Voting Systems</a></div>
-            <div id="domVote" class="collapse">
-            <?php 
-            $file = file_get_contents('ExportWeb/exp_vot.txt');
-            $file = str_replace("•", "<li>", $file);
-            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:", $file);
-            $file = str_replace("2018:", "<br>2018:<ul>", $file);
-            $file = str_replace("2014:", "</ul>2014:<ul>", $file);
-            echo $file;
-            ?> </ul>
-          </div></div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2018 - June 2018 <br> October 2014 &amp; June 2014</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Customer Service Representative</h3> 
-            <div class="subheading mb-3 headingChange"><a href="#cdn" data-toggle="collapse" style="text-decoration:none;">Canada Computers</a></div>
-            <div id="cdn" class="collapse">
-            <?php 
-            $file = file_get_contents('ExportWeb/exp_CC.txt');
-            $file = str_replace("•", "<li>", $file);
-            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
-            echo $file;
-            ?> </ul>
-          </div></div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2014 - August 2015</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Deputy Returning Officer (By-Election)</h3>
-            <div class="subheading mb-3 headingChange"><a href="#elec" data-toggle="collapse" style="text-decoration:none;">Elections Canada</a></div>
-            <div id="elec" class="collapse">
-            <?php 
-            $file = file_get_contents('ExportWeb/exp_Elect.txt');
-            $file = str_replace("•", "<li>", $file);
-            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
-            echo $file;
-            ?> </ul>
-          </div> </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2014</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 page-break">
-          <div class="resume-content">
-            <h3 class="mb-0">Sales Associate</h3> 
-            <div class="subheading mb-3 headingChange"><a href="#fox" data-toggle="collapse" style="text-decoration:none;">Fox Wireless Comm. (Now Telus)</a></div>
-            <div id="fox" class="collapse">
-            <?php 
-            $file = file_get_contents('ExportWeb/exp_Fox.txt');
-            $file = str_replace("•", "<li>", $file);
-            $file = str_replace("Key Responsibilities:", "<br>Key Responsibilities:<ul>", $file);
-            echo $file;
-            ?> </ul>
-          </div></div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2008 - August 2008</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-        <div class="subheading mb-3 headingChange"><a href="#lang" data-toggle="collapse" style="text-decoration:none;"> Programming Languages &amp; Tools</a></div>
-        <div id="lang" class="collapse">
-        <ul><?php 
-            $file = file_get_contents('ExportWeb/skills.txt');
-            $file = str_replace("•", "<li>", $file);
-            echo $file;
-            ?> </ul></div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-java" data-toggle="tooltip" title="Java"></i>
-          </li>
-          <li class="list-inline-item">
-            <img src="img/c.png" data-toggle="tooltip" title="C Programming Language">
-          </li>
-          <li class="list-inline-item">
-            <img src="img/cpp.png" data-toggle="tooltip" title="C++ Programming Language">
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5" data-toggle="tooltip" title="HTML5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-python" data-toggle="tooltip" title="Python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node" data-toggle="tooltip" title="NodeJS"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm" data-toggle="tooltip" title="Node Package Manager"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-linux" data-toggle="tooltip" title="Linux OS"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-windows" data-toggle="tooltip" title="Windows OS"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-network-wired" data-toggle="tooltip" title="Network security: Burp, Wireshark tools"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-terminal" data-toggle="tooltip" title="Shell Script, Bash, Batch, Terminal, CMD, PowerShell"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-database" data-toggle="tooltip" title="Access, SPSS, Oracle SQL, mySQL, MongoDB"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-microsoft" data-toggle="tooltip" title="Office: Word, Excel, Outlook, PowerPoint, Publisher"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-adobe" data-toggle="tooltip" title="Adobe: Photoshop, Premier, Acrobat, Dreamweaver"></i>
-          </li>
-          <li class="list-inline-item">
-            <img src="img/latex.png" data-toggle="tooltip" title="LaTeX: Used for all computer science documents">
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center dont-print" id="services">
-      <div class="w-100">
-        <h2 class="mb-5">Maschmeyer Services
-        <div class="subheading mb-3">Computer Repair &amp; Traiing <br> IT &amp; Media Arts Services</div></h2>
-        <p>In Thornhill and Newmarket, I provided computer software (Windows, Mac & Linux) and, <br> hardware repairs and training services to members of the community. <br>
-        Hardware is primarily desktops or basic laptop servicing.<br>
-        I continue to provide the same services, in my spare time, in Ottawa. <br>
-        Very few clients in Ottawa but, phone calls during the pandemic have increased. <br> 
-        Due to COVID-19 risks, concerned about close proximity to clients for prolonged periods, <br> I am reluctant to continue this student side-job for the time being.</p>
-        <p>Call or Email for a Free Consultation and Estimates <br> Personalized Service: On-Site or Drop-off <br>
-        <b>100% Customer Satisfaction Guaranteed</b></p>
-        <p>10+ Years of Experience Providing Computer Related Services<br>
-          References &amp; Testimonials Available Upon Request.<br>MBL for Ontario: 270798713</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="volunteering">
-        <div class="w-100">
-          <h2 class="mb-5">Volunteering</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content white-space: pre-wrap;">
-            <?php 
-              $file = file_get_contents('ExportWeb/volunteer.txt');
-              echo str_replace("\n","<p>", $file);
-            ?>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="activities">
-        <div class="w-100">
-          <h2 class="mb-5">Activities</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content white-space: pre-wrap;">
-            <?php 
-              $file = file_get_contents('ExportWeb/activities.txt');
-              echo str_replace("\n","<p>", $file);
-            ?>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lifeGoals">
-      <div class="w-100">
-        <h2 class="mb-5">Life Goals</h2>
-        <?php 
-            $file = file_get_contents('ExportWeb/lifeGoals.txt');
-            $file = str_replace("•", "<li>", $file);
-            echo $file;
-            ?> </div>
       </div>
     </section>
 

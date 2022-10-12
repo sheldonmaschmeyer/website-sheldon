@@ -72,6 +72,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://you.23andme.com/published/reports/e670fc51bbde41be9e6a9fa9c165bc9d/?share_id=a550c666da874906" target="_blank">23andMe Ancestry</a>
+        </li>
       </ul>
     </div>
   </nav>

@@ -104,20 +104,11 @@
           </a>
         </div>
         <div class="social-icons dont-print p-3" style="width: 200px; float: left">
-          My Ottawa Résumé
-          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeOttawa.docx">
+          Latest Résumé
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/SoftwareDeveloperResumeTwoPages.docx">
             <i class="fas fa-file-word"></i>
           </a>
-          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeOttawa.pdf">
-            <i class="fas fa-file-pdf"></i>
-          </a>
-        </div>
-        <div class="social-icons dont-print p-3" style="width: 200px; float: left">
-          My Toronto Résumé
-          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeToronto.docx">
-            <i class="fas fa-file-word"></i>
-          </a>
-          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/primaryResumeToronto.pdf">
+          <a href="https://github.com/sheldonmaschmeyer/Resumes/raw/master/SoftwareDeveloperResumeTwoPages.pdf">
             <i class="fas fa-file-pdf"></i>
           </a>
         </div>

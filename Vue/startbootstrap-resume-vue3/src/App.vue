@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavigationComponent :name="name" />
-    <b-container class="p-0" fluid>
+    <div class="container-fluid p-0">
       <AboutSection :name="name" />
       <BorderSpacer />
       <ExperienceSection />
@@ -13,29 +13,30 @@
       <InterestsSection />
       <BorderSpacer />
       <AwardsSection />
-    </b-container>
+    </div>
   </div>
 </template>
 
 <script>
 import smoothScroll from 'smooth-scroll';
 
-import AboutSection from "@/components/About";
-import ExperienceSection from "@/components/Experience";
-import EducationSection from "@/components/Education";
-import SkillsSection from "@/components/Skills";
-import InterestsSection from "@/components/Interests";
-import AwardsSection from "@/components/Awards";
-import NavigationComponent from "@/components/Navigation";
-import BorderSpacer from "@/components/Border";
+import AboutSection from "./components/About.vue";
+import ExperienceSection from "./components/Experience.vue";
+import EducationSection from "./components/Education.vue";
+import SkillsSection from "./components/Skills.vue";
+import InterestsSection from "./components/Interests.vue";
+import AwardsSection from "./components/Awards.vue";
+import NavigationComponent from "./components/Navigation.vue";
+import BorderSpacer from "./components/Border.vue";
 
 export default {
   name: "app",
   data() {
     return {
       name: {
-        first: "Clarence",
-        last: "Taylor"
+        first: "Sheldon",
+        middle: "W.B.",
+        last: "Maschmeyer"
       }
     }
   },
@@ -51,7 +52,9 @@ export default {
   },
   created: function() {
     var scroll = new smoothScroll('a[href*="#"]', {
-      updateURL: false
+      updateURL: true,
+      speed: 500,
+      speedAsDuration: true
     })
   }
 };

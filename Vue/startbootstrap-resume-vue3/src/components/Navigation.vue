@@ -1,7 +1,7 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" class="bg-primary fixed-top" id="sideNav">
-    <b-navbar-brand to="#app">
-      <span class="d-block d-lg-none">{{ name.first }} {{ name.last }}</span>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Sheldon Maschmeyer</span>
       <span class="d-none d-lg-block">
         <img
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -9,19 +9,20 @@
           :alt="name.first + ' ' + name.last"
         />
       </span>
-    </b-navbar-brand>
-    <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
-    <b-collapse id="navbarSupportedContent" is-nav>
-      <b-navbar-nav v-b-scrollspy>
-        <b-nav-item
+    </a>
+    <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation" v-on:click="toggleNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div :class="collapseNav ? 'collapse' : ''" class="navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-nav">
+        <li class="nav-item"
           v-for="(navigation, index) in navigationList"
-          :key="index"
-          class="js-scroll-trigger"
-          :href="navigation.url"
-        >{{ navigation.title }}</b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+          :key="index">
+          <a class="nav-link js-scroll-trigger scrollspy" :href="navigation.url" v-on:click="collapseNav = true">{{ navigation.title }}</a>
+        </li>
+      </div>
+    </div>
+  </nav>
 </template>
 
 <script>
@@ -30,8 +31,14 @@ export default {
   props: {
     name: Array
   },
+  methods: {
+    toggleNav() {
+      this.collapseNav = !this.collapseNav;
+    }
+  },
   data() {
     return {
+      collapseNav: true,
       navigationList: [
         {
           title: "About",

@@ -1,6 +1,6 @@
 # Introduction
 
-This is a migration from Vue2 to Vue3 of the StartBootstrap Resume which was converted to [Vue2 By BlkackrokDigital](https://github.com/BlackrockDigital/startbootstrap-resume) template.
+This is a migration from Vue2 to Vue3 of the [StartBootstrap Resume](https://github.com/BlackrockDigital/startbootstrap-resume) template which was converted to [Vue2](https://github.com/webdevsuperfast/startbootstrap-resume-vue).
 
 ## Building from Source
 

@@ -1,12 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Sheldon Maschmeyer</span>
+    <a class="navbar-brand js-scroll-trigger" href="#about">
+      <span class="d-block d-lg-none ps-3">{{name.first}} {{name.middle}} {{name.last}}</span>
       <span class="d-none d-lg-block">
         <img
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
           src="images/profile.jpg"
-          :alt="name.first + ' ' + name.last"
+          :alt="name.first + ' ' + name.middle + ' ' + name.last"
         />
       </span>
     </a>
@@ -18,7 +18,9 @@
         <li class="nav-item"
           v-for="(navigation, index) in navigationList"
           :key="index">
-          <a class="nav-link js-scroll-trigger scrollspy" :href="navigation.url" v-on:click="collapseNav = true">{{ navigation.title }}</a>
+          <a class="nav-link js-scroll-trigger scrollspy" :href="navigation.url" v-on:click="collapseNav = true">
+            <span class="d-lg-none ps-3"></span>{{ navigation.title }}
+          </a>
         </li>
       </div>
     </div>
@@ -66,6 +68,6 @@ export default {
         }
       ]
     };
-  }
+  },
 };
 </script>

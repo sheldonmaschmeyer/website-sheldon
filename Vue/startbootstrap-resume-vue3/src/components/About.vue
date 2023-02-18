@@ -36,7 +36,7 @@
 export default {
   name: "AboutSection",
   props: {
-    name: Array
+    name: Object
   },
   data() {
     return {

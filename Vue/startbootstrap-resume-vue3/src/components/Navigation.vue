@@ -31,7 +31,7 @@
 export default {
   name: "NavigationComponent",
   props: {
-    name: Array
+    name: Object
   },
   data() {
     return {

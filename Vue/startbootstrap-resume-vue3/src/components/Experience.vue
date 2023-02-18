@@ -28,8 +28,11 @@
 </template>
 
 <script>
+import { shallowRef } from 'vue'
 import IMRSVSummary from './Experience/IMRSV.vue';
-import SDMSummary from './Experience/SDM.vue'
+import SDMSummary from './Experience/SDM.vue';
+import IAMSummary from './Experience/IAM.vue';
+
 export default {
   name: "ExperienceSection",
   data() {
@@ -38,7 +41,7 @@ export default {
         {
           position: "Full Stack Developer",
           company: "IMRSV Data Labs",
-          SUMMARY: IMRSVSummary,
+          SUMMARY: shallowRef(IMRSVSummary),
           dates: [
             {
               start: "Jan 2021",
@@ -50,7 +53,7 @@ export default {
         {
           position: "Suppervisor, Primary Cashier & Merchandiser",
           company: "Shoppers Drug Mart",
-          SUMMARY: SDMSummary,
+          SUMMARY: shallowRef(SDMSummary),
           dates: [
             {
               start: "May 2016",
@@ -58,6 +61,18 @@ export default {
             }
           ],
           id: 'SDM'
+        },
+        {
+          position: "IT & Media Arts (Part-Time)",
+          company: "I-AM Retailer Solutions · Abaan & Associates",
+          SUMMARY: shallowRef(IAMSummary),
+          dates: [
+            {
+              start: "June 2008",
+              end: "September 2020"
+            }
+          ],
+          id: 'IAM'
         },
       ]
     };

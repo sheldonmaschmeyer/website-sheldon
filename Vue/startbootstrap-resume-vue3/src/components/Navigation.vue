@@ -38,7 +38,7 @@ export default {
       navLocal: '#about',
       navigationList: [
         {
-          title: "About",
+          title: "Executive Summary",
           url: "#about"
         },
         {

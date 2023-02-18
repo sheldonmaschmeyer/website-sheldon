@@ -9,8 +9,11 @@
       >
         <div class="resume-content">
           <h3 class="mb-0">{{ experience.position }}</h3>
-          <div class="subheading mb-3">{{ experience.company }}</div>
-          <component :is="experience.SUMMARY"></component>
+          <a class="subheading mb-3 summary"
+            style="text-decoration:none; cursor: pointer;" data-bs-toggle="collapse" :data-bs-target="'#' + experience.id">
+              {{ experience.company }}
+          </a>
+          <component :id="experience.id" :is="experience.SUMMARY" class="collapse"/>
         </div>
         <div class="resume-date text-md-right">
           <span
@@ -26,6 +29,7 @@
 
 <script>
 import IMRSVSummary from './Experience/IMRSV.vue';
+import SDMSummary from './Experience/SDM.vue'
 export default {
   name: "ExperienceSection",
   data() {
@@ -40,10 +44,38 @@ export default {
               start: "Jan 2021",
               end: "October 2022"
             }
-          ]
+          ],
+          id: 'IMRSV'
+        },
+        {
+          position: "Suppervisor, Primary Cashier & Merchandiser",
+          company: "Shoppers Drug Mart",
+          SUMMARY: SDMSummary,
+          dates: [
+            {
+              start: "May 2016",
+              end: "Jan 2021"
+            }
+          ],
+          id: 'SDM'
         },
       ]
     };
   },
 };
 </script>
+
+<style scoped>
+
+  .summary:before {
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f150\00a0\00a0"; 
+  }
+
+  .summary.collapsed:before {
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f152\00a0\00a0";
+  }
+</style>

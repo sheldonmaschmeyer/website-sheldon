@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#about">
+    <a class="navbar-brand" href="#about">
       <span class="d-block d-lg-none ps-3">{{name.first}} {{name.middle}} {{name.last}}</span>
       <span class="d-none d-lg-block">
         <img
@@ -10,16 +10,16 @@
         />
       </span>
     </a>
-    <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation" v-on:click="toggleNav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div :class="collapseNav ? 'collapse' : ''" class="navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-collapse collapse" id="navContent">
       <div class="navbar-nav">
         <li class="nav-item"
           v-for="(navigation, index) in navigationList"
           :key="index">
-          <a class="nav-link js-scroll-trigger scrollspy" :href="navigation.url" v-on:click="collapseNav = true">
-            <span class="d-lg-none ps-3"></span>{{ navigation.title }}
+          <a class="nav-link scrollspy" :href="navigation.url" v-on:click="navLocal = navigation.url" :style="navLocal === navigation.url ? 'color: white' : ''">
+            <span class="d-lg-none ps-3"></span>{{navigation.title}}
           </a>
         </li>
       </div>
@@ -33,14 +33,9 @@ export default {
   props: {
     name: Array
   },
-  methods: {
-    toggleNav() {
-      this.collapseNav = !this.collapseNav;
-    }
-  },
   data() {
     return {
-      collapseNav: true,
+      navLocal: '#about',
       navigationList: [
         {
           title: "About",

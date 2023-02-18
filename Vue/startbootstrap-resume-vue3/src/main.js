@@ -6,14 +6,14 @@ import "bootstrap"
 
 // Font Awesome Vue
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLinkedin, faGithub, faTwitter, faFacebook, faCss3Alt, faJsSquare, faHtml5, faReact, faNodeJs, faAngular, faLess, faSass, faWordpress, faGulp, faGrunt, faNpm } from '@fortawesome/free-brands-svg-icons'
-import { faTrophy, faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub, faCss3Alt, faJsSquare, faHtml5, faReact, faNodeJs, faAngular, faLess, faSass, faWordpress, faGulp, faGrunt, faNpm } from '@fortawesome/free-brands-svg-icons'
+import { faCheck, faFilePdf, faFileWord } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { dom } from '@fortawesome/fontawesome-svg-core'
 
 dom.watch()
 
-library.add(faLinkedin, faGithub, faTwitter, faFacebook, faCss3Alt, faJsSquare, faHtml5, faReact, faNodeJs, faAngular, faLess, faSass, faWordpress, faGulp, faGrunt, faNpm, faTrophy, faCheck)
+library.add(faLinkedin, faGithub, faFilePdf, faFileWord, faCss3Alt, faJsSquare, faHtml5, faReact, faNodeJs, faAngular, faLess, faSass, faWordpress, faGulp, faGrunt, faNpm, faCheck)
 
 // Main SCSS File
 import './assets/scss/resume.scss'

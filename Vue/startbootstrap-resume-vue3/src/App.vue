@@ -73,4 +73,5 @@ export default {
     float: left;
     content: "\f152\00a0\00a0";
   }
+
 </style>

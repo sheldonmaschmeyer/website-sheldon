@@ -59,3 +59,18 @@ export default {
   }
 };
 </script>
+
+<style>
+
+  .summary:before {
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f150\00a0\00a0"; 
+  }
+
+  .summary.collapsed:before {
+    font-family: 'Font Awesome\ 5 Free';
+    float: left;
+    content: "\f152\00a0\00a0";
+  }
+</style>

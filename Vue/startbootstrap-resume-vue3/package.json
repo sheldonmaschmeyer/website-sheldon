@@ -1,9 +1,9 @@
 {
-  "name": "startbootstrap-resume-vue",
+  "name": "sheldon-resume-vue3",
   "version": "0.1.0",
   "private": true,
-  "description": "A Bootstrap Vue resume/CV theme based on Start Bootstrap Resume template.",
-  "author": "webdevsuperfast <acob.rotsen@hotmail.com>",
+  "description": "A Bootstrap Vue3 & Vite resume/CV based on Start Bootstrap Vue2 Resume template by webdevsuperfast.",
+  "author": "Sheldon Maschmeyer <sheldon@maschmeyer.ca>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -36,5 +36,5 @@
     "sass-loader": "^13.2.0"
   },
   "license": "MIT",
-  "repository": "git@github.com:webdevsuperfast/startbootstrap-resume-vue.git"
+  "repository": "git@github.com:sheldonmaschmeyer/website-sheldon.git"
 }

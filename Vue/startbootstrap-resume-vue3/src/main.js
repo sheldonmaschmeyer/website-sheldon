@@ -6,8 +6,8 @@ import "bootstrap"
 
 // Font Awesome Vue
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLinkedin, faGithub, faCss3Alt, faJsSquare, faHtml5, faReact, faNodeJs, faAngular, faLess, faSass, faWordpress, faGulp, faGrunt, faNpm } from '@fortawesome/free-brands-svg-icons'
-import { faCheck, faFilePdf, faFileWord } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { dom } from '@fortawesome/fontawesome-svg-core'
 
@@ -22,7 +22,7 @@ import {
   } from 'floating-vue'
 dom.watch()
 
-library.add(faLinkedin, faGithub, faFilePdf, faFileWord, faCss3Alt, faJsSquare, faHtml5, faReact, faNodeJs, faAngular, faLess, faSass, faWordpress, faGulp, faGrunt, faNpm, faCheck)
+library.add(fab, fas)
 
 // Main SCSS File
 import './assets/scss/resume.scss';

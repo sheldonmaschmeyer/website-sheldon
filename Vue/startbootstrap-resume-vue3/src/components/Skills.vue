@@ -37,10 +37,6 @@ export default {
                     icon: "js-square"
                 },
                 {
-                    name: "Angular",
-                    icon: "angular"
-                },
-                {
                     name: "React",
                     icon: "react"
                 },
@@ -53,20 +49,8 @@ export default {
                     icon: "sass"
                 },
                 {
-                    name: "LESS",
-                    icon: "less"
-                },
-                {
-                    name: "WordPress",
-                    icon: "wordpress"
-                },
-                {
-                    name: "Gulp",
-                    icon: "gulp"
-                },
-                {
-                    name: "Grunt",
-                    icon: "grunt"
+                  name: "Yarn",
+                  icon: "yarn"
                 },
                 {
                     name: "NPM",
@@ -74,10 +58,16 @@ export default {
                 }
             ],
             workflowList: [
-                "Mobile-First, Responsive Design",
-                "Cross Browser Testing & Debugging",
-                "Cross Functional Teams",
-                "Agile Development & Scrum"
+                "React.JS, Vue.JS, TypeScript, JavaScript, SASS (with CSS Modules), HTML5, Bootstrap-5.2, PHP.",
+                "Git for collaboration and version control.",
+                "Databases: PostgreSQL, Oracle, mySQL, MongoDB.",
+                "Linux and Windows.",
+                "C++ and Java (Carleton U courses).",
+                "Windows (Batch scripting) and Linux (Bash scripting).",
+                "OS Kernel programming on Linux.",
+                "Computer/Network Security: Burp, Wireshark, and Packet Tracing.",
+                "MS Office programs including advanced skills such as physics tables with Excel.",
+                "Adobe Photoshop, Animate and Premier."
             ]
         };
     }

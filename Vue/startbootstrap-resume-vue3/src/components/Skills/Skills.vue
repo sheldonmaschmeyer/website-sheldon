@@ -11,7 +11,8 @@
       </ul>
       <ul class="list-inline dev-icons pt-4">
         <li class="list-inline-item" v-for="(tools, index) in toolsList" :key="index" style="cursor: pointer">
-          <font-awesome-icon :icon="['fab', tools.icon]" v-tooltip="tools.name"></font-awesome-icon>
+          <img  v-if="tools.image" :src="tools.image" v-tooltip="tools.name"/> 
+          <font-awesome-icon v-if="tools.icon" :icon="['fab', tools.icon]" v-tooltip="tools.name"></font-awesome-icon>
         </li>
       </ul>
     </div>
@@ -55,6 +56,38 @@ export default {
                 {
                     name: "NPM",
                     icon: "npm"
+                },
+                {
+                  name: "Python",
+                  icon: "python"
+                },
+                {
+                  name: "Linux OS",
+                  icon: "linux"
+                },
+                {
+                  name: "Windows OS",
+                  icon: "windows"
+                },
+                {
+                  name: "Network security: Burp, Wireshark tools",
+                  icon: "network-wired"
+                },
+                {
+                  name: "Shell Script, Bash, Batch, Terminal, CMD, PowerShell",
+                  icon: "terminal"
+                },
+                {
+                  name: "PostgreSQL, Oracle, mySQL, MongoDB, Access, SPSS", // TODO: Access and SPSS should be under datascience along with R
+                  icon: "database"
+                },
+                {
+                  name: "Office: Word, Excel, Outlook, PowerPoint, Publisher",
+                  icon: "microsoft"
+                },
+                {
+                  name: "LaTeX: Used for all computer science documents",
+                  image: "src/components/Skills/Icons/latex.png", // TODO: Should animate (colour) similar to FontAwesome Icons
                 }
             ],
             workflowList: [

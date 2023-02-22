@@ -23,7 +23,7 @@ import smoothScroll from 'smooth-scroll';
 import AboutSection from "./components/About.vue";
 import ExperienceSection from "./components/Experience.vue";
 import EducationSection from "./components/Education.vue";
-import SkillsSection from "./components/Skills.vue";
+import SkillsSection from "./components/Skills/Skills.vue";
 import InterestsSection from "./components/Interests.vue";
 import AwardsSection from "./components/Awards.vue";
 import NavigationComponent from "./components/Navigation.vue";

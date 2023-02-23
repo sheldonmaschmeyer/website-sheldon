@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
     <NavigationComponent :name="name" />
     <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target=".navbar">
       <video-background 

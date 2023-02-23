@@ -10,6 +10,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { dom } from '@fortawesome/fontawesome-svg-core'
+import VideoBackground from 'vue-responsive-video-background-player';
 
 import {
     // Directives
@@ -35,4 +36,5 @@ createApp(App)
     .component('VTooltip', Tooltip)
     .component('VMenu', Menu)
     .component('font-awesome-icon', FontAwesomeIcon)
+    .component('video-background', VideoBackground)
     .mount('#app');

@@ -6296,6 +6296,11 @@ vue-resize@^2.0.0-alpha.1:
   resolved "https://registry.yarnpkg.com/vue-resize/-/vue-resize-2.0.0-alpha.1.tgz#43eeb79e74febe932b9b20c5c57e0ebc14e2df3a"
   integrity sha512-7+iqOueLU7uc9NrMfrzbG8hwMqchfVfSzpVlCMeJQe4pyibqyoifDNbKTZvwxZKDvGkB+PdFeKvnGZMoEb8esg==
 
+vue-responsive-video-background-player@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/vue-responsive-video-background-player/-/vue-responsive-video-background-player-2.3.1.tgz#c9e3b76aeddf06231f78ea45b6fd52589daadcdb"
+  integrity sha512-9IdFfmHe1cY0PvTw51sYcSO5+gPJya5einLIoktVzBMALEC3yok36X/1+hDfbgihapRYxz3fmyv1o5M1u+0xEA==
+
 vue@^2.6.14:
   version "2.7.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.14.tgz#3743dcd248fd3a34d421ae456b864a0246bafb17"

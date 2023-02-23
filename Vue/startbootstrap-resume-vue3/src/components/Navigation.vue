@@ -14,11 +14,11 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="navContent">
-      <div class="navbar-nav">
+      <div class="navbar-nav" data-bs-spy="scroll" data-bs-smooth-scroll="true">
         <li class="nav-item"
           v-for="(navigation, index) in navigationList"
           :key="index">
-          <a class="nav-link scrollspy" :href="navigation.url" v-on:click="navLocal = navigation.url" :style="navLocal === navigation.url ? 'color: white' : ''">
+          <a class="nav-link scrollspy" :href="navigation.url">
             <span class="d-lg-none ps-3"></span>{{navigation.title}}
           </a>
         </li>
@@ -35,7 +35,6 @@ export default {
   },
   data() {
     return {
-      navLocal: '#about',
       navigationList: [
         {
           title: "Executive Summary",

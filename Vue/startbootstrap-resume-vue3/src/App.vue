@@ -19,8 +19,6 @@
       <SkillsSection />
       <BorderSpacer />
       <InterestsSection />
-      <BorderSpacer />
-      <AwardsSection />
     </div>
   </div>
 </template>
@@ -33,7 +31,6 @@ import ExperienceSection from "./components/Experience.vue";
 import EducationSection from "./components/Education.vue";
 import SkillsSection from "./components/Skills/Skills.vue";
 import InterestsSection from "./components/Interests.vue";
-import AwardsSection from "./components/Awards.vue";
 import NavigationComponent from "./components/Navigation.vue";
 import BorderSpacer from "./components/Border.vue";
 
@@ -54,7 +51,6 @@ export default {
     EducationSection,
     SkillsSection,
     InterestsSection,
-    AwardsSection,
     NavigationComponent,
     BorderSpacer
   },

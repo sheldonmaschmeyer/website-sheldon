@@ -15,11 +15,13 @@
       <BorderSpacer />
       <ExperienceSection />
       <BorderSpacer />
-      <EducationSection />
-      <BorderSpacer />
       <SkillsSection />
       <BorderSpacer />
+      <ActivitiesSection />
+      <BorderSpacer />
       <VolunteerSection />
+      <BorderSpacer />
+      <EducationSection />
     </div>
   </div>
 </template>
@@ -36,6 +38,7 @@ import SkillsSection from "./components/Skills/Skills.vue";
 import VolunteerSection from "./components/volunteer.vue";
 import NavigationComponent from "./components/Navigation.vue";
 import BorderSpacer from "./components/Border.vue";
+import ActivitiesSection from "./components/Activities.vue";
 
 export default {
   name: "app",
@@ -73,7 +76,8 @@ export default {
     SkillsSection,
     VolunteerSection,
     NavigationComponent,
-    BorderSpacer
+    BorderSpacer,
+    ActivitiesSection
   },
   created: function() {
     var scroll = new smoothScroll('a[href*="#"]', {

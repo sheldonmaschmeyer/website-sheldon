@@ -51,16 +51,20 @@ export default {
           url: "#experience"
         },
         {
-          title: "Education",
-          url: "#education"
-        },
-        {
           title: "Skills",
           url: "#skills"
         },
         {
+          title: 'Activities',
+          url: '#activities'
+        },
+        {
           title: "Volunteering & Donations",
           url: "#volunteering"
+        },
+        {
+          title: "Education",
+          url: "#education"
         },
       ]
     };

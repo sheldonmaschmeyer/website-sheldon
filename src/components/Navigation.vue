@@ -1,43 +1,40 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent" id="sideNav">
-    <video-background 
-          src="background.mp4"
-          style="height: 110%; margin-top: -2em; margin-bottom: -2em"
-          overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)"
-    >
-    <a class="navbar-brand" style="margin-top: 100%; margin-left: 15%" href="#about">
-      <span class="d-block d-lg-none ps-3">{{name.first}} {{name.middle}} {{name.last}}</span>
-      <span class="d-none d-lg-block">
-        <img
-          class="img-fluid img-profile rounded-circle mx-auto mb-2"
-          :src="profileUrl"
-          :alt="name.first + ' ' + name.middle + ' ' + name.last"
-        />
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse" id="navContent">
-      <div class="navbar-nav" data-bs-spy="scroll" data-bs-smooth-scroll="true">
-        <li class="nav-item"
-          v-for="(navigation, index) in navigationList"
-          :key="index">
-          <a class="nav-link scrollspy" :href="navigation.url">
-            <span class="d-lg-none ps-3"></span>{{navigation.title}}
-          </a>
-        </li>
-      </div>
+  <a class="navbar-brand" style="margin-top: 100%; margin-left: 15%" href="#about">
+    <span class="d-block d-lg-none ps-3">{{name.first}} {{name.middle}} {{name.last}}</span>
+    <span class="d-none d-lg-block">
+      <img
+        class="img-fluid img-profile rounded-circle mx-auto mb-2"
+        src="https://maschmeyer.ca/images/profile.jpg"
+        :alt="name.first + ' ' + name.middle + ' ' + name.last"
+      />
+    </span>
+  </a>
+  <button class="navbar-toggler" style="position: absolute; left: 90vw; top: 0.5em" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div :class="windowWidth <= 992 ? 'bg-primary' : ''" class="navbar-collapse collapse" id="navContent">
+    <div class="navbar-nav" data-bs-spy="scroll" data-bs-smooth-scroll="true">
+      <li class="nav-item"
+        v-for="(navigation, index) in navigationList"
+        :key="index">
+        <a class="nav-link scrollspy" :href="navigation.url">
+          <span class="d-lg-none ps-3"></span>{{navigation.title}}
+        </a>
+      </li>
     </div>
-    </video-background>
-  </nav>
+  </div>
 </template>
 
 <script>
+import { useWindowSize } from 'vue-window-size';
 export default {
   name: "NavigationComponent",
   setup() {
-    const profileUrl = new URL('images/profile.jpg', import.meta.url).href
+    const { width, height } = useWindowSize();
+    return {
+        windowWidth: width,
+        windowHeight: height,
+    };
   },
   props: {
     name: Object

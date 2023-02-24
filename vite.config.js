@@ -7,7 +7,9 @@ export default defineConfig({
   plugins: [vue()],
   root: './',
   server: {
-    port: 8080, // <-- Set your own server port here
+    host: true,
+    port: 8080,
+    strictPort: true,
     css: {
       postcss: {
         plugins: [

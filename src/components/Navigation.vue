@@ -9,10 +9,10 @@
       />
     </span>
   </a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" style="position: absolute; left: 90vw; top: 0.5em" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="navbar-collapse collapse" id="navContent">
+  <div :class="windowWidth <= 992 ? 'bg-primary' : ''" class="navbar-collapse collapse" id="navContent">
     <div class="navbar-nav" data-bs-spy="scroll" data-bs-smooth-scroll="true">
       <li class="nav-item"
         v-for="(navigation, index) in navigationList"
@@ -26,8 +26,16 @@
 </template>
 
 <script>
+import { useWindowSize } from 'vue-window-size';
 export default {
   name: "NavigationComponent",
+  setup() {
+    const { width, height } = useWindowSize();
+    return {
+        windowWidth: width,
+        windowHeight: height,
+    };
+  },
   props: {
     name: Object
   },

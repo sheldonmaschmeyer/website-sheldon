@@ -8,7 +8,7 @@
       >
       <Navigation :name="name" />
       </video-background>
-      <div v-show="windowWidth < 960" class="bg-primary" style="height: 6em; width: 100%; background-color: black">
+      <div v-show="windowWidth <= 992" :style="windowWidth <= 992 ? 'margin-top: -1.5em' : ''" class="bg-primary" style="height: 6em; width: 100%; background-color: black">
         <Navigation :name="name" />
         </div>
     </nav>

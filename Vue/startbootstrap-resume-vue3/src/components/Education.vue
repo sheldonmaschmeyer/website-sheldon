@@ -93,7 +93,5 @@
 <script>
 export default {
   name: "EducationSection",
-  data() {
-  }
 };
 </script>

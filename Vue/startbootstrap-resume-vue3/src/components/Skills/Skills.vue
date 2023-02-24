@@ -12,7 +12,7 @@
       <ul class="list-inline dev-icons pt-4">
         <li class="list-inline-item" v-for="(tools, index) in toolsList" :key="index" style="cursor: pointer">
           <img  v-if="tools.image" :src="tools.image" v-tooltip="tools.name"/> 
-          <font-awesome-icon v-if="tools.icon" :icon="['fab', tools.icon]" v-tooltip="tools.name"></font-awesome-icon>
+          <font-awesome-icon v-else-if="tools.icon" :icon="[tools.library, tools.icon]" v-tooltip="tools.name"></font-awesome-icon>
         </li>
       </ul>
     </div>
@@ -27,63 +27,78 @@ export default {
             toolsList: [
                 {
                     name: "HTML5",
-                    icon: "html5"
+                    icon: "html5",
+                    library: 'fab'
                 },
                 {
                     name: "CSS3",
-                    icon: "css3-alt"
+                    icon: "css3-alt",
+                    library: 'fab'
                 },
                 {
                     name: "Javascript",
-                    icon: "js-square"
+                    icon: "js-square",
+                    library: 'fab'
                 },
                 {
                     name: "React",
-                    icon: "react"
+                    icon: "react",
+                    library: 'fab'
                 },
                 {
                     name: "NodeJS",
-                    icon: "node-js"
+                    icon: "node-js",
+                    library: 'fab'
                 },
                 {
                     name: "SASS",
-                    icon: "sass"
+                    icon: "sass",
+                    library: 'fab'
                 },
                 {
                   name: "Yarn",
-                  icon: "yarn"
+                  icon: "yarn",
+                  library: 'fab'
                 },
                 {
                     name: "NPM",
-                    icon: "npm"
+                    icon: "npm",
+                    library: 'fab'
                 },
                 {
                   name: "Python",
-                  icon: "python"
+                  icon: "python",
+                  library: 'fab'
                 },
                 {
                   name: "Linux OS",
-                  icon: "linux"
+                  icon: "linux",
+                  library: 'fab'
                 },
                 {
                   name: "Windows OS",
-                  icon: "windows"
+                  icon: "windows",
+                  library: 'fab'
                 },
                 {
                   name: "Network security: Burp, Wireshark tools",
-                  icon: "network-wired"
+                  icon: "network-wired",
+                  library: 'fas'
                 },
                 {
                   name: "Shell Script, Bash, Batch, Terminal, CMD, PowerShell",
-                  icon: "terminal"
+                  icon: "terminal",
+                  library: 'fas'
                 },
                 {
                   name: "PostgreSQL, Oracle, mySQL, MongoDB, Access, SPSS", // TODO: Access and SPSS should be under datascience along with R
-                  icon: "database"
+                  icon: "database",
+                  library: 'fas'
                 },
                 {
                   name: "Office: Word, Excel, Outlook, PowerPoint, Publisher",
-                  icon: "microsoft"
+                  icon: "microsoft",
+                  library: 'fab'
                 },
                 {
                   name: "LaTeX: Used for all computer science documents",

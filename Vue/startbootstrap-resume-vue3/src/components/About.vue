@@ -3,7 +3,7 @@
     <div class="w-100">
       <h1 class="mb-0 text-white">
         {{ name.first }} {{name.middle}}
-        <span style="color: turquoise">{{ name.last }}</span>
+        <span style="color: lightblue">{{ name.last }}</span>
       </h1>
       <div class="subheading mb-4">
         {{ address.street }}, {{ address.city }}, {{ address.province }}, {{address.country}} {{ address.postalCode }}

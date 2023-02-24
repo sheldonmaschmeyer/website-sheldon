@@ -7,8 +7,8 @@
       <video-background 
           src="background.mp4"
           style="max-height: 100vh; height: 100vh;"
-          overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)" 
-          playbackRate="0.5"
+          overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)" 
+          playbackRate="1.0"
       >
         <AboutSection :name="name" />
       </video-background>

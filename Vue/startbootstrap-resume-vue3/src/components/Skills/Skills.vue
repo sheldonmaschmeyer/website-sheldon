@@ -11,7 +11,7 @@
       </ul>
       <ul class="list-inline dev-icons pt-4">
         <li class="list-inline-item" v-for="(tools, index) in toolsList" :key="index" style="cursor: pointer">
-          <img  v-if="tools.image" :src="tools.image" v-tooltip="tools.name"/> 
+          <img class="image-icon" v-if="tools.image" :src="tools.image" v-tooltip="tools.name" /> 
           <font-awesome-icon v-else-if="tools.icon" :icon="[tools.library, tools.icon]" v-tooltip="tools.name"></font-awesome-icon>
         </li>
       </ul>
@@ -102,7 +102,7 @@ export default {
                 },
                 {
                   name: "LaTeX: Used for all computer science documents",
-                  image: "src/components/Skills/Icons/latex.png", // TODO: Should animate (colour) similar to FontAwesome Icons
+                  image: "src/components/Skills/Icons/latex.png"
                 }
             ],
             workflowList: [
@@ -121,3 +121,12 @@ export default {
     }
 };
 </script>
+
+<style>
+.image-icon {
+  filter: contrast(0);
+}
+.image-icon:hover {
+  filter: contrast(100)
+}
+</style>

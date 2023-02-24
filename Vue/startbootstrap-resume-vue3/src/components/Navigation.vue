@@ -53,8 +53,8 @@ export default {
           url: "#skills"
         },
         {
-          title: "Interests",
-          url: "#interests"
+          title: "Volunteering & Donations",
+          url: "#volunteering"
         },
       ]
     };

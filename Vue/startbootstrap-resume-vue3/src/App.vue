@@ -18,7 +18,7 @@
       <BorderSpacer />
       <SkillsSection />
       <BorderSpacer />
-      <InterestsSection />
+      <VolunteerSection />
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@ import AboutSection from "./components/About.vue";
 import ExperienceSection from "./components/Experience.vue";
 import EducationSection from "./components/Education.vue";
 import SkillsSection from "./components/Skills/Skills.vue";
-import InterestsSection from "./components/Interests.vue";
+import VolunteerSection from "./components/volunteer.vue";
 import NavigationComponent from "./components/Navigation.vue";
 import BorderSpacer from "./components/Border.vue";
 
@@ -50,7 +50,7 @@ export default {
     ExperienceSection,
     EducationSection,
     SkillsSection,
-    InterestsSection,
+    VolunteerSection,
     NavigationComponent,
     BorderSpacer
   },

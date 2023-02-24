@@ -2,7 +2,7 @@
   <div id="app">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <NavigationComponent :name="name" />
+    <VideoNav :name="name" />
     <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target=".navbar">
       <video-background
           ref="aboutBackground" 
@@ -38,7 +38,7 @@ import ExperienceSection from "./components/Experience.vue";
 import EducationSection from "./components/Education.vue";
 import SkillsSection from "./components/Skills/Skills.vue";
 import VolunteerSection from "./components/volunteer.vue";
-import NavigationComponent from "./components/Navigation.vue";
+import VideoNav from "./components/VideoNav.vue";
 import BorderSpacer from "./components/Border.vue";
 import ActivitiesSection from "./components/Activities.vue";
 import LifeGoalsSection from "./components/lifeGoals.vue";
@@ -78,7 +78,7 @@ export default {
     EducationSection,
     SkillsSection,
     VolunteerSection,
-    NavigationComponent,
+    VideoNav,
     BorderSpacer,
     ActivitiesSection,
     LifeGoalsSection

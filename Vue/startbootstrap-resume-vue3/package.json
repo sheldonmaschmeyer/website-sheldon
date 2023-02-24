@@ -20,6 +20,7 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/cli": "^5.0.8",
     "@vue/compat": "^3.2.47",
+    "@vueuse/core": "^9.13.0",
     "autoprefixer": "^10.4.13",
     "bootstrap": "^5.2.3",
     "bootstrap-vue": "^2.23.1",

@@ -4,11 +4,11 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
     <NavigationComponent :name="name" />
     <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target=".navbar">
-      <video-background 
+      <video-background
+          ref="aboutBackground" 
           src="background.mp4"
           style="max-height: 100vh; height: 100vh;"
           overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)" 
-          playbackRate="1.0"
       >
         <AboutSection :name="name" />
       </video-background>
@@ -26,6 +26,8 @@
 
 <script>
 import smoothScroll from 'smooth-scroll';
+import { useElementVisibility } from '@vueuse/core'
+import { ref } from 'vue';
 
 import AboutSection from "./components/About.vue";
 import ExperienceSection from "./components/Experience.vue";
@@ -37,6 +39,24 @@ import BorderSpacer from "./components/Border.vue";
 
 export default {
   name: "app",
+  setup() {
+    const aboutBackground = ref(null)
+    const aboutBackgroundIsVisible = useElementVisibility(aboutBackground)
+    
+    return {
+      aboutBackground,
+      aboutBackgroundIsVisible,
+    }
+  },
+  watch: {
+    aboutBackgroundIsVisible(newValue, _) {
+      if (newValue === false) {
+        this.$refs.aboutBackground.player.pause();
+      } else {
+        this.$refs.aboutBackground.player.play();
+      }
+    }
+  },
   data() {
     return {
       name: {

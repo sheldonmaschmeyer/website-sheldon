@@ -3,8 +3,7 @@
     <video-background 
           src="background.mp4"
           style="height: 110%; margin-top: -2em; margin-bottom: -2em"
-          overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)" 
-          playbackRate="1"
+          overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)"
     >
     <a class="navbar-brand" style="margin-top: 100%; margin-left: 15%" href="#about">
       <span class="d-block d-lg-none ps-3">{{name.first}} {{name.middle}} {{name.last}}</span>

@@ -18,13 +18,13 @@
       </p>
       <div class="social-icons pe-5" style=" float: left">
         Professional Network <br>
-        <a :href="social.url" v-for="(social, index) in socialList" :key="index">
+        <a :href="social.url" v-for="(social, index) in socialList" :key="index" class="icon">
           <div v-tooltip.bottom-start="social.name"><font-awesome-icon :icon="['fab', social.icon]"></font-awesome-icon></div>
         </a>
       </div>
       <div class="social-icons ps-5" style="float: left">
         Latest Résumé <br>
-        <a :href="resume.url" v-for="(resume, index) in resumeFormat" :key="index">
+        <a :href="resume.url" v-for="(resume, index) in resumeFormat" :key="index" class='icon'>
           <div v-tooltip.bottom-start="resume.name"><font-awesome-icon :icon="['fas', resume.icon]"></font-awesome-icon></div>
         </a>
       </div>
@@ -77,3 +77,12 @@ export default {
   }
 };
 </script>
+
+<style>
+.icon {
+  filter: brightness(100%);
+}
+.icon:hover {
+  filter: brightness(80%)
+}
+</style>

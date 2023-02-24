@@ -70,6 +70,11 @@ export default {
           title: "Education",
           url: "#education"
         },
+        // TODO: More than just a link, give some background info here
+        {
+          title: '23andMe Ancestry Overview',
+          url: 'https://you.23andme.com/published/reports/e670fc51bbde41be9e6a9fa9c165bc9d/?share_id=dc6b9b5f1627447e'
+        }
       ]
     };
   },

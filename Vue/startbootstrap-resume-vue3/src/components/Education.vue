@@ -9,7 +9,7 @@
               Carleton University
             </a>
             <div id="compSci" class="collapse">
-              <div class="dont-print"> <table class="table">
+              <table class="table">
                   <thead>
                     <tr>
                       <th scope="col">Section</th>
@@ -39,7 +39,6 @@
                     </tr>
                   </tbody>
                 </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div></div>
-              </div>
               <div class="resume-date text-md-right">
               <span class="text-primary">September 2015 - June 2019</span>
             </div>
@@ -51,7 +50,7 @@
               Carleton University
             </a>
             <div id="sci" class="collapse">
-            <div class="dont-print"> <table class="table dont-print">
+            <table class="table dont-print">
                 <thead>
                   <tr>
                     <th scope="col">Section</th>
@@ -81,7 +80,6 @@
                   </tr>
                 </tbody>
               </table>Conversion from Carleton U 12.00 point to 4.0 point system: <a href="https://gradecalc.info/ca/on/carleton/gradeconv.pl"> https://gradecalc.info/ca/on/carleton/gradeconv.pl </a></div> </div>
-            </div>
               <div class="resume-date text-md-right">
             <span class="text-primary">September 2009 - June 2014</span>
           </div>

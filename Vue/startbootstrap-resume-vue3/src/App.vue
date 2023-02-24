@@ -5,8 +5,7 @@
     <NavigationComponent :name="name" />
     <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target=".navbar">
       <video-background 
-          src="src/assets/background.mp4"
-          overlay="linear-gradient(45deg,#2a4ae430,#fb949e6b)"
+          src="background.mp4"
           style="max-height: 100vh; height: 100vh;"
       >
         <AboutSection :name="name" />

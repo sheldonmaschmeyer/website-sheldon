@@ -1,13 +1,13 @@
 <template>
-  <section id="about" class="resume-section p-3 p-lg-5 d-flex align-items-center">
+  <section id="about" class="resume-section p-3 p-lg-5 d-flex align-items-center text-white">
     <div class="w-100">
-      <h1 class="mb-0">
+      <h1 class="mb-0 text-white">
         {{ name.first }} {{name.middle}}
-        <span class="text-primary">{{ name.last }}</span>
+        <span style="color: turquoise">{{ name.last }}</span>
       </h1>
       <div class="subheading mb-4">
         {{ address.street }}, {{ address.city }}, {{ address.province }}, {{address.country}} {{ address.postalCode }}
-        <div>{{ telephone }} &middot; <a :href="'mailto:' + email">{{ email }}</a></div>
+        <div>{{ telephone }} &middot; <a :href="'mailto:' + email" style="color: white; text-decoration: none;">{{ email }}</a></div>
       </div>
       <p
         class="lead mb-4 ps-4"

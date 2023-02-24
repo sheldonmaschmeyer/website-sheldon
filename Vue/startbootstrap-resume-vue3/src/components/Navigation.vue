@@ -59,6 +59,10 @@ export default {
           url: '#activities'
         },
         {
+          title: 'Life Goals',
+          url: '#lifeGoals'
+        },
+        {
           title: "Volunteering & Donations",
           url: "#volunteering"
         },

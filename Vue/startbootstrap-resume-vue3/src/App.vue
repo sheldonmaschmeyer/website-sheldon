@@ -19,6 +19,8 @@
       <BorderSpacer />
       <ActivitiesSection />
       <BorderSpacer />
+      <LifeGoalsSection />
+      <BorderSpacer />
       <VolunteerSection />
       <BorderSpacer />
       <EducationSection />
@@ -39,6 +41,7 @@ import VolunteerSection from "./components/volunteer.vue";
 import NavigationComponent from "./components/Navigation.vue";
 import BorderSpacer from "./components/Border.vue";
 import ActivitiesSection from "./components/Activities.vue";
+import LifeGoalsSection from "./components/lifeGoals.vue";
 
 export default {
   name: "app",
@@ -77,7 +80,8 @@ export default {
     VolunteerSection,
     NavigationComponent,
     BorderSpacer,
-    ActivitiesSection
+    ActivitiesSection,
+    LifeGoalsSection
   },
   created: function() {
     var scroll = new smoothScroll('a[href*="#"]', {

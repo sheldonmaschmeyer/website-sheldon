@@ -102,7 +102,7 @@ export default {
                 },
                 {
                   name: "LaTeX: Used for all computer science documents",
-                  image: "src/components/Skills/Icons/latex.png"
+                  image: "Icons/latex.png"
                 }
             ],
             workflowList: [

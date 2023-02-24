@@ -7,6 +7,7 @@
       <video-background 
           src="background.mp4"
           style="max-height: 100vh; height: 100vh;"
+          playbackRate="0.5"
       >
         <AboutSection :name="name" />
       </video-background>

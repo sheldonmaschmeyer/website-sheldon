@@ -1,6 +1,12 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand" href="#about">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent" id="sideNav">
+    <video-background 
+          src="background.mp4"
+          style="height: 110%; margin-top: -2em; margin-bottom: -2em"
+          overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)" 
+          playbackRate="0.5"
+    >
+    <a class="navbar-brand" style="margin-top: 100%; margin-left: 15%" href="#about">
       <span class="d-block d-lg-none ps-3">{{name.first}} {{name.middle}} {{name.last}}</span>
       <span class="d-none d-lg-block">
         <img
@@ -24,6 +30,7 @@
         </li>
       </div>
     </div>
+    </video-background>
   </nav>
 </template>
 

@@ -1,14 +1,9 @@
 <template>
-  <section
-    id="volunteering"
-    class="resume-section p-3 p-lg-5 d-flex align-items-center"
-  >
+  <section id="volunteering" :class="classes.section">
     <div class="w-100">
       <h2 class="mb-5">Volunteering & Donations</h2>
 
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
+      <div :class="classes.item">
         <div class="resume-content white-space: pre-wrap;">
           <div class="subheading">IMRSV</div>
           • Donated to Canadian Red Cross for:
@@ -37,8 +32,12 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { classes } from "../definitions/props";
 export default {
   name: "VolunteerSection",
+  props: {
+    classes: classes,
+  },
 };
 </script>

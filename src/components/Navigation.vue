@@ -37,21 +37,13 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { useWindowSize } from "vue-window-size";
+import { name } from "../definitions/props";
 export default {
   name: "NavigationComponent",
   props: {
-    name: {
-      type: Object,
-      default() {
-        return {
-          first: "",
-          middle: "",
-          last: "",
-        };
-      },
-    },
+    name: name,
   },
   setup() {
     const { width, height } = useWindowSize();

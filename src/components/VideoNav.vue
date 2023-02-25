@@ -20,7 +20,8 @@
   </nav>
 </template>
 
-<script>
+<script lang="ts">
+import { name } from "../definitions/props";
 import Navigation from "./Navigation.vue";
 import { defineComponent } from "vue";
 import { useWindowSize } from "vue-window-size";
@@ -30,16 +31,7 @@ export default defineComponent({
     Navigation,
   },
   props: {
-    name: {
-      type: Object,
-      default() {
-        return {
-          first: "",
-          middle: "",
-          last: "",
-        };
-      },
-    },
+    name: name,
   },
   setup() {
     const { width, height } = useWindowSize();

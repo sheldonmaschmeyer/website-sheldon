@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="about"
-    class="resume-section p-3 p-lg-5 d-flex align-items-center text-white"
-  >
+  <section id="about" :class="[...classes.section, 'text-white']">
     <div class="w-100">
       <h1 class="pb-0 text-white w-100">
         {{ name.first }} {{ name.middle }}
@@ -62,20 +59,13 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { name, classes } from "../definitions/props";
 export default {
   name: "AboutSection",
   props: {
-    name: {
-      type: Object,
-      default() {
-        return {
-          first: "",
-          middle: "",
-          last: "",
-        };
-      },
-    },
+    name: name,
+    classes: classes,
   },
   data() {
     return {

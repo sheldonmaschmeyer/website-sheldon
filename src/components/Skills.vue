@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="skills"
-    class="resume-section p-3 p-lg-5 d-flex align-items-center"
-  >
+  <section id="skills" :class="classes.section">
     <div class="w-100">
       <h2 class="mb-5">Skills</h2>
       <div class="subheading mb-3">Programming Languages & Tools</div>
@@ -30,7 +27,7 @@
             v-if="tools.image"
             v-tooltip="tools.name"
             class="image-icon"
-            :src="tools.image"
+            :src="tools.icon"
           />
           <font-awesome-icon
             v-else-if="tools.icon"
@@ -43,9 +40,13 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { classes } from "../definitions/props";
 export default {
   name: "SkillsSection",
+  props: {
+    classes: classes,
+  },
   data() {
     return {
       toolsList: [
@@ -126,7 +127,8 @@ export default {
         },
         {
           name: "LaTeX: Used for all computer science documents",
-          image: "Icons/latex.png",
+          icon: "Icons/latex.png",
+          image: true,
         },
       ],
       workflowList: [

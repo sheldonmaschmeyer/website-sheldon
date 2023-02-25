@@ -1,14 +1,9 @@
 <template>
-  <section
-    id="activities"
-    class="resume-section p-3 p-lg-5 d-flex align-items-center"
-  >
+  <section id="activities" :class="classes.section">
     <div class="w-100">
       <h2 class="mb-5">Activities</h2>
 
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
+      <div :class="classes.item">
         <div class="resume-content white-space: pre-wrap;">
           Recreational racket sports (badminton or tennis) and jogging.
           <div>
@@ -34,8 +29,13 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { classes } from "../definitions/props";
+
 export default {
   name: "ActivitiesSection",
+  props: {
+    classes: classes,
+  },
 };
 </script>

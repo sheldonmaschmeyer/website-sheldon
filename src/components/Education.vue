@@ -1,13 +1,8 @@
 <template>
-  <section
-    id="education"
-    class="resume-section p-3 p-lg-5 d-flex align-items-center"
-  >
+  <section id="education" :class="classes.section">
     <div class="w-100">
       <h2 class="mb-5">Education</h2>
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
+      <div :class="classes.item">
         <div class="resume-content">
           <h3 class="mb-0">BS: Computer Science (Minor Sociology)</h3>
           <a
@@ -59,9 +54,7 @@
           <span class="text-primary">September 2015 - June 2019</span>
         </div>
       </div>
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
+      <div :class="classes.item">
         <div class="resume-content">
           <h3 class="mb-0">BS: Integrated Science and Technology</h3>
           <a
@@ -117,8 +110,12 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { classes } from "../definitions/props";
 export default {
   name: "EducationSection",
+  props: {
+    classes: classes,
+  },
 };
 </script>

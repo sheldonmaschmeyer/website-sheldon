@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="lifeGoals"
-    class="resume-section p-3 p-lg-5 d-flex align-items-center"
-  >
+  <section id="lifeGoals" :class="classes.setion">
     <div class="w-100">
       <h2 class="pb-5">Life Goals</h2>
       <div>
@@ -126,8 +123,12 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { classes } from "../definitions/props";
 export default {
   name: "LifeGoalsSection",
+  props: {
+    classes: classes,
+  },
 };
 </script>

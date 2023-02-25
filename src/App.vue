@@ -24,25 +24,25 @@
         style="max-height: 100vh; height: 100vh"
         overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)"
       >
-        <AboutSection :name="name" />
+        <AboutSection :name="name" :classes="classes" />
       </video-background>
       <BorderSpacer />
-      <ExperienceSection />
+      <ExperienceSection :classes="classes" />
       <BorderSpacer />
-      <SkillsSection />
+      <SkillsSection :classes="classes" />
       <BorderSpacer />
-      <ActivitiesSection />
+      <ActivitiesSection :classes="classes" />
       <BorderSpacer />
-      <LifeGoalsSection />
+      <LifeGoalsSection :classes="classes" />
       <BorderSpacer />
-      <VolunteerSection />
+      <VolunteerSection :classes="classes" />
       <BorderSpacer />
-      <EducationSection />
+      <EducationSection :classes="classes" />
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 // TODO: not need the three links above
 import smoothScroll from "smooth-scroll";
 import { useElementVisibility } from "@vueuse/core";
@@ -51,7 +51,7 @@ import { ref } from "vue";
 import AboutSection from "./components/About.vue";
 import ExperienceSection from "./components/Experience.vue";
 import EducationSection from "./components/Education.vue";
-import SkillsSection from "./components/Skills/Skills.vue";
+import SkillsSection from "./components/Skills.vue";
 import VolunteerSection from "./components/volunteer.vue";
 import VideoNav from "./components/VideoNav.vue";
 import BorderSpacer from "./components/Border.vue";
@@ -86,6 +86,23 @@ export default {
         first: "Sheldon",
         middle: "W.B.",
         last: "Maschmeyer",
+      },
+      classes: {
+        section: [
+          "resume-section",
+          "p-3",
+          "p-lg-5",
+          "d-flex",
+          "align-items-center",
+        ],
+        item: [
+          "resume-item",
+          "d-flex",
+          "flex-column",
+          "flex-md-row",
+          "justify-content-between",
+          "mb-5",
+        ],
       },
     };
   },

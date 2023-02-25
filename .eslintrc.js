@@ -2,6 +2,15 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ["plugin:vue/vue3-recommended", "prettier", "eslint:recommended"],
-  rules: {},
+  globals: {
+    defineProps: "readonly",
+    defineEmits: "readonly",
+    withDefaults: "readonly",
+  },
+  extends: [
+    "@vue/typescript/recommended",
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "prettier",
+  ],
 };

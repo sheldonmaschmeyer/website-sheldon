@@ -1,14 +1,11 @@
 <template>
-  <section
-    id="experience"
-    class="resume-section p-3 p-lg-5 d-flex align-items-center"
-  >
+  <section id="experience" :class="classes.section">
     <div class="w-100">
       <h2 class="mb-5">Experience</h2>
       <div
         v-for="(experience, index) in experienceList"
         :key="index"
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+        :class="classes.item"
       >
         <div class="resume-content">
           <h3 class="mb-0">{{ experience.position }}</h3>
@@ -39,7 +36,8 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import { classes } from "../definitions/props";
 import { shallowRef } from "vue";
 import IMRSVSummary from "./Experience/IMRSV.vue";
 import SDMSummary from "./Experience/SDM.vue";
@@ -47,6 +45,9 @@ import IAMSummary from "./Experience/IAM.vue";
 
 export default {
   name: "ExperienceSection",
+  props: {
+    classes: classes,
+  },
   data() {
     return {
       experienceList: [

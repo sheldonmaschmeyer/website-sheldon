@@ -66,12 +66,12 @@ export default {
       resumeFormat: [
         {
           name: "Word Format",
-          url: "https://github.com/sheldonmaschmeyer/Resumes/raw/master/SoftwareDeveloperResume.docx",
+          url: "./resumes/SoftwareDeveloperResume.docx",
           icon: "file-word"
         },
         {
           name: "PDF Format",
-          url: "https://github.com/sheldonmaschmeyer/Resumes/raw/master/SoftwareDeveloperResume.pdf",
+          url: "./resumes/SoftwareDeveloperResume.pdf",
           icon: "fa-file-pdf"
         }
       ]

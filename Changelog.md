@@ -17,6 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update favicon.ico using [FontAwesome icon - person with a tie](https://fontawesome.com/icons/user-tie?s=solid&f=classic)
 - Update title of website
 
+### Fixed
+- Video animation in navigation on mobile.
+- scrollspy is fixed in desktop mode.
+
 ## [2.0.0] - 2023/02/24
 
 ### Added 

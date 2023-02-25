@@ -9,7 +9,7 @@
       />
     </span>
   </a>
-  <button class="navbar-toggler" style="position: absolute; left: 90vw; top: 0.5em" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" style="position: absolute; left: 85vw; top: 0.5em" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div :class="windowWidth <= 992 ? 'bg-primary' : ''" class="navbar-collapse collapse" id="navContent">

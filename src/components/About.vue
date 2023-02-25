@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="resume-section p-3 p-lg-5 d-flex align-items-center text-white">
     <div class="w-100">
-      <h1 class="mb-0 text-white">
+      <h1 class="pb-0 text-white w-100">
         {{ name.first }} {{name.middle}}
         <span style="color: lightblue">{{ name.last }}</span>
       </h1>

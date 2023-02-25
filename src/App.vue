@@ -2,6 +2,7 @@
   <div id="app">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <VideoNav :name="name" />
     <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target=".navbar">
       <video-background
@@ -29,6 +30,7 @@
 </template>
 
 <script>
+// TODO: not need the three links above
 import smoothScroll from 'smooth-scroll';
 import { useElementVisibility } from '@vueuse/core'
 import { ref } from 'vue';
@@ -94,7 +96,7 @@ export default {
 </script>
 
 <style>
-
+  /** TODO: A different method, likely a v-on:click method, to update the arrow icons */
   .summary:before {
     font-family: 'Font Awesome\ 5 Free';
     float: left;

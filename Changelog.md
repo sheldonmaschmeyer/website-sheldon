@@ -7,13 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
-## [2.0.1] - 2023/02/25
+## [2.1.0] - 2023/02/25
 
 ### Added
 
 - Changelog and updated Readme
 - Remove Bootstrap-vue package as it is unused.
 - Bootstrap-vue wrapper is not being maintained quickly enough. It is [not fully compatible with Vue3](https://bootstrap-vue.org/vue3) and is not keeping up-to-date with the latest [Bootstrap](https://getbootstrap.com/) development cycles. As such, it is better to use Bootstrap directly without a wrapper. A wrapper, in this context, is component that wraps around another component, often for convience. The convience vs. maintaining updates is a trade-off. Sometimes the wrapper is unofficial, maintained by an unknown individual and becomes abandoned. This is also a security concern, depending on context. It is sometimes better to use the package directly without a wrapper; depending on context.
+- Update favicon.ico using [FontAwesome icon - person with a tie](https://fontawesome.com/icons/user-tie?s=solid&f=classic)
+- Update title of website
 
 ## [2.0.0] - 2023/02/24
 

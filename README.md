@@ -9,6 +9,10 @@ The Docker container uses node:Alpine. Alpine Linux is minimalistic and therefor
 
 Please see [Changelog.md](./Changelog.md)
 
+## JIRA
+
+[Maschmeyer JIRA:](https://maschmeyer.atlassian.net/) JIRA manages tickets for this project and potentially other publicly viewable projects in the future. 
+
 ## Credits
 * [Vite](https://vitejs.dev/)
 * [Vue](https://vuejs.org/)

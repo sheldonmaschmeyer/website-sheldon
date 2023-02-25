@@ -21,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Video animation in navigation on mobile.
 - scrollspy is fixed in desktop mode.
 
+### Known Bugs
+- The arrow's initial state and on first click does not work properly. The arrows are copied from old index.php. They should be upgraded to a font-awesome-vue method.
+
 ## [2.0.0] - 2023/02/24
 
 ### Added 
@@ -34,14 +37,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Video animation in navigation is disabled on mobile until a solution is found
 - The arrow's initial state and on first click does not work properly. The arrows are copied from old index.php. They should be upgraded to a font-awesome-vue method.
 - scrollspy is broken on desktop mode but works on mobile likely indirectly due to the video-background container.
-
-### TODO
-
-- 23andMe Ancestry Overview is just a link. There should be nice looking page with an explaination
-- The body text of each page is in the same component as the container overhead. They should be broken up into smaller components to more quickly updated.
-- Hover over profile picture will cause it to get bigger.
-- Add Cypress for e2e testing of the entire site.
-- Add a contact us form for emailing and other contact suggestions; i.e. whatsapp, signal, text, iMessage (on iPad)
 
 ## [1.0.0] - 2019
 

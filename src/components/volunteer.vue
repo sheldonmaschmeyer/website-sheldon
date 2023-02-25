@@ -1,35 +1,44 @@
 <template>
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="volunteering">
-        <div class="w-100">
-          <h2 class="mb-5">Volunteering & Donations</h2>
+  <section
+    id="volunteering"
+    class="resume-section p-3 p-lg-5 d-flex align-items-center"
+  >
+    <div class="w-100">
+      <h2 class="mb-5">Volunteering & Donations</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content white-space: pre-wrap;">
-              <div class="subheading"> IMRSV </div>
-                • Donated to Canadian Red Cross for:
-                    <div class="ps-4">▪  COVID-19 aid in India</div>
-                    <div class="ps-4">▪  Canadian flood or fires</div>
-                    <div class="ps-4">▪  Urgent aid to Ukraine</div>
-                • Donated to the Canada - Ukraine Foundation <br>
-                • Donated to a food bank
+      <div
+        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+      >
+        <div class="resume-content white-space: pre-wrap;">
+          <div class="subheading">IMRSV</div>
+          • Donated to Canadian Red Cross for:
+          <div class="ps-4">▪ COVID-19 aid in India</div>
+          <div class="ps-4">▪ Canadian flood or fires</div>
+          <div class="ps-4">▪ Urgent aid to Ukraine</div>
+          • Donated to the Canada - Ukraine Foundation <br />
+          • Donated to a food bank
 
-                <div class="subheading pt-4"> Carleton U </div>
-                • Note Taker: for students with disabilities (PMC centre) at Carleton University 	multiple courses and terms <br>
-                • Canadian Feed the Children: General Member at Carleton University: 2012 - 2013
+          <div class="subheading pt-4">Carleton U</div>
+          • Note Taker: for students with disabilities (PMC centre) at Carleton
+          University multiple courses and terms <br />
+          • Canadian Feed the Children: General Member at Carleton University:
+          2012 - 2013
 
-                <div class="subheading pt-4"> Other </div>
-                • Aurora Food Pantry: volunteer at Food Bank: 2008 <br>
-                • Out of the Cold program for the homeless: volunteer: 2000 - 2003 <br>
-                • Terry Fox Run: occasional donor and participant <br>
-                • Folding@Home: occasionally donate my unused CPU and/or GPU resources to the researchers
-            </div>
-          </div>
+          <div class="subheading pt-4">Other</div>
+          • Aurora Food Pantry: volunteer at Food Bank: 2008 <br />
+          • Out of the Cold program for the homeless: volunteer: 2000 - 2003
+          <br />
+          • Terry Fox Run: occasional donor and participant <br />
+          • Folding@Home: occasionally donate my unused CPU and/or GPU resources
+          to the researchers
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
-  name: "VolunteerSection"
+  name: "VolunteerSection",
 };
 </script>

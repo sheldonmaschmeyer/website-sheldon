@@ -1,32 +1,52 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent" id="sideNav">
-      <Navigation :name="name" />
-      <video-background
-            src="background.mp4"
-            style="position: absolute; z-index: -999; height: 100%; width: 100%; margin-top: -2em; margin-bottom: -2em"
-            overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)"
-      />
-    </nav>
-  </template>
+  <nav
+    id="sideNav"
+    class="navbar navbar-expand-lg navbar-dark fixed-top"
+    style="background-color: transparent"
+  >
+    <Navigation :name="name" />
+    <video-background
+      src="background.mp4"
+      style="
+        position: absolute;
+        z-index: -999;
+        height: 100%;
+        width: 100%;
+        margin-top: -2em;
+        margin-bottom: -2em;
+      "
+      overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)"
+    />
+  </nav>
+</template>
 
 <script>
-import Navigation from './Navigation.vue';
-import { defineComponent } from 'vue';
-import { useWindowSize } from 'vue-window-size';
-export default defineComponent ({
-    name: "VideoNav",
-    props: {
-        name: Object
-    },
-    setup() {
-        const { width, height } = useWindowSize();
+import Navigation from "./Navigation.vue";
+import { defineComponent } from "vue";
+import { useWindowSize } from "vue-window-size";
+export default defineComponent({
+  name: "VideoNav",
+  components: {
+    Navigation,
+  },
+  props: {
+    name: {
+      type: Object,
+      default() {
         return {
-        windowWidth: width,
-        windowHeight: height,
+          first: "",
+          middle: "",
+          last: "",
         };
+      },
     },
-    components: {
-        Navigation
-    }
-})
+  },
+  setup() {
+    const { width, height } = useWindowSize();
+    return {
+      windowWidth: width,
+      windowHeight: height,
+    };
+  },
+});
 </script>

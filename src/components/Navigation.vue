@@ -1,5 +1,5 @@
 <template>
-  <a class="navbar-brand" style="margin-top: 100%; margin-left: 15%" href="#about">
+  <a class="navbar-brand" href="#about">
     <span class="d-block d-lg-none ps-3">{{name.first}} {{name.middle}} {{name.last}}</span>
     <span class="d-none d-lg-block">
       <img
@@ -9,10 +9,10 @@
       />
     </span>
   </a>
-  <button class="navbar-toggler" style="position: absolute; left: 85vw; top: 0.5em" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div :class="windowWidth <= 992 ? 'bg-primary' : ''" class="navbar-collapse collapse" id="navContent">
+  <div class="navbar-collapse collapse" id="navContent">
     <div class="navbar-nav" data-bs-spy="scroll" data-bs-smooth-scroll="true">
       <li class="nav-item"
         v-for="(navigation, index) in navigationList"

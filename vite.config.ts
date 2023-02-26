@@ -1,5 +1,4 @@
 import { defineConfig } from "vite";
-import autoprefixer from "autoprefixer";
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({

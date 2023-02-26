@@ -39,6 +39,7 @@
 
 <script lang="ts">
 import { useWindowSize } from 'vue-window-size';
+
 import { name } from '../definitions/props';
 export default {
   name: 'NavigationComponent',

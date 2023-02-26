@@ -14,6 +14,7 @@ import { dom } from '@fortawesome/fontawesome-svg-core';
 import VideoBackground from 'vue-responsive-video-background-player';
 
 import CollapseSubheading from './components/CollapseSubheading.vue';
+import SectionContainer from './containers/SectionContainer.vue';
 
 import {
   // Directives
@@ -35,10 +36,11 @@ import 'floating-vue/dist/style.css';
 createApp(App)
   .directive('tooltip', VTooltip)
   .directive('close-popper', VClosePopper)
-  .component('CollapseSubheading', CollapseSubheading)
   .component('VDropdown', Dropdown)
   .component('VTooltip', Tooltip)
   .component('VMenu', Menu)
   .component('font-awesome-icon', FontAwesomeIcon)
   .component('video-background', VideoBackground)
+  .component('CollapseSubheading', CollapseSubheading)
+  .component('SectionContainer', SectionContainer)
   .mount('#app');

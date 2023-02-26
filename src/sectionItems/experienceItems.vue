@@ -1,46 +1,39 @@
 <template>
-  <section id="experience" :class="classes.section">
-    <div class="w-100">
-      <h2 class="mb-5">Experience</h2>
-      <div
-        v-for="(experience, index) in experienceList"
-        :key="index"
-        :class="classes.item"
-      >
-        <div class="resume-content">
-          <h3 class="mb-0">{{ experience.position }}</h3>
-          <CollapseSubheading
-            :heading-text="experience.company"
-            :target="'#' + experience.id"
-          />
-          <component
-            :is="experience.SUMMARY"
-            :id="experience.id"
-            class="collapse"
-          />
-        </div>
-        <div class="resume-date text-md-right">
-          <span
-            v-for="(date, i) in experience.dates"
-            :key="i"
-            class="text-primary"
-            >{{ date.start }} - {{ date.end }}</span
-          >
-        </div>
-      </div>
+  <div
+    v-for="(experience, index) in experienceList"
+    :key="index"
+    :class="classes.item"
+  >
+    <div class="resume-content">
+      <h3 class="mb-0">{{ experience.position }}</h3>
+      <CollapseSubheading
+        :heading-text="experience.company"
+        :target="'#' + experience.id"
+      />
+      <component
+        :is="experience.SUMMARY"
+        :id="experience.id"
+        class="collapse"
+      />
     </div>
-  </section>
+    <div class="resume-date text-md-right">
+      <span v-for="(date, i) in experience.dates" :key="i" class="text-primary"
+        >{{ date.start }} - {{ date.end }}</span
+      >
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
-import { classes } from '../definitions/props';
 import { shallowRef } from 'vue';
-import IMRSVSummary from './Experience/IMRSV.vue';
-import SDMSummary from './Experience/SDM.vue';
-import IAMSummary from './Experience/IAM.vue';
+
+import { classes } from '../definitions/props';
+import IAMSummary from './experience/IAM.vue';
+import IMRSVSummary from './experience/IMRSV.vue';
+import SDMSummary from './experience/SDM.vue';
 
 export default {
-  name: 'ExperienceSection',
+  name: 'ExperienceItems',
   props: {
     classes: classes,
   },

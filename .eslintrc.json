@@ -13,8 +13,10 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["vue", "prettier"],
+  "plugins": ["vue", "prettier", "simple-import-sort"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   }
 }

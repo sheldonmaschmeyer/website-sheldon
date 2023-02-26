@@ -10,10 +10,11 @@
 </template>
 
 <script lang="ts">
-import { name, classes } from '../definitions/props';
 import { useElementVisibility } from '@vueuse/core';
 import { ref, shallowRef } from 'vue';
+
 import defaultComponent from '../definitions/component.vue';
+import { classes, name } from '../definitions/props';
 export default {
   props: {
     section: {

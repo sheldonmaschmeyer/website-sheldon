@@ -9,11 +9,6 @@ export default defineConfig({
     host: true,
     port: 8080,
     strictPort: true,
-    css: {
-      postcss: {
-        plugins: [autoprefixer],
-      },
-    },
   },
   build: {
     outDir: "dist",

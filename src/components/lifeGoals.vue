@@ -1,5 +1,5 @@
 <template>
-  <section id="lifeGoals" :class="classes.setion">
+  <section id="lifeGoals" :class="classes.section">
     <div class="w-100">
       <h2 class="pb-5">Life Goals</h2>
       <div>

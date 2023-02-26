@@ -37,14 +37,14 @@
 </template>
 
 <script lang="ts">
-import { classes } from "../definitions/props";
-import { shallowRef } from "vue";
-import IMRSVSummary from "./Experience/IMRSV.vue";
-import SDMSummary from "./Experience/SDM.vue";
-import IAMSummary from "./Experience/IAM.vue";
+import { classes } from '../definitions/props';
+import { shallowRef } from 'vue';
+import IMRSVSummary from './Experience/IMRSV.vue';
+import SDMSummary from './Experience/SDM.vue';
+import IAMSummary from './Experience/IAM.vue';
 
 export default {
-  name: "ExperienceSection",
+  name: 'ExperienceSection',
   props: {
     classes: classes,
   },
@@ -52,40 +52,40 @@ export default {
     return {
       experienceList: [
         {
-          position: "Full Stack Developer",
-          company: "IMRSV Data Labs",
+          position: 'Full Stack Developer',
+          company: 'IMRSV Data Labs',
           SUMMARY: shallowRef(IMRSVSummary),
           dates: [
             {
-              start: "Jan 2021",
-              end: "October 2022",
+              start: 'Jan 2021',
+              end: 'October 2022',
             },
           ],
-          id: "IMRSV",
+          id: 'IMRSV',
         },
         {
-          position: "Suppervisor, Primary Cashier & Merchandiser",
-          company: "Shoppers Drug Mart",
+          position: 'Suppervisor, Primary Cashier & Merchandiser',
+          company: 'Shoppers Drug Mart',
           SUMMARY: shallowRef(SDMSummary),
           dates: [
             {
-              start: "May 2016",
-              end: "Jan 2021",
+              start: 'May 2016',
+              end: 'Jan 2021',
             },
           ],
-          id: "SDM",
+          id: 'SDM',
         },
         {
-          position: "IT & Media Arts (Part-Time)",
-          company: "I-AM Retailer Solutions · Abaan & Associates",
+          position: 'IT & Media Arts (Part-Time)',
+          company: 'I-AM Retailer Solutions · Abaan & Associates',
           SUMMARY: shallowRef(IAMSummary),
           dates: [
             {
-              start: "June 2008",
-              end: "September 2020",
+              start: 'June 2008',
+              end: 'September 2020',
             },
           ],
-          id: "IAM",
+          id: 'IAM',
         },
       ],
     };

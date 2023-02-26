@@ -36,6 +36,6 @@
 
 <script lang="ts">
 export default {
-  name: "SDMSummary",
+  name: 'SDMSummary',
 };
 </script>

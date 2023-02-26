@@ -60,9 +60,9 @@
 </template>
 
 <script lang="ts">
-import { name, classes } from "../definitions/props";
+import { name, classes } from '../definitions/props';
 export default {
-  name: "AboutSection",
+  name: 'AboutSection',
   props: {
     name: name,
     classes: classes,
@@ -70,36 +70,36 @@ export default {
   data() {
     return {
       address: {
-        street: "515-740 Springland Drive",
-        city: "Ottawa",
-        province: "Ontario",
-        country: "Canada",
-        postalCode: "L5L-2Y4",
+        street: '515-740 Springland Drive',
+        city: 'Ottawa',
+        province: 'Ontario',
+        country: 'Canada',
+        postalCode: 'L5L-2Y4',
       },
-      telephone: "+1 613-889-4320",
-      email: "sheldon@maschmeyer.ca",
+      telephone: '+1 613-889-4320',
+      email: 'sheldon@maschmeyer.ca',
       socialList: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/sheldonmaschmeyer/",
-          icon: "linkedin",
+          name: 'LinkedIn',
+          url: 'https://www.linkedin.com/in/sheldonmaschmeyer/',
+          icon: 'linkedin',
         },
         {
-          name: "GitHub",
-          url: "https://github.com/sheldonmaschmeyer",
-          icon: "github",
+          name: 'GitHub',
+          url: 'https://github.com/sheldonmaschmeyer',
+          icon: 'github',
         },
       ],
       resumeFormat: [
         {
-          name: "Word Format",
-          url: "./resumes/SoftwareDeveloperResume.docx",
-          icon: "file-word",
+          name: 'Word Format',
+          url: './resumes/SoftwareDeveloperResume.docx',
+          icon: 'file-word',
         },
         {
-          name: "PDF Format",
-          url: "./resumes/SoftwareDeveloperResume.pdf",
-          icon: "fa-file-pdf",
+          name: 'PDF Format',
+          url: './resumes/SoftwareDeveloperResume.pdf',
+          icon: 'fa-file-pdf',
         },
       ],
     };

@@ -28,6 +28,6 @@
 
 <script lang="ts">
 export default {
-  name: "IAMSummary",
+  name: 'IAMSummary',
 };
 </script>

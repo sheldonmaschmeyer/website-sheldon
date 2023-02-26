@@ -18,9 +18,9 @@ export const name = {
   type: Object,
   default() {
     return {
-      first: "",
-      middle: "",
-      last: "",
+      first: '',
+      middle: '',
+      last: '',
     };
   },
 };

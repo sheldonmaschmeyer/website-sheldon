@@ -124,9 +124,9 @@
 </template>
 
 <script lang="ts">
-import { classes } from "../definitions/props";
+import { classes } from '../definitions/props';
 export default {
-  name: "LifeGoalsSection",
+  name: 'LifeGoalsSection',
   props: {
     classes: classes,
   },

@@ -38,10 +38,10 @@
 </template>
 
 <script lang="ts">
-import { useWindowSize } from "vue-window-size";
-import { name } from "../definitions/props";
+import { useWindowSize } from 'vue-window-size';
+import { name } from '../definitions/props';
 export default {
-  name: "NavigationComponent",
+  name: 'NavigationComponent',
   props: {
     name: name,
   },
@@ -56,37 +56,37 @@ export default {
     return {
       navigationList: [
         {
-          title: "Executive Summary",
-          url: "#about",
+          title: 'Executive Summary',
+          url: '#about',
         },
         {
-          title: "Experience",
-          url: "#experience",
+          title: 'Experience',
+          url: '#experience',
         },
         {
-          title: "Skills",
-          url: "#skills",
+          title: 'Skills',
+          url: '#skills',
         },
         {
-          title: "Activities",
-          url: "#activities",
+          title: 'Activities',
+          url: '#activities',
         },
         {
-          title: "Life Goals",
-          url: "#lifeGoals",
+          title: 'Life Goals',
+          url: '#lifeGoals',
         },
         {
-          title: "Volunteering & Donations",
-          url: "#volunteering",
+          title: 'Volunteering & Donations',
+          url: '#volunteering',
         },
         {
-          title: "Education",
-          url: "#education",
+          title: 'Education',
+          url: '#education',
         },
         // TODO: More than just a link, give some background info here
         {
-          title: "23andMe Ancestry Overview",
-          url: "https://you.23andme.com/published/reports/e670fc51bbde41be9e6a9fa9c165bc9d/?share_id=dc6b9b5f1627447e",
+          title: '23andMe Ancestry Overview',
+          url: 'https://you.23andme.com/published/reports/e670fc51bbde41be9e6a9fa9c165bc9d/?share_id=dc6b9b5f1627447e',
         },
       ],
     };

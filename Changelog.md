@@ -8,6 +8,14 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Released]
 
+## [2.2.0] - 2023/02/26
+
+### Fixed
+
+- Create `CollapseSubheading` custom component that uses the
+`Fontawesome Free Regular` SVG icons package. This fixes the arrow's initial
+state and on first click does not work properly.
+
 ## [2.1.0] - 2023/02/25
 
 ### Added

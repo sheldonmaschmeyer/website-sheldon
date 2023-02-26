@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update title of website
 - Add ESLint, Prettier and TypeScript to project
 - Create classes variable that contains arrays of class names such that the code looks cleaner.
+- Load Google Fonts using a Vite plugin instead of `<link>`.
 
 ### Fixed
 

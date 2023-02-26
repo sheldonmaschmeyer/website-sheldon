@@ -10,7 +10,7 @@
       style="
         position: absolute;
         z-index: -999;
-        height: 100%;
+        height: 105%;
         width: 100%;
         margin-top: -2em;
         margin-bottom: -2em;

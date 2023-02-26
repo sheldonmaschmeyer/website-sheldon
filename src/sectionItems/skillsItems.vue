@@ -1,46 +1,41 @@
 <template>
-  <section id="skills" :class="classes.section">
-    <div class="w-100">
-      <h2 class="mb-5">Skills</h2>
-      <div class="subheading mb-3">Programming Languages & Tools</div>
-      <ul class="fa-ul mb-0">
-        <li
-          v-for="(workflow, index) in workflowList"
-          :key="index"
-          class="d-flex align-items-center"
-        >
-          <font-awesome-icon :icon="['fas', 'check']" class="fa-li" />
-          {{ workflow }}
-        </li>
-      </ul>
-      <ul class="list-inline dev-icons pt-4">
-        <li
-          v-for="(tools, index) in toolsList"
-          :key="index"
-          class="list-inline-item"
-          style="cursor: pointer"
-        >
-          <img
-            v-if="tools.image"
-            v-tooltip="tools.name"
-            class="image-icon"
-            :src="tools.icon"
-          />
-          <font-awesome-icon
-            v-else-if="tools.icon"
-            v-tooltip="tools.name"
-            :icon="[tools.library, tools.icon]"
-          />
-        </li>
-      </ul>
-    </div>
-  </section>
+  <div class="subheading mb-3">Programming Languages & Tools</div>
+  <ul class="fa-ul mb-0">
+    <li
+      v-for="(workflow, index) in workflowList"
+      :key="index"
+      class="d-flex align-items-center"
+    >
+      <font-awesome-icon :icon="['fas', 'check']" class="fa-li" />
+      {{ workflow }}
+    </li>
+  </ul>
+  <ul class="list-inline dev-icons pt-4">
+    <li
+      v-for="(tools, index) in toolsList"
+      :key="index"
+      class="list-inline-item"
+      style="cursor: pointer"
+    >
+      <img
+        v-if="tools.image"
+        v-tooltip="tools.name"
+        class="image-icon"
+        :src="tools.icon"
+      />
+      <font-awesome-icon
+        v-else-if="tools.icon"
+        v-tooltip="tools.name"
+        :icon="[tools.library, tools.icon]"
+      />
+    </li>
+  </ul>
 </template>
 
 <script lang="ts">
 import { classes } from '../definitions/props';
 export default {
-  name: 'SkillsSection',
+  name: 'SkillsItems',
   props: {
     classes: classes,
   },
@@ -144,12 +139,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.image-icon {
-  filter: contrast(0);
-}
-.image-icon:hover {
-  filter: contrast(100);
-}
-</style>

@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <link
-      href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
-      rel="stylesheet"
-    />
     <VideoNav :name="name" />
     <div
       class="container-fluid p-0"
@@ -28,20 +24,19 @@
 </template>
 
 <script lang="ts">
-// TODO: not need the three links above
 import smoothScroll from 'smooth-scroll';
-
-import AboutSection from './components/About.vue';
-import ExperienceSection from './components/Experience.vue';
-import EducationSection from './components/Education.vue';
-import SkillsSection from './components/Skills.vue';
-import VolunteerSection from './components/volunteer.vue';
-import VideoNav from './components/VideoNav.vue';
-import BorderSpacer from './components/Border.vue';
-import ActivitiesSection from './components/Activities.vue';
-import LifeGoalsSection from './components/lifeGoals.vue';
-import VideoContainer from './components/VideoContainer.vue';
 import { reactive } from 'vue';
+
+import BorderSpacer from './components/Border.vue';
+import VideoNav from './components/VideoNav.vue';
+import VideoContainer from './containers/VideoContainer.vue';
+import AboutSection from './sections/About.vue';
+import ActivitiesSection from './sections/Activities.vue';
+import EducationSection from './sections/Education.vue';
+import ExperienceSection from './sections/Experience.vue';
+import LifeGoalsSection from './sections/lifeGoals.vue';
+import SkillsSection from './sections/Skills.vue';
+import VolunteerSection from './sections/volunteer.vue';
 
 export default {
   name: 'App',

@@ -21,10 +21,11 @@
 </template>
 
 <script lang="ts">
-import { name } from '../definitions/props';
-import Navigation from './Navigation.vue';
 import { defineComponent } from 'vue';
 import { useWindowSize } from 'vue-window-size';
+
+import { name } from '../definitions/props';
+import Navigation from './Navigation.vue';
 export default defineComponent({
   name: 'VideoNav',
   components: {

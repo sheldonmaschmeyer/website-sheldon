@@ -60,7 +60,7 @@
 </template>
 
 <script lang="ts">
-import { name, classes } from '../definitions/props';
+import { classes, name } from '../definitions/props';
 export default {
   name: 'AboutSection',
   props: {

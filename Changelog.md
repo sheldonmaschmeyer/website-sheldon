@@ -10,6 +10,13 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [2.2.0] - 2023/02/26
 
+### Develop
+
+- Separate code into new sections, sectionItems, containers and, miscellaneous
+  components. 
+- ESLint uses single quotes for imports.
+- Imports are sorted alphabetically and auto-fixed using `--fix`.
+
 ### Fixed
 
 - Create `CollapseSubheading` custom component that uses the

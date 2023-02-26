@@ -21,6 +21,6 @@
 
 <script lang="ts">
 export default {
-  name: "IMRSVSummary",
+  name: 'IMRSVSummary',
 };
 </script>

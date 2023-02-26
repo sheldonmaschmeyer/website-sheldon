@@ -32,8 +32,8 @@ Versioning](https://semver.org/spec/v2.0.0.html).
   looks cleaner.
 - Load Google Fonts using a Vite plugin instead of `<link>`.
 - [Manual Chunking to split vender packages into seperate files](https://github.com/vitejs/vite/discussions/3894#discussioncomment-1656095). Despite being a
-single page website, this helps to determine which packages are the largest.
-FontAwesome Free Solid SVG Icons is 904.84kB uncompressed.
+  single page website, this helps to determine which packages are the largest.
+  FontAwesome Free Solid SVG Icons is 904.84kB uncompressed.
 
 ### Fixed
 

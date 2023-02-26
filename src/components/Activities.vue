@@ -30,10 +30,10 @@
 </template>
 
 <script lang="ts">
-import { classes } from "../definitions/props";
+import { classes } from '../definitions/props';
 
 export default {
-  name: "ActivitiesSection",
+  name: 'ActivitiesSection',
   props: {
     classes: classes,
   },

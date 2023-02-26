@@ -1,9 +1,9 @@
 <template>
-  <hr class="m-0" />
+  <div></div>
 </template>
 
 <script lang="ts">
 export default {
-  name: 'BorderSpacer',
+  name: 'DefaultComponent',
 };
 </script>

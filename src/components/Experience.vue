@@ -9,14 +9,10 @@
       >
         <div class="resume-content">
           <h3 class="mb-0">{{ experience.position }}</h3>
-          <a
-            class="subheading mb-3 summary"
-            style="text-decoration: none; cursor: pointer"
-            data-bs-toggle="collapse"
-            :data-bs-target="'#' + experience.id"
-          >
-            {{ experience.company }}
-          </a>
+          <CollapseSubheading
+            :heading-text="experience.company"
+            :target="'#' + experience.id"
+          />
           <component
             :is="experience.SUMMARY"
             :id="experience.id"

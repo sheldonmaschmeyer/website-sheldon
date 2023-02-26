@@ -5,14 +5,10 @@
       <div :class="classes.item">
         <div class="resume-content">
           <h3 class="mb-0">BS: Computer Science (Minor Sociology)</h3>
-          <a
-            class="subheading mb-3 summary"
-            href="#compSci"
-            data-bs-toggle="collapse"
-            style="text-decoration: none"
-          >
-            Carleton University
-          </a>
+          <CollapseSubheading
+            heading-text="Carleton University"
+            target="#compSci"
+          />
           <div id="compSci" class="collapse">
             <table class="table">
               <thead>
@@ -57,14 +53,10 @@
       <div :class="classes.item">
         <div class="resume-content">
           <h3 class="mb-0">BS: Integrated Science and Technology</h3>
-          <a
-            class="subheading mb-3 summary"
-            href="#sci"
-            data-bs-toggle="collapse"
-            style="text-decoration: none"
-          >
-            Carleton University
-          </a>
+          <CollapseSubheading
+            heading-text="Carleton University"
+            target="#sci"
+          />
           <div id="sci" class="collapse">
             <table class="table dont-print">
               <thead>

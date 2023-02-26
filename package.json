@@ -20,7 +20,6 @@
     "@popperjs/core": "^2.11.6",
     "@vue/compat": "^3.2.47",
     "@vueuse/core": "^9.13.0",
-    "autoprefixer": "^10.4.13",
     "bootstrap": "^5.2.3",
     "core-js": "^3.6.5",
     "eslint-config-prettier": "^8.6.0",
@@ -32,6 +31,7 @@
     "vue-window-size": "^2.0.0"
   },
   "devDependencies": {
+    "@types/node": "^18.14.1",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "@vitejs/plugin-vue": "^4.0.0",

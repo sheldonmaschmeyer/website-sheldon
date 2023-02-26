@@ -6,7 +6,7 @@
   "author": "Sheldon Maschmeyer <sheldon@maschmeyer.ca>",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "yarn lint -c .eslintrc.prod.json && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write --ignore-path .gitignore dist node_modules"

@@ -10,14 +10,7 @@
       data-bs-spy="scroll"
       data-bs-target=".navbar"
     >
-      <video-background
-        ref="aboutBackground"
-        src="background.mp4"
-        style="max-height: 100vh; height: 100vh"
-        overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)"
-      >
-        <AboutSection :name="name" :classes="classes" />
-      </video-background>
+      <VideoContainer :section="AboutSection" :name="name" :classes="classes"/>
       <BorderSpacer />
       <ExperienceSection :classes="classes" />
       <BorderSpacer />
@@ -37,8 +30,6 @@
 <script lang="ts">
 // TODO: not need the three links above
 import smoothScroll from "smooth-scroll";
-import { useElementVisibility } from "@vueuse/core";
-import { ref } from "vue";
 
 import AboutSection from "./components/About.vue";
 import ExperienceSection from "./components/Experience.vue";
@@ -49,6 +40,8 @@ import VideoNav from "./components/VideoNav.vue";
 import BorderSpacer from "./components/Border.vue";
 import ActivitiesSection from "./components/Activities.vue";
 import LifeGoalsSection from "./components/lifeGoals.vue";
+import VideoContainer from "./components/VideoContainer.vue";
+import { reactive } from 'vue';
 
 export default {
   name: "App",
@@ -62,18 +55,11 @@ export default {
     BorderSpacer,
     ActivitiesSection,
     LifeGoalsSection,
-  },
-  setup() {
-    const aboutBackground = ref(null);
-    const aboutBackgroundIsVisible = useElementVisibility(aboutBackground);
-
-    return {
-      aboutBackground,
-      aboutBackgroundIsVisible,
-    };
+    VideoContainer
   },
   data() {
     return {
+      AboutSection: reactive(AboutSection),
       name: {
         first: "Sheldon",
         middle: "W.B.",
@@ -97,15 +83,6 @@ export default {
         ],
       },
     };
-  },
-  watch: {
-    aboutBackgroundIsVisible(newValue) {
-      if (newValue === false) {
-        this.$refs.aboutBackground.player.pause();
-      } else {
-        this.$refs.aboutBackground.player.play();
-      }
-    },
   },
   created: function () {
     new smoothScroll('a[href*="#"]', {

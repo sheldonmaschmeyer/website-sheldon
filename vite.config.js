@@ -1,25 +1,22 @@
-import { defineConfig } from 'vite'
-import path from 'path'
-import autoprefixer from 'autoprefixer';
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from "vite";
+import autoprefixer from "autoprefixer";
+import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
-  root: './',
+  root: "./",
   server: {
     host: true,
     port: 8080,
     strictPort: true,
     css: {
       postcss: {
-        plugins: [
-            autoprefixer
-        ],
-      }
+        plugins: [autoprefixer],
+      },
     },
   },
   build: {
-    outDir: 'dist',
-},
-  publicDir: 'public'
-})
+    outDir: "dist",
+  },
+  publicDir: "public",
+});

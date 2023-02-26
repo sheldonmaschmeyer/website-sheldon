@@ -1,44 +1,57 @@
 <template>
   <div id="app">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
+      rel="stylesheet"
+    />
     <VideoNav :name="name" />
-    <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target=".navbar">
+    <div
+      class="container-fluid p-0"
+      data-bs-spy="scroll"
+      data-bs-target=".navbar"
+    >
       <video-background
-          ref="aboutBackground" 
-          src="background.mp4"
-          style="max-height: 100vh; height: 100vh;"
-          overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)" 
+        ref="aboutBackground"
+        src="background.mp4"
+        style="max-height: 100vh; height: 100vh"
+        overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)"
       >
-        <AboutSection :name="name" />
+        <AboutSection :name="name" :classes="classes" />
       </video-background>
       <BorderSpacer />
-      <ExperienceSection />
+      <ExperienceSection :classes="classes" />
       <BorderSpacer />
-      <SkillsSection />
+      <SkillsSection :classes="classes" />
       <BorderSpacer />
-      <ActivitiesSection />
+      <ActivitiesSection :classes="classes" />
       <BorderSpacer />
-      <LifeGoalsSection />
+      <LifeGoalsSection :classes="classes" />
       <BorderSpacer />
-      <VolunteerSection />
+      <VolunteerSection :classes="classes" />
       <BorderSpacer />
-      <EducationSection />
+      <EducationSection :classes="classes" />
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 // TODO: not need the three links above
-import smoothScroll from 'smooth-scroll';
-import { useElementVisibility } from '@vueuse/core'
-import { ref } from 'vue';
+import smoothScroll from "smooth-scroll";
+import { useElementVisibility } from "@vueuse/core";
+import { ref } from "vue";
 
 import AboutSection from "./components/About.vue";
 import ExperienceSection from "./components/Experience.vue";
 import EducationSection from "./components/Education.vue";
-import SkillsSection from "./components/Skills/Skills.vue";
+import SkillsSection from "./components/Skills.vue";
 import VolunteerSection from "./components/volunteer.vue";
 import VideoNav from "./components/VideoNav.vue";
 import BorderSpacer from "./components/Border.vue";
@@ -46,34 +59,7 @@ import ActivitiesSection from "./components/Activities.vue";
 import LifeGoalsSection from "./components/lifeGoals.vue";
 
 export default {
-  name: "app",
-  setup() {
-    const aboutBackground = ref(null)
-    const aboutBackgroundIsVisible = useElementVisibility(aboutBackground)
-    
-    return {
-      aboutBackground,
-      aboutBackgroundIsVisible,
-    }
-  },
-  watch: {
-    aboutBackgroundIsVisible(newValue, _) {
-      if (newValue === false) {
-        this.$refs.aboutBackground.player.pause();
-      } else {
-        this.$refs.aboutBackground.player.play();
-      }
-    }
-  },
-  data() {
-    return {
-      name: {
-        first: "Sheldon",
-        middle: "W.B.",
-        last: "Maschmeyer"
-      }
-    }
-  },
+  name: "App",
   components: {
     AboutSection,
     ExperienceSection,
@@ -83,30 +69,73 @@ export default {
     VideoNav,
     BorderSpacer,
     ActivitiesSection,
-    LifeGoalsSection
+    LifeGoalsSection,
   },
-  created: function() {
-    var scroll = new smoothScroll('a[href*="#"]', {
+  setup() {
+    const aboutBackground = ref(null);
+    const aboutBackgroundIsVisible = useElementVisibility(aboutBackground);
+
+    return {
+      aboutBackground,
+      aboutBackgroundIsVisible,
+    };
+  },
+  data() {
+    return {
+      name: {
+        first: "Sheldon",
+        middle: "W.B.",
+        last: "Maschmeyer",
+      },
+      classes: {
+        section: [
+          "resume-section",
+          "p-3",
+          "p-lg-5",
+          "d-flex",
+          "align-items-center",
+        ],
+        item: [
+          "resume-item",
+          "d-flex",
+          "flex-column",
+          "flex-md-row",
+          "justify-content-between",
+          "mb-5",
+        ],
+      },
+    };
+  },
+  watch: {
+    aboutBackgroundIsVisible(newValue) {
+      if (newValue === false) {
+        this.$refs.aboutBackground.player.pause();
+      } else {
+        this.$refs.aboutBackground.player.play();
+      }
+    },
+  },
+  created: function () {
+    new smoothScroll('a[href*="#"]', {
       updateURL: true,
       speed: 500,
-      speedAsDuration: true
-    })
-  }
+      speedAsDuration: true,
+    });
+  },
 };
 </script>
 
 <style>
-  /** TODO: A different method, likely a v-on:click method, to update the arrow icons */
-  .summary:before {
-    font-family: 'Font Awesome\ 5 Free';
-    float: left;
-    content: "\f150\00a0\00a0"; 
-  }
+/** TODO: A different method, likely a v-on:click method, to update the arrow icons */
+.summary:before {
+  font-family: "Font Awesome\ 5 Free";
+  float: left;
+  content: "\f150\00a0\00a0";
+}
 
-  .summary.collapsed:before {
-    font-family: 'Font Awesome\ 5 Free';
-    float: left;
-    content: "\f152\00a0\00a0";
-  }
-
+.summary.collapsed:before {
+  font-family: "Font Awesome\ 5 Free";
+  float: left;
+  content: "\f152\00a0\00a0";
+}
 </style>

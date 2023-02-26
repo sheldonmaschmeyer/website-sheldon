@@ -1,40 +1,53 @@
 <template>
-  <section id="experience" class="resume-section p-3 p-lg-5 d-flex align-items-center">
+  <section id="experience" :class="classes.section">
     <div class="w-100">
       <h2 class="mb-5">Experience</h2>
       <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
         v-for="(experience, index) in experienceList"
         :key="index"
+        :class="classes.item"
       >
         <div class="resume-content">
           <h3 class="mb-0">{{ experience.position }}</h3>
-          <a class="subheading mb-3 summary"
-            style="text-decoration:none; cursor: pointer;" data-bs-toggle="collapse" :data-bs-target="'#' + experience.id">
-              {{ experience.company }}
+          <a
+            class="subheading mb-3 summary"
+            style="text-decoration: none; cursor: pointer"
+            data-bs-toggle="collapse"
+            :data-bs-target="'#' + experience.id"
+          >
+            {{ experience.company }}
           </a>
-          <component :id="experience.id" :is="experience.SUMMARY" class="collapse"/>
+          <component
+            :is="experience.SUMMARY"
+            :id="experience.id"
+            class="collapse"
+          />
         </div>
         <div class="resume-date text-md-right">
           <span
+            v-for="(date, i) in experience.dates"
+            :key="i"
             class="text-primary"
-            v-for="(date, index) in experience.dates"
-            :key="index"
-          >{{ date.start }} - {{ date.end }}</span>
+            >{{ date.start }} - {{ date.end }}</span
+          >
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-import { shallowRef } from 'vue'
-import IMRSVSummary from './Experience/IMRSV.vue';
-import SDMSummary from './Experience/SDM.vue';
-import IAMSummary from './Experience/IAM.vue';
+<script lang="ts">
+import { classes } from "../definitions/props";
+import { shallowRef } from "vue";
+import IMRSVSummary from "./Experience/IMRSV.vue";
+import SDMSummary from "./Experience/SDM.vue";
+import IAMSummary from "./Experience/IAM.vue";
 
 export default {
   name: "ExperienceSection",
+  props: {
+    classes: classes,
+  },
   data() {
     return {
       experienceList: [
@@ -45,10 +58,10 @@ export default {
           dates: [
             {
               start: "Jan 2021",
-              end: "October 2022"
-            }
+              end: "October 2022",
+            },
           ],
-          id: 'IMRSV'
+          id: "IMRSV",
         },
         {
           position: "Suppervisor, Primary Cashier & Merchandiser",
@@ -57,10 +70,10 @@ export default {
           dates: [
             {
               start: "May 2016",
-              end: "Jan 2021"
-            }
+              end: "Jan 2021",
+            },
           ],
-          id: 'SDM'
+          id: "SDM",
         },
         {
           position: "IT & Media Arts (Part-Time)",
@@ -69,12 +82,12 @@ export default {
           dates: [
             {
               start: "June 2008",
-              end: "September 2020"
-            }
+              end: "September 2020",
+            },
           ],
-          id: 'IAM'
+          id: "IAM",
         },
-      ]
+      ],
     };
   },
 };

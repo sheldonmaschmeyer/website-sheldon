@@ -18,15 +18,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update title of website
 
 ### Fixed
+
 - Video animation in navigation on mobile.
 - scrollspy is fixed in desktop mode.
 
 ### Known Bugs
+
 - The arrow's initial state and on first click does not work properly. The arrows are copied from old index.php. They should be upgraded to a font-awesome-vue method.
 
 ## [2.0.0] - 2023/02/24
 
-### Added 
+### Added
 
 - Migrated StartBootstrap based website from index.php to a VUE3 Framework, based on VUE2 template.
 - Added Video Background
@@ -40,10 +42,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2019
 
-### Added 
+### Added
 
 - Create and deploy resume website using StatBootstrap Resume now that I am graduating.
-- Add PHP for HTML code injection (similar to a component). 
+- Add PHP for HTML code injection (similar to a component).
 - Use a shell script to auto-generate html from resume document to inject into appropriate sections like "Expereince". Resume is being tweaked continuously so it saves time copying and pasting (which is more error prone).
 - Change colour scheme to turquoise as orange is ugly (in my humble opinion).
 - Subheadings collapse to make the website look cleaner and less cluttered (more white space). If someone is really interested in the details, they can expand the sections.

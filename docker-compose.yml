@@ -1,11 +1,11 @@
-version: '3.8'
+version: "3.8"
 
 services:
   frontend:
-    build: 
+    build:
       context: .
       dockerfile: Frontend.dockerfile
     volumes:
       - ".:/home/app"
     ports:
-      - '8080:8080'
+      - "8080:8080"

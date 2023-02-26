@@ -92,18 +92,3 @@ export default {
   },
 };
 </script>
-
-<style>
-/** TODO: A different method, likely a v-on:click method, to update the arrow icons */
-.summary:before {
-  font-family: 'Font Awesome\ 5 Free';
-  float: left;
-  content: '\f150\00a0\00a0';
-}
-
-.summary.collapsed:before {
-  font-family: 'Font Awesome\ 5 Free';
-  float: left;
-  content: '\f152\00a0\00a0';
-}
-</style>

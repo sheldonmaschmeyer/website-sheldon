@@ -9,10 +9,7 @@
           :key="index"
           class="d-flex align-items-center"
         >
-          <font-awesome-icon
-            :icon="['fas', 'check']"
-            class="fa-li"
-          ></font-awesome-icon>
+          <font-awesome-icon :icon="['fas', 'check']" class="fa-li" />
           {{ workflow }}
         </li>
       </ul>
@@ -33,7 +30,7 @@
             v-else-if="tools.icon"
             v-tooltip="tools.name"
             :icon="[tools.library, tools.icon]"
-          ></font-awesome-icon>
+          />
         </li>
       </ul>
     </div>

@@ -3,27 +3,16 @@
     <div class="w-100">
       <h2 class="pb-5">Life Goals</h2>
       <div>
-        <a
-          class="subheading pb-3 summary"
-          href="#highPriority"
-          data-bs-toggle="collapse"
-          style="text-decoration: none"
-        >
-          High Priority
-        </a>
+        <CollapseSubheading
+          heading-text="High Priority"
+          target="#highPriority"
+        />
         <div id="highPriority" class="collapse ps-5">
           • A new career employment opportunity.
         </div>
       </div>
       <div>
-        <a
-          class="subheading pb-3 summary"
-          href="#shortTerm"
-          data-bs-toggle="collapse"
-          style="text-decoration: none"
-        >
-          This year
-        </a>
+        <CollapseSubheading heading-text="This year" target="#shortTerm" />
         <div id="shortTerm" class="collapse ps-5">
           • G Drivers License: <br />
           <span class="lf"
@@ -52,14 +41,10 @@
         </div>
       </div>
       <div>
-        <a
-          class="subheading pb-3 summary"
-          href="#mediumTerm"
-          data-bs-toggle="collapse"
-          style="text-decoration: none"
-        >
-          Within one to three years
-        </a>
+        <CollapseSubheading
+          heading-text="One to three years"
+          target="#mediumTerm"
+        />
         <div id="mediumTerm" class="collapse ps-5">
           • Pay-off Credit Card: <br />
           <span class="lf"
@@ -90,27 +75,16 @@
         </div>
       </div>
       <div>
-        <a
-          class="subheading pb-3 summary"
-          href="#longTerm"
-          data-bs-toggle="collapse"
-          style="text-decoration: none"
-        >
-          Within seven years
-        </a>
+        <CollapseSubheading
+          heading-text="Within seven years"
+          target="#longTerm"
+        />
         <div id="longTerm" class="collapse ps-5">
           • Pay off student loan: Currently at ~$48K.<br />
         </div>
       </div>
       <div>
-        <a
-          class="subheading pb-3 summary"
-          href="#longerTerm"
-          data-bs-toggle="collapse"
-          style="text-decoration: none"
-        >
-          Longer-Term
-        </a>
+        <CollapseSubheading heading-text="Longer-term" target="#longerTerm" />
         <div id="longerTerm" class="collapse ps-5">
           • Invest: <br />
           <span class="lf"

@@ -8,9 +8,12 @@ import 'bootstrap';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { dom } from '@fortawesome/fontawesome-svg-core';
 import VideoBackground from 'vue-responsive-video-background-player';
+
+import CollapseSubheading from './components/CollapseSubheading.vue';
 
 import {
   // Directives
@@ -23,7 +26,7 @@ import {
 } from 'floating-vue';
 dom.watch();
 
-library.add(fab, fas);
+library.add(fab, fas, far);
 
 // Main SCSS File
 import './assets/scss/resume.scss';
@@ -32,6 +35,7 @@ import 'floating-vue/dist/style.css';
 createApp(App)
   .directive('tooltip', VTooltip)
   .directive('close-popper', VClosePopper)
+  .component('CollapseSubheading', CollapseSubheading)
   .component('VDropdown', Dropdown)
   .component('VTooltip', Tooltip)
   .component('VMenu', Menu)

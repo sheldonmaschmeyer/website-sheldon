@@ -14,6 +14,7 @@
         width: 100%;
         margin-top: -2em;
         margin-bottom: -2em;
+        box-shadow: 0 1px 1px 0 #d3d3d3;
       "
       overlay="linear-gradient(45deg,#FF2980B9,#6DD5FAE6)"
     />

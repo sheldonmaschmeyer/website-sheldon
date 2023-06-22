@@ -28,9 +28,12 @@
 import { shallowRef } from 'vue';
 
 import { classes } from '../definitions/props';
+import AlphaElSummaryChief from './experience/AlphaElChief.vue';
+import AlphaElSummaryConsultant from './experience/AlphaElConsultant.vue';
 import IAMSummary from './experience/IAM.vue';
 import IMRSVSummary from './experience/IMRSV.vue';
 import SDMSummary from './experience/SDM.vue';
+import SDMSummaryReturn from './experience/SDMReturn.vue';
 
 export default {
   name: 'ExperienceItems',
@@ -40,6 +43,42 @@ export default {
   data() {
     return {
       experienceList: [
+        {
+          position: 'Chief Technology Officer',
+          company: 'Alpha-El Inc.',
+          SUMMARY: shallowRef(AlphaElSummaryChief),
+          dates: [
+            {
+              start: 'May 2023',
+              end: 'Present',
+            },
+          ],
+          id: 'AlphaElChief',
+        },
+        {
+          position: 'Consultant',
+          company: 'Alpha-El Inc.',
+          SUMMARY: shallowRef(AlphaElSummaryConsultant),
+          dates: [
+            {
+              start: 'March 2023',
+              end: 'May 2023',
+            },
+          ],
+          id: 'AlphaElConsultant',
+        },
+        {
+          position: 'Cashier & Merchandiser',
+          company: 'Shoppers Drug Mart',
+          SUMMARY: shallowRef(SDMSummaryReturn),
+          dates: [
+            {
+              start: 'October 2022',
+              end: 'March 2023',
+            },
+          ],
+          id: 'SDMReturn',
+        },
         {
           position: 'Full Stack Developer',
           company: 'IMRSV Data Labs',

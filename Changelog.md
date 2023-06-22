@@ -13,7 +13,7 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 ### Develop
 
 - Separate code into new sections, sectionItems, containers and, miscellaneous
-  components. 
+  components.
 - ESLint uses single quotes for imports.
 - Imports are sorted alphabetically and auto-fixed using `--fix`.
 

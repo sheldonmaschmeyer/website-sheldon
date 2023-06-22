@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import { VitePluginFonts } from 'vite-plugin-fonts';
+import Unfonts from 'unplugin-fonts/vite';
+import { defineConfig } from 'vite';
 
 const cache = new Map();
 
@@ -14,7 +14,7 @@ const normalize = (id: string): string => {
 
   let n = `vender~${dirPaths[0]}`;
 
-  if (dirPaths[0][0] == '@') {
+  if (dirPaths[0].startsWith('@')) {
     n = `vender~${dirPaths[0]}~${dirPaths[1]}}`;
   }
 
@@ -26,7 +26,7 @@ const normalize = (id: string): string => {
 export default defineConfig({
   plugins: [
     vue(),
-    VitePluginFonts({
+    Unfonts({
       google: {
         families: ['Saira Extra Condensed', 'Mali'],
       },

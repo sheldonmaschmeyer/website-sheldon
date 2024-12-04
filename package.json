@@ -1,6 +1,6 @@
 {
   "name": "sheldon-resume-vue3",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "A Bootstrap Vue3 & Vite resume/CV based on Start Bootstrap Vue2 Resume template by webdevsuperfast.",
   "author": "Sheldon Maschmeyer <sheldon@maschmeyer.ca>",
@@ -48,5 +48,6 @@
     "vue-eslint-parser": "^9.3.1"
   },
   "license": "MIT",
-  "repository": "git@github.com:sheldonmaschmeyer/website-sheldon.git"
+  "repository": "git@github.com:sheldonmaschmeyer/website-sheldon.git",
+  "packageManager": "yarn@4.5.3"
 }

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "./.yarn/sdks/typescript/lib",
+		"eslint.lintTask.enable": false,
+		"prettier.prettierPath": "./.yarn/sdks/prettier",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "never"
+		},
+	}
+}

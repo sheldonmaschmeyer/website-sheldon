@@ -1,2 +1,12 @@
 node_modules
 dist
+.zsh_history
+
+# Yarn version 4
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

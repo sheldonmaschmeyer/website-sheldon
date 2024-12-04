@@ -1,11 +1,10 @@
-version: '3.8'
-
 services:
   frontend:
     build:
       context: .
-      dockerfile: Frontend.dockerfile
+      dockerfile: frontend.dockerfile
     volumes:
-      - '.:/home/app'
+      - '.:/home/node/app'
+      - '.zsh_history:/home/node/.zsh_history'
     ports:
       - '8080:8080'

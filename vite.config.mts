@@ -38,6 +38,14 @@ export default defineConfig({
     port: 8080,
     strictPort: true,
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler',
+        quietDeps: true,
+      },
+    },
+  },
   build: {
     minify: 'esbuild',
     outDir: 'dist',

@@ -1,30 +1,28 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 
 // Font Awesome Vue
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { dom } from '@fortawesome/fontawesome-svg-core';
-import VideoBackground from 'vue-responsive-video-background-player';
-
-import CollapseSubheading from './components/CollapseSubheading.vue';
-import SectionContainer from './containers/SectionContainer.vue';
-
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import {
-  // Directives
-  VTooltip,
-  VClosePopper,
   // Components
   Dropdown,
-  Tooltip,
   Menu,
+  Tooltip,
+  VClosePopper,
+  // Directives
+  VTooltip,
 } from 'floating-vue';
+import { createApp } from 'vue';
+import VideoBackground from 'vue-responsive-video-background-player';
+
+import App from './App.vue';
+import CollapseSubheading from './components/CollapseSubheading.vue';
+import SectionContainer from './containers/SectionContainer.vue';
 dom.watch();
 
 library.add(fab, fas, far);

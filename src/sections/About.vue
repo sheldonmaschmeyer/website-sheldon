@@ -18,7 +18,10 @@
         </div>
       </div>
       <p class="lead mb-4 ps-4">
-        • Government cleared full stack developer. <br />
+        • CTO at Alpha-El Inc. Python Machine Learning frameworks and full-stack
+        development. <br />
+        • Government cleared full stack developer for projects at ANVIL
+        (formally IMRSV Data Labs). <br />
         • Skilled in creating analytic tools for the Government and private
         sector. <br />
         • Consummate team player with advanced problem-solving skills.
@@ -70,11 +73,11 @@ export default {
   data() {
     return {
       address: {
-        street: '515-740 Springland Drive',
+        street: '165 Chapel Street',
         city: 'Ottawa',
         province: 'Ontario',
         country: 'Canada',
-        postalCode: 'L5L-2Y4',
+        postalCode: 'K1N 0E7',
       },
       telephone: '+1 613-889-4320',
       email: 'sheldon@maschmeyer.ca',

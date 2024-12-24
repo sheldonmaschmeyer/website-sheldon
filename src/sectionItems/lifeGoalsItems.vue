@@ -2,36 +2,26 @@
   <div>
     <CollapseSubheading heading-text="High Priority" target="#highPriority" />
     <div id="highPriority" class="collapse ps-4">
-      • A new career employment opportunity.
+      • Reduce debit. <br />
+      • When I started at ANVIL my credit card debit was above $30K. When I left
+      ANVIL, my debit was under $10K. <br />
+      • For risk and adventure, I have invested in Alpha-El Inc. I have taken
+      temporary random pay-cuts and skipped payments. I am paid between $0 and
+      $6,000 GROSS monthly. Therefore, my debit increased to ~$45K. <br />
+      • A new career employment opportunity must be a steady dependable
+      pay-cheque. Preferably not as a contractor but with benefits at $75K+ per
+      annam.
     </div>
   </div>
   <div>
     <CollapseSubheading heading-text="This year" target="#shortTerm" />
     <div id="shortTerm" class="collapse ps-4">
-      • G Drivers License: <br />
+      • An economical electric vehicle <br />
       <span class="lf"
-        >-> Currently girlfriend and I enrolled in Young Drivers Gold Automatic,
-        in-car lessons.</span
-      >
-      <br />
-      <span class="lf"
-        >-> The pandemic and a focus on daytime job has slowed down the test
-        schedule. </span
-      ><br />
-      <span class="lf">-> We have a G2. </span><br />
-      <span class="lf">-> G in about a year.</span><br />
-      • Move into larger apartment or small town-house: <br />
-      <span class="lf"
-        >-> A studio (one large room) apartment is too small for regular
-        co-habitation.</span
-      ><br />
-      <span class="lf"
-        >-> We will likely move into a larger apartment in the same area
-        relatively soon.</span
-      ><br />
-      • Buy an vehicle that is economical and, causes the lest environmental
-      damage. <br />
-      <p></p>
+        >-> My partner and I would find a vehicle convenient, especially when
+        starting a family. The current apartment build we are in has electric
+        charging stations
+      </span>
     </div>
   </div>
   <div>
@@ -45,11 +35,6 @@
         >-> Used for educational expenses, a small business and, other personal
         expenses.</span
       ><br />
-      <span class="lf"
-        >-> Credit card debit reduced from ~$30K when graduated to now
-        ~$15K.</span
-      >
-      <br />
       • Start a family. <br />
       • A first mortgage which, is an investment. <br />
       <span class="lf"
@@ -71,17 +56,8 @@
   <div>
     <CollapseSubheading heading-text="Within seven years" target="#longTerm" />
     <div id="longTerm" class="collapse ps-4">
-      • Pay off student loan: Currently at ~$48K.<br />
-    </div>
-  </div>
-  <div>
-    <CollapseSubheading heading-text="Longer-term" target="#longerTerm" />
-    <div id="longerTerm" class="collapse ps-4">
-      • Invest: <br />
-      <span class="lf"
-        >-> Using the equivalent of student loan monthly payment: ~$585 per
-        month (adjusted for inflation)
-      </span>
+      • Pay off student loan. Currently renewing repayment assistance.<br />
+      • Invest for family and old age.<br />
     </div>
   </div>
 </template>

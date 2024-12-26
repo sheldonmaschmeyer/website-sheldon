@@ -53,6 +53,13 @@
         form a stable government that can implement important legislation and
         lasting change.
       </div>
+      <div class="ps-4">
+        ▪ Donated the Canadian Legion <br />
+        My partner and I donate annually to the legion, normally cash. <br />
+        This year we decided to donate through the legion.ca website for two
+        ceramic poppies. Due to the Canada Post strick, the ceramic poppies will
+        likely arrive by mail in time for next year's Remembrance Day.
+      </div>
       <div class="subheading">IMRSV</div>
       • Donated to Canadian Red Cross for:11
       <div class="ps-4">▪ COVID-19 aid in India</div>

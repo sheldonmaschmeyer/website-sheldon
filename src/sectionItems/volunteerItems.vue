@@ -3,6 +3,13 @@
     <div class="resume-content white-space: pre-wrap;">
       <div class="subheading">2024</div>
       <div class="ps-4">
+        ▪ Partner donated to Amnesty International <br />
+        Amnesty International fights for "a world in which every person enjoys
+        all of the human rights enshrined in the Universal Declaration of Human
+        Rights and other international human rights instruments."
+      </div>
+
+      <div class="ps-4">
         ▪ Donated to UNRWA <br />
         The terrorist attack on Israel is horrific. <br />
         The organization was compromised by a few extremists who carried out, or
@@ -19,17 +26,12 @@
       </div>
       <div class="ps-4">
         ▪ Donated to the Ottawa Food Bank <br />
-        I live downtown Ottawa. There are pockets poverty and hunger throughout
+        After moving from Mooney's Bay area to Downtown Ottawa, living near a
+        Mission, I was reminded how much absolute poverty there is, in Ontario.
+        I never give money to individuals on the street but, I did donate to the
+        Ottawa Food Bank online. There are pockets poverty and hunger throughout
         Canada. What separates us from a homeless, malnourished individual is a
         thin-red-line. <br />
-        I donate money rather than groceries to food banks since, the charities
-        are able to use the funds for the services and items that are urgently
-        needed. Before university, I volunteered at the Aurora Food Pantry. I
-        went through boxes, throwing out expired items. They would have an
-        abundance of some items such as peanut butter but, limited in items for
-        children and adult dietary requirements such as fresh milk and eggs. The
-        food bank, through monetary donation, may purchase what is urgently
-        required rather than what we think they need.
       </div>
       <div class="ps-4">
         ▪ Donated to the Provincial Liberal Party <br />
@@ -54,13 +56,27 @@
         lasting change.
       </div>
       <div class="ps-4">
-        ▪ Donated the Canadian Legion <br />
+        ▪ Donated to the Canadian Legion <br />
         My partner and I donate annually to the legion, normally cash. <br />
         This year we decided to donate through the legion.ca website for two
         ceramic poppies. Due to the Canada Post strick, the ceramic poppies will
         likely arrive by mail in time for next year's Remembrance Day.
       </div>
-      <div class="subheading">IMRSV</div>
+
+      <div class="subheading pt-4">2023</div>
+      <div class="ps-4">
+        ▪ Donated to the Ottawa Food Bank <br />
+        I donate money rather than groceries to food banks since, the charities
+        are able to use the funds for the services and items that are urgently
+        needed. Before university, I volunteered at the Aurora Food Pantry. I
+        went through boxes, throwing out expired items. They would have an
+        abundance of some items such as peanut butter but, limited in items for
+        babies, children and adult dietary requirements such as fresh milk and
+        eggs. The food bank, through monetary donation, may purchase what is
+        urgently required rather than what we think they need.
+      </div>
+
+      <div class="subheading pt-4">IMRSV</div>
       • Donated to Canadian Red Cross for:11
       <div class="ps-4">▪ COVID-19 aid in India</div>
       <div class="ps-4">▪ Canadian flood or fires</div>
@@ -68,7 +84,16 @@
       • Donated to the Canada - Ukraine Foundation <br />
       • Donated to a food bank
 
+      <div class="subheading pt-4">2022</div>
+      <div class="ps-4">
+        ▪ Donated to the Debra Dynes Family House <br />
+        A multi-service community resource centre in a low-income social housing
+        area. They are committed to improving the quality of life for
+        multi-culturally diverse family, children and youth.
+      </div>
+
       <div class="subheading pt-4">Carleton U</div>
+      • Amnesty International Canada donations <br />
       • Note Taker: for students with disabilities (PMC centre) at Carleton
       University multiple courses and terms <br />
       • Canadian Feed the Children: General Member at Carleton University: 2012
@@ -76,8 +101,7 @@
 
       <div class="subheading pt-4">Other</div>
       • Aurora Food Pantry: volunteer at Food Bank: 2008 <br />
-      • Out of the Cold program for the homeless: volunteer: 2000 - 2003
-      <br />
+      • Out of the Cold program for the homeless: volunteer: 2000 - 2003 <br />
       • Terry Fox Run: occasional donor and participant <br />
       • Folding@Home: occasionally donate my unused CPU and/or GPU resources to
       the researchers

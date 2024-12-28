@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { classes } from '../definitions/props';
-import ActivitiesItems from '../sectionItems/experienceItems.vue';
+import ActivitiesItems from '../sectionItems/activitiesItems.vue';
 
 export default {
   name: 'ActivitiesSection',

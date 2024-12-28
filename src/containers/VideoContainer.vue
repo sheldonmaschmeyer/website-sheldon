@@ -2,10 +2,15 @@
   <video-background
     ref="aboutBackground"
     src="background.mp4"
-    style="max-height: 100vh; height: 100vh; z-index: -1"
+    style="max-height: 100vh; height: 100vh"
     overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)"
   >
-    <component :is="section" :name="name" :classes="classes" />
+    <component
+      :is="section"
+      :name="name"
+      :classes="classes"
+      style="z-index: 1"
+    />
   </video-background>
 </template>
 

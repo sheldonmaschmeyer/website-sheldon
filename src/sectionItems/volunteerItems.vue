@@ -3,7 +3,8 @@
     <div class="resume-content white-space: pre-wrap;">
       <div class="subheading">2024</div>
       <div class="ps-4">
-        ▪ Partner donated to Amnesty International <br />
+        ▪ My partner and I donate monthly to Amnesty International since July
+        2024. <br />
         Amnesty International fights for "a world in which every person enjoys
         all of the human rights enshrined in the Universal Declaration of Human
         Rights and other international human rights instruments."
@@ -26,28 +27,20 @@
       </div>
       <div class="ps-4">
         ▪ Donated to the Ottawa Food Bank <br />
-        After moving from Mooney's Bay area to Downtown Ottawa, living near a
-        Mission, I was reminded how much absolute poverty there is, in Ontario.
-        I never give money to individuals on the street but, I did donate to the
-        Ottawa Food Bank online. There are pockets poverty and hunger throughout
-        Canada. What separates us from a homeless, malnourished individual is a
-        thin-red-line. <br />
+        After moving to Downtown Ottawa, living near a Community Centre, I was
+        reminded how much absolute poverty there is, in Ontario. I never give
+        money to individuals on the street but, I did donate to the Ottawa Food
+        Bank online. There are pockets poverty and hunger throughout Canada.
+        <br />
       </div>
       <div class="ps-4">
         ▪ Donated to the Provincial Liberal Party <br />
-        Doug Ford has been in office for almost seven years and his party's
-        cronyism is only getting worse. It is time for a change of government.
-        <br />
+
         I believe that Bonnie Crombie will be a fantastic Premier of Ontario.
         Challenging a potential future federal Conservative government. <br />
-        Like my father, I often work on for start-ups, on contract, with no
-        insurance or, costly monthly private insurance. I am fortunate to be in
-        good health. <br />
+
         Fighting for universal healthcare, reducing wait times and increasing
-        accessibility to family doctors. I do not currently have a family doctor
-        but, I am again on a government wait list. My previous doctor moved and,
-        was at a costly distance (via. Uber) and time-consuming distance from my
-        place of residence. <br />
+        accessibility to family doctors. <br />
         Improved affordability of housing and rent for both the middle class
         and, low income families. <br />
         While I greatly respect the NDP and the Green Party, in Ontario, I
@@ -59,8 +52,9 @@
         ▪ Donated to the Canadian Legion <br />
         My partner and I donate annually to the legion, normally cash. <br />
         This year we decided to donate through the legion.ca website for two
-        ceramic poppies. Due to the Canada Post strick, the ceramic poppies will
-        likely arrive by mail in time for next year's Remembrance Day.
+        ceramic poppies. Due to the 2024 Canada Post strike , the ceramic
+        poppies will likely arrive by mail in time for next year's Remembrance
+        Day.
       </div>
 
       <div class="subheading pt-4">2023</div>
@@ -68,12 +62,7 @@
         ▪ Donated to the Ottawa Food Bank <br />
         I donate money rather than groceries to food banks since, the charities
         are able to use the funds for the services and items that are urgently
-        needed. Before university, I volunteered at the Aurora Food Pantry. I
-        went through boxes, throwing out expired items. They would have an
-        abundance of some items such as peanut butter but, limited in items for
-        babies, children and adult dietary requirements such as fresh milk and
-        eggs. The food bank, through monetary donation, may purchase what is
-        urgently required rather than what we think they need.
+        needed. Before university, I volunteered at the Aurora Food Pantry.
       </div>
 
       <div class="subheading pt-4">IMRSV</div>

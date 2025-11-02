@@ -5,9 +5,12 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+
 import { classes } from '../definitions/props';
 import LifeGoalsItems from '../sectionItems/lifeGoalsItems.vue';
-export default {
+
+export default defineComponent({
   name: 'LifeGoalsSection',
   components: {
     LifeGoalsItems,
@@ -15,5 +18,5 @@ export default {
   props: {
     classes: classes,
   },
-};
+});
 </script>

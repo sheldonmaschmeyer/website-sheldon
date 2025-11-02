@@ -36,9 +36,7 @@
             class="icon"
           >
             <div v-tooltip.bottom-start="social.name">
-              <font-awesome-icon
-                :icon="['fab', social.icon]"
-              ></font-awesome-icon>
+              <font-awesome-icon :icon="['fab', social.icon]" />
             </div>
           </a>
         </div>
@@ -51,9 +49,7 @@
             class="icon"
           >
             <div v-tooltip.bottom-start="resume.name">
-              <font-awesome-icon
-                :icon="['fas', resume.icon]"
-              ></font-awesome-icon>
+              <font-awesome-icon :icon="['fas', resume.icon]" />
             </div>
           </a>
         </div>

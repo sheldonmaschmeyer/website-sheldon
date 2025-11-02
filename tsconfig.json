@@ -2,9 +2,18 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "importHelpers": true,
     "isolatedModules": true,
-    "noEmit": true
-  }
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "jsx": "preserve"
+  },
+  "vueCompilerOptions": {
+    "globalTypesPath": "./.vscode/vue-global-types.d.ts"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", ".yarn"]
 }

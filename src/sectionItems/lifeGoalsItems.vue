@@ -3,54 +3,31 @@
     <CollapseSubheading heading-text="High Priority" target="#highPriority" />
     <div id="highPriority" class="collapse ps-4 show">
       • Reduce debt, while slowly paying off student loans. <br />
-      • A new career employment opportunity must be a steady dependable
-      pay-cheque. Preferably not as a contractor but with benefits at $75K+ per
-      annam.
+      <span class="lf">
+        -> Credit cards debt used for our educational expenses, business and,
+        other personal expenses. <br />
+        -> My current full-time job, paid as a contractor, is a start-up so
+        monthly income fluctuates. As the business scales up, income
+        fluctuations may reduce. <br />
+        -> Build an emergency fund of 3-6 months of living expenses. <br />
+        -> Build a retirement fund through RRSP and TFSA accounts. <br />
+        -> Invest in stocks and bonds. <br />
+        -> Continue professional development to increase my skill set and value
+        in the job market. <br />
+        -> Network with professionals and explore new opportunities and boldly
+        stay updated with industry trends. <br />
+        -> Maintain a healthy work-life balance to ensure long-term career
+        satisfaction and personal well-being. <br />
+      </span>
     </div>
   </div>
   <div>
     <CollapseSubheading heading-text="This year" target="#shortTerm" />
     <div id="shortTerm" class="collapse ps-4 show">
-      • To get married and start a family.<br />
-      <span class="lf"
-        >->Plan a wedding in Canada and Philippines, my partner's childhood
-        home.
+      • I am engaged to get married.<br />
+      <span class="lf">
+        ->Plan a wedding in Canada and Philippines, my fiancée's childhood home.
       </span>
-    </div>
-  </div>
-  <div>
-    <CollapseSubheading
-      heading-text="One to three years"
-      target="#mediumTerm"
-    />
-    <div id="mediumTerm" class="collapse ps-4 show">
-      • Pay-off Credit Card: <br />
-      <span class="lf"
-        >-> Used for educational expenses, a small business and, other personal
-        expenses.</span
-      ><br />
-      • Own a house in Ottawa or Toronto area. <br />
-      • A first mortgage which, is an investment. <br />
-      <span class="lf"
-        >->If getting a variable rate mortgage during high inflation: </span
-      ><br />
-      <span class="lf"
-        ><span class="lf"
-          >a) The base value of the property will be lower.</span
-        ></span
-      ><br />
-      <span class="lf"
-        ><span class="lf"
-          >b) Lower monthly payments over time so, a better return on
-          investment.
-        </span></span
-      ><br />
-    </div>
-  </div>
-  <div>
-    <CollapseSubheading heading-text="Within seven years" target="#longTerm" />
-    <div id="longTerm" class="collapse ps-4 show">
-      • Pay off student loan. Currently renewing repayment assistance. <br />
     </div>
   </div>
 </template>

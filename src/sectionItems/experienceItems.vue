@@ -5,7 +5,9 @@
     :class="classes.item"
   >
     <div class="resume-content">
-      <h3 class="mb-0">{{ experience.position }}</h3>
+      <h3 class="mb-0">
+        {{ experience.position }}
+      </h3>
       <CollapseSubheading
         :heading-text="experience.company"
         :target="'#' + experience.id"

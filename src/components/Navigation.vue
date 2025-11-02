@@ -20,7 +20,7 @@
     aria-expanded="false"
     aria-label="Toggle navigation"
   >
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon" />
   </button>
   <div id="navContent" class="navbar-collapse collapse">
     <div class="navbar-nav" data-bs-spy="scroll" data-bs-smooth-scroll="true">
@@ -30,7 +30,7 @@
         class="nav-item"
       >
         <a class="nav-link scrollspy" :href="navigation.url">
-          <span class="d-lg-none ps-3"></span>{{ navigation.title }}
+          <span class="d-lg-none ps-3" />{{ navigation.title }}
         </a>
       </li>
     </div>

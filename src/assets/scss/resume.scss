@@ -1,10 +1,7 @@
-@import 'variables.scss';
-
 // Bootstrap SCSS
-@import 'bootstrap/scss/bootstrap';
+@use 'bootstrap/scss/bootstrap';
 
-@import 'mixins.scss';
-@import 'global.scss';
-@import 'nav.scss';
-@import 'resume-item.scss';
-@import 'bootstrap-overrides.scss';
+@use 'global';
+@use 'nav';
+@use 'resume-item';
+@use 'bootstrap-overrides';

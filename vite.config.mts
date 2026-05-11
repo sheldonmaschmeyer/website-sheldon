@@ -41,13 +41,12 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        api: 'modern-compiler',
         quietDeps: true,
       },
     },
   },
   build: {
-    minify: 'esbuild',
+    minify: 'oxc',
     outDir: 'dist',
     rollupOptions: {
       output: {

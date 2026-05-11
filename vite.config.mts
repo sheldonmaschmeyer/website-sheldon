@@ -46,7 +46,7 @@ export default defineConfig({
     },
   },
   build: {
-    minify: 'esbuild',
+    minify: 'oxc',
     outDir: 'dist',
     rollupOptions: {
       output: {

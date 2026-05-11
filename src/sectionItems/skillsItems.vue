@@ -22,6 +22,7 @@
         v-tooltip="tools.name"
         class="image-icon"
         :src="tools.icon"
+        alt="tools icon"
       />
       <font-awesome-icon
         v-else-if="tools.icon"
@@ -132,7 +133,6 @@ export default {
         'Windows (Batch scripting) and Linux (Bash scripting).',
         'OS Kernel programming on Linux.',
         'Computer/Network Security: Burp, Wireshark, and Packet Tracing.',
-        'MS Office programs including advanced skills such as physics tables with Excel.',
         'Adobe Photoshop, Animate and Premier.',
       ],
     };

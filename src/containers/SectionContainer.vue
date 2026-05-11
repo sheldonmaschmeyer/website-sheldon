@@ -1,7 +1,9 @@
 <template>
   <section :id="id" :class="classes.section">
     <div class="w-100">
-      <h2 class="mb-5">{{ heading }}</h2>
+      <h2 class="mb-5">
+        {{ heading }}
+      </h2>
       <slot />
     </div>
   </section>

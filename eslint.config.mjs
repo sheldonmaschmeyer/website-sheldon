@@ -1,8 +1,7 @@
 import js from '@eslint/js';
 import typescriptParser from '@typescript-eslint/parser';
 import prettierConfig from 'eslint-config-prettier';
-import prettier from 'eslint-plugin-prettier';
-import simpleImportSort from 'eslint-plugin-simple-import-sort';
+import perfectionist from 'eslint-plugin-perfectionist';
 import vue from 'eslint-plugin-vue';
 import globals from 'globals';
 import vueParser from 'vue-eslint-parser';
@@ -24,8 +23,7 @@ export default [
   },
   {
     plugins: {
-      prettier,
-      'simple-import-sort': simpleImportSort,
+      perfectionist,
     },
 
     languageOptions: {
@@ -38,9 +36,8 @@ export default [
     },
 
     rules: {
-      'prettier/prettier': 'error',
-      'simple-import-sort/imports': 'error',
-      'simple-import-sort/exports': 'error',
+      'perfectionist/sort-imports': 'error',
+      'perfectionist/sort-exports': 'error',
     },
   },
 ];

@@ -19,8 +19,8 @@
       footage and experiments such as fire simulations.<br />
       • Using Docker containers for each service and integrating all software
       system components.<br />
-      • Listening to client needs and implementing new features in Python and the
-      full stack web application, including data science tools.<br />
+      • Listening to client needs and implementing new features in Python and
+      the full stack web application, including data science tools.<br />
       • Integrating appropriate AWS services (EC2, S3, Kinesis Video) for
       data/video/assets storage and reliability.<br />
       • Platform-agnostic philosophy utilizing hardware acceleration: NVIDIA

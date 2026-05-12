@@ -2,22 +2,20 @@
   <div>
     <CollapseSubheading heading-text="High Priority" target="#highPriority" />
     <div id="highPriority" class="collapse ps-4 show">
-      • Reduce debt, while slowly paying off student loans. <br />
+      • Improve income and reduce debt. <br />
       <span class="lf">
-        -> Credit cards debt used for our educational expenses, business and,
-        other personal expenses. <br />
+        -> Income has been reduced, year over year, as inflation has increased.
+        This has lead to greater difficulties in meeting financial obligations,
+        but no missed minimum payments, yet. <br />
+        -> Unsecured debt used for our educational expenses, business and, other
+        personal expenses. <br />
         -> My current full-time job, paid as a contractor, is a start-up so
-        monthly income fluctuates. As the business scales up, income
-        fluctuations may reduce. <br />
-        -> Build an emergency fund of 3-6 months of living expenses. <br />
-        -> Build a retirement fund through RRSP and TFSA accounts. <br />
-        -> Invest in stocks and bonds. <br />
-        -> Continue professional development to increase my skill set and value
-        in the job market. <br />
-        -> Network with professionals and explore new opportunities and boldly
-        stay updated with industry trends. <br />
-        -> Maintain a healthy work-life balance to ensure long-term career
-        satisfaction and personal well-being. <br />
+        monthly income fluctuates and currently, it is far below expectations. I
+        am told to work less hours to help the business with financial
+        sustainability. As the business scales up, income fluctuations may
+        reduce but, I am looking for new opportunities. <br />
+        -> My fiancé has been baring the increasing burden of our financial
+        obligations due to my income issues. <br />
       </span>
     </div>
   </div>
@@ -26,7 +24,13 @@
     <div id="shortTerm" class="collapse ps-4 show">
       • I am engaged to get married.<br />
       <span class="lf">
-        ->Plan a wedding in Canada and Philippines, my fiancée's childhood home.
+        -> Debating between a court house wedding or a ceremony where we can
+        invite family and friends. <br />
+      </span>
+      • Family Planning.<br />
+      <span class="lf">
+        -> We want to be in an stable financial situation to have a family while
+        we are still young. <br />
       </span>
     </div>
   </div>

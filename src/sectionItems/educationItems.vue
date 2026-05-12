@@ -6,7 +6,7 @@
         heading-text="Carleton University"
         target="#compSci"
       />
-      <div id="compSci" class="collapse">
+      <div id="compSci" class="collapse show">
         <table class="table">
           <thead>
             <tr>
@@ -51,7 +51,7 @@
     <div class="resume-content">
       <h3 class="mb-0">BS: Integrated Science and Technology</h3>
       <CollapseSubheading heading-text="Carleton University" target="#sci" />
-      <div id="sci" class="collapse">
+      <div id="sci" class="collapse show">
         <table class="table dont-print">
           <thead>
             <tr>

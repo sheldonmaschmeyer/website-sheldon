@@ -15,7 +15,7 @@
       <component
         :is="experience.SUMMARY"
         :id="experience.id"
-        class="collapse"
+        class="collapse show"
       />
     </div>
     <div class="resume-date text-md-right">

@@ -1,4 +1,4 @@
-ARG NODE_Major=22
+ARG NODE_Major=24
 
 FROM node:${NODE_Major}-alpine
 

@@ -26,7 +26,8 @@
         sector. <br />
         • Consummate team player with advanced problem-solving skills.
       </p>
-      <div>
+      <!-- TODO: fix and re-enable Professional Network and Latest Résumé links -->
+      <!-- <div>
         <div class="social-icons pe-3 text-center" style="float: left">
           Professional Network <br />
           <a
@@ -53,7 +54,7 @@
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

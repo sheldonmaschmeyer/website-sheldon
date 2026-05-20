@@ -26,7 +26,7 @@ for (const [path, content] of Object.entries(allFiles)) {
 
 export default createI18n({
   legacy: false,
-  locale: defaultLocale,
+  locale: localStorage.getItem('user-lang') || defaultLocale,
   fallbackLocale: fallbackLocale,
   globalInjection: true,
   messages,

@@ -1,8 +1,13 @@
 <template>
+  <LanguageSwitchMobile />
+
   <a class="navbar-brand" href="#about">
     <span class="d-block d-lg-none ps-3"
       >{{ name.first }} {{ name.middle }} {{ name.last }}</span
     >
+
+    <LanguageSwitchDesktop />
+
     <span class="d-none d-lg-block">
       <img
         class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -11,6 +16,7 @@
       />
     </span>
   </a>
+
   <button
     class="navbar-toggler"
     type="button"
@@ -22,6 +28,7 @@
   >
     <span class="navbar-toggler-icon" />
   </button>
+
   <div id="navContent" class="navbar-collapse collapse">
     <div class="navbar-nav" data-bs-spy="scroll" data-bs-smooth-scroll="true">
       <li
@@ -41,8 +48,14 @@
 import { useWindowSize } from 'vue-window-size';
 
 import { name } from '../definitions/props';
+import { LanguageSwitchDesktop, LanguageSwitchMobile } from './LangaugeSwitch';
+
 export default {
   name: 'NavigationComponent',
+  components: {
+    LanguageSwitchMobile,
+    LanguageSwitchDesktop,
+  },
   props: {
     name: name,
   },
@@ -56,38 +69,14 @@ export default {
   data() {
     return {
       navigationList: [
-        {
-          title: 'Executive Summary',
-          url: '#about',
-        },
-        {
-          title: 'Experience',
-          url: '#experience',
-        },
-        {
-          title: 'Skills',
-          url: '#skills',
-        },
-        {
-          title: 'Activities',
-          url: '#activities',
-        },
-        {
-          title: 'Life Goals',
-          url: '#lifeGoals',
-        },
-        {
-          title: 'Volunteering & Donations',
-          url: '#volunteering',
-        },
-        {
-          title: 'Education',
-          url: '#education',
-        },
-        {
-          title: 'Ancestry',
-          url: '#ancestry',
-        },
+        { title: 'Executive Summary', url: '#about' },
+        { title: 'Experience', url: '#experience' },
+        { title: 'Skills', url: '#skills' },
+        { title: 'Activities', url: '#activities' },
+        { title: 'Life Goals', url: '#lifeGoals' },
+        { title: 'Volunteering & Donations', url: '#volunteering' },
+        { title: 'Education', url: '#education' },
+        { title: 'Ancestry', url: '#ancestry' },
       ],
     };
   },

@@ -18,13 +18,10 @@
         </div>
       </div>
       <p class="lead mb-4 ps-4">
-        • CTO at Alpha-El Inc. Python Machine Learning frameworks and full-stack
-        development. <br />
-        • Government cleared full stack developer for projects at ANVIL
-        (formally IMRSV Data Labs). <br />
-        • Skilled in creating analytic tools for the Government and private
-        sector. <br />
-        • Consummate team player with advanced problem-solving skills.
+        • {{ $t('about.info1') }} <br />
+        • {{ $t('about.info2') }} <br />
+        • {{ $t('about.info3') }} <br />
+        • {{ $t('about.info4') }}
       </p>
       <!-- TODO: fix and re-enable Professional Network and Latest Résumé links -->
       <!-- <div>

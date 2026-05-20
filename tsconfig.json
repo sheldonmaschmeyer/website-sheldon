@@ -9,10 +9,8 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "strict": false,
-    "jsx": "preserve"
-  },
-  "vueCompilerOptions": {
-    "globalTypesPath": "./.vscode/vue-global-types.d.ts"
+    "jsx": "preserve",
+    "types": ["vite/client"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", ".yarn"]

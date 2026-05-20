@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
+import i18n from './i18n';
 
 // Font Awesome Vue
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -32,6 +33,7 @@ import './assets/scss/resume.scss';
 import 'floating-vue/dist/style.css';
 
 createApp(App)
+  .use(i18n)
   .directive('tooltip', vTooltip)
   .directive('close-popper', vClosePopper)
   .component('VDropdown', Dropdown)

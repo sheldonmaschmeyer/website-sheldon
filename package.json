@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint:fix": "yarn lint && yarn format",
     "lint": "eslint --fix src",
-    "format": "prettier .  --write --ignore-path .gitignore dist node_modules"
+    "format": "prettier . --config=.prettierrc --write --ignore-path .gitignore dist node_modules"
   },
   "resolutions": {
     "flatted": "^3.4.2",

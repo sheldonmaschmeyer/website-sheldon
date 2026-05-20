@@ -1,8 +1,6 @@
-/**
- * Executive Summary Section
-**/
+/** Executive Summary Section **/
 <template>
-  <section id="about" :class="[...classes.section, 'text-white']">
+  <section id="executiveSummary" :class="[...classes.section, 'text-white']">
     <div class="w-100">
       <h1 class="pb-0 text-white w-100">
         {{ name.first }} {{ name.middle }}
@@ -16,14 +14,18 @@
           <a
             :href="'mailto:' + email"
             style="color: white; text-decoration: none"
-            >{{ email }}</a
           >
+            {{ email }}
+          </a>
         </div>
       </div>
       <p class="lead mb-4 ps-4">
-        • {{ $t('executiveSummary.info1') }} <br />
-        • {{ $t('executiveSummary.info2') }} <br />
-        • {{ $t('executiveSummary.info3') }} <br />
+        • {{ $t('executiveSummary.info1') }}
+        <br />
+        • {{ $t('executiveSummary.info2') }}
+        <br />
+        • {{ $t('executiveSummary.info3') }}
+        <br />
         • {{ $t('executiveSummary.info4') }}
       </p>
       <!-- TODO: fix and re-enable Professional Network and Latest Résumé links -->

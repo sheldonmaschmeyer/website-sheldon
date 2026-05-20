@@ -1,0 +1,14 @@
+{
+  "intro1": "ALPHA-EL Inc. is a First Nations owned and operated AI and machine learning Consulting Company, that is interested in working in different geographic regions in Canada. Working remotely in Ottawa. Available to go on-site in Whitehorse when requested.",
+  "intro2": "I am the Chief Technology Officer at Alpha-El, focused on CORAX VISION: A Geo-intelligence Optical AI Surveillance Capability System.",
+  "details": [
+    "Website and mobile Web App (Full Stack) development: React, Vite, Zustand, Express, PostgreSQL.",
+    "Training and implementing a neural network (YOLO frameworks) to detect wildlife, fire, and smoke.",
+    "Built custom modules for runtime features that integrate with the camera.",
+    "Supervised interns assisting with an automated script for trail camera footage and experiments such as fire simulations.",
+    "Using Docker containers for each service and integrating all software system components.",
+    "Listening to client needs and implementing new features in Python and the full stack web application, including data science tools.",
+    "Integrating appropriate AWS services (EC2, S3, Kinesis Video) for data/video/assets storage and reliability.",
+    "Platform-agnostic philosophy utilizing hardware acceleration: NVIDIA Jetson edge devices (ARM64). Docker containers ensure code runs on both x64 and ARM architectures."
+  ]
+}

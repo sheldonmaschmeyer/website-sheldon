@@ -38,6 +38,13 @@ export default [
     rules: {
       'perfectionist/sort-imports': 'error',
       'perfectionist/sort-exports': 'error',
+      'vue/html-closing-bracket-newline': [
+        'error',
+        {
+          singleline: 'never',
+          multiline: 'always',
+        },
+      ],
     },
   },
 ];

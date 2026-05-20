@@ -1,8 +1,8 @@
 <template>
-  <div class="subheading mb-3">Programming Languages & Tools</div>
+  <div class="subheading mb-3">{{ $t('skillsItems.heading') }}</div>
   <ul class="fa-ul mb-0">
     <li
-      v-for="(workflow, index) in workflowList"
+      v-for="(workflow, index) in $tm('skillsItems.workflowList')"
       :key="index"
       class="d-flex align-items-center"
     >
@@ -35,6 +35,7 @@
 
 <script lang="ts">
 import { classes } from '../definitions/props';
+
 export default {
   name: 'SkillsItems',
   props: {
@@ -42,7 +43,12 @@ export default {
   },
   data() {
     return {
-      toolsList: [
+      // You can keep data() empty or add other reactive states here if needed
+    };
+  },
+  computed: {
+    toolsList() {
+      return [
         {
           name: 'HTML5',
           icon: 'html5',
@@ -89,53 +95,42 @@ export default {
           library: 'fab',
         },
         {
-          name: 'Linux OS',
+          name: this.$t('skillsItems.toolsList.linux'),
           icon: 'linux',
           library: 'fab',
         },
         {
-          name: 'Windows OS',
+          name: this.$t('skillsItems.toolsList.windows'),
           icon: 'windows',
           library: 'fab',
         },
         {
-          name: 'Network security: Burp, Wireshark tools',
+          name: this.$t('skillsItems.toolsList.network'),
           icon: 'network-wired',
           library: 'fas',
         },
         {
-          name: 'Shell Script, Bash, Batch, Terminal, CMD, PowerShell',
+          name: this.$t('skillsItems.toolsList.terminal'),
           icon: 'terminal',
           library: 'fas',
         },
         {
-          name: 'PostgreSQL, Oracle, mySQL, MongoDB, Access, SPSS', // TODO: Access and SPSS should be under datascience along with R
+          name: this.$t('skillsItems.toolsList.database'), // TODO: Access and SPSS should be under datascience along with R
           icon: 'database',
           library: 'fas',
         },
         {
-          name: 'Office: Word, Excel, Outlook, PowerPoint, Publisher',
+          name: this.$t('skillsItems.toolsList.microsoft'),
           icon: 'microsoft',
           library: 'fab',
         },
         {
-          name: 'LaTeX: Used for all computer science documents',
+          name: this.$t('skillsItems.toolsList.latex'),
           icon: 'Icons/latex.png',
           image: true,
         },
-      ],
-      workflowList: [
-        'React.JS, Vue.JS, TypeScript, JavaScript, SASS (with CSS Modules), HTML5, Bootstrap-5.2, PHP.',
-        'Git for collaboration and version control.',
-        'Databases: PostgreSQL, Oracle, mySQL, MongoDB.',
-        'Linux and Windows.',
-        'C++ and Java (Carleton U courses).',
-        'Windows (Batch scripting) and Linux (Bash scripting).',
-        'OS Kernel programming on Linux.',
-        'Computer/Network Security: Burp, Wireshark, and Packet Tracing.',
-        'Adobe Photoshop, Animate and Premier.',
-      ],
-    };
+      ];
+    },
   },
 };
 </script>

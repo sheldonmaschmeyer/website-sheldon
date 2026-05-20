@@ -1,4 +1,4 @@
-import { createI18n } from 'vue-i18n';
+import { createI18n, IntlNumberFormats } from 'vue-i18n';
 
 const defaultLocale = import.meta.env?.VITE_DEFAULT_LOCALE || 'en';
 const fallbackLocale = import.meta.env?.VITE_FALLBACK_LOCALE || 'fr';
@@ -19,15 +19,50 @@ for (const [path, content] of Object.entries(allFiles)) {
   const leafKey = segments.pop()!;
 
   // Traverse the object tree, creating empty objects where they don't exist
-  const parent = segments.reduce((current, key) => current[key] ??= {}, messages);
+  const parent = segments.reduce(
+    (current, key) => (current[key] ??= {}),
+    messages,
+  );
 
   parent[leafKey] = content;
 }
+
+const numberFormats: IntlNumberFormats = {
+  en: {
+    currency: { style: 'currency' as const, currency: 'CAD' },
+    decimal: {
+      style: 'decimal' as const,
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    },
+    // ADDED FRACTION DIGITS HERE:
+    percent: {
+      style: 'percent' as const,
+      minimumFractionDigits: 1,
+      maximumFractionDigits: 1,
+    },
+  },
+  fr: {
+    currency: { style: 'currency' as const, currency: 'CAD' },
+    decimal: {
+      style: 'decimal' as const,
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    },
+    // AND HERE:
+    percent: {
+      style: 'percent' as const,
+      minimumFractionDigits: 1,
+      maximumFractionDigits: 1,
+    },
+  },
+};
 
 export default createI18n({
   legacy: false,
   locale: localStorage.getItem('user-lang') || defaultLocale,
   fallbackLocale: fallbackLocale,
   globalInjection: true,
+  numberFormats,
   messages,
 });

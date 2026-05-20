@@ -1,0 +1,34 @@
+{
+  "heading": "Bénévolat et dons",
+  "2025": ["Pas de dons."],
+  "2024": [
+    "Mon partenaire et moi faisons des dons mensuels à Amnesty International depuis juillet 2024.",
+    "Donné à UNRWA",
+    "Donné à la Banque d’alimentation d’Ottawa.",
+    "Dons à des partis politiques.",
+    "Donné à la Légion canadienne."
+  ],
+  "2023": ["Donné à la Banque d’alimentation d’Ottawa."],
+  "ANVIL": [
+    "Donné à la Croix-Rouge canadienne pour :",
+    [
+      "Aide COVID-19 en Inde.",
+      "Inondations ou incendies au Canada.",
+      "Aide urgente à l’Ukraine."
+    ],
+    "Donné à la Fondation Canada-Ukraine.",
+    "Donné à une banque alimentaire."
+  ],
+  "2022": ["Donné à la Debra Dynes Family House."],
+  "CarletonU": [
+    "Dons à Amnesty International Canada.",
+    "Note Taker : pour les étudiants handicapés (centre PMC) à l’Université Carleton, plusieurs cours et trimestres.",
+    "Canadian Feed the Children : membre général à l’Université Carleton : 2012 - 2013"
+  ],
+  "Other": [
+    "Aurora Food Pantry : bénévole à la banque alimentaire : 2008",
+    "Programme Out of the Cold pour les sans-abri : bénévole : 2000 - 2003",
+    "Terry Fox Run : donateur et participant occasionnel.",
+    "Folding@Home : je donne occasionnellement mes ressources CPU et/ou GPU inutilisées aux chercheurs"
+  ]
+}

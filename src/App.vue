@@ -29,17 +29,18 @@
 import smoothScroll from 'smooth-scroll';
 import { reactive } from 'vue';
 
-import BorderSpacer from './components/Border.vue';
-import VideoNav from './components/VideoNav.vue';
-import VideoContainer from './containers/VideoContainer.vue'
-import ActivitiesSection from './sections/Activities.vue';
-import AncestrySection from './sections/Ancestry.vue';
-import EducationSection from './sections/Education.vue';
-import ExecutiveSummary from './sections/ExecutiveSummary.vue';
-import ExperienceSection from './sections/Experience.vue';
-import LifeGoalsSection from './sections/lifeGoals.vue';
-import SkillsSection from './sections/Skills.vue';
-import VolunteerSection from './sections/volunteer.vue';
+import { BorderSpacer, VideoNav } from './components';
+import { VideoContainer } from './containers';
+import {
+  ActivitiesSection,
+  AncestrySection,
+  EducationSection,
+  ExecutiveSummary,
+  ExperienceSection,
+  LifeGoalsSection,
+  SkillsSection,
+  VolunteerSection,
+} from './sections';
 
 export default {
   name: 'App',

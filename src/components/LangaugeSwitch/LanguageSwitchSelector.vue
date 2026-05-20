@@ -53,8 +53,13 @@ export default {
   data() {
     return {
       selectedLanguageClass: 'btn-light text-dark',
-      unselectedLanguageClass: 'btn-outline-light text-white',
+      unselectedLanguageClass: 'btn-outline-light text-white unselected-lang',
     };
-  }
+  },
 };
 </script>
+<style scoped>
+.unselected-lang:hover {
+  color: red !important; /* Forces the text to black on hover */
+}
+</style>

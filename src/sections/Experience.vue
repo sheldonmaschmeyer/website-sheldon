@@ -1,5 +1,9 @@
 <template>
-  <SectionContainer id="experience" heading="Experience" :classes="classes">
+  <SectionContainer
+    id="experience"
+    :heading="$t('experience.heading.title')"
+    :classes="classes"
+  >
     <ExperienceItems :classes="classes" />
   </SectionContainer>
 </template>

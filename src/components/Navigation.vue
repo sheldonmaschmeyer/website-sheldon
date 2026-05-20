@@ -1,10 +1,10 @@
 <template>
   <LanguageSwitchMobile />
 
-  <a class="navbar-brand" href="#about">
-    <span class="d-block d-lg-none ps-3"
-      >{{ name.first }} {{ name.middle }} {{ name.last }}</span
-    >
+  <a class="navbar-brand" href="#executiveSummary">
+    <span class="d-block d-lg-none ps-3">
+      {{ name.first }} {{ name.middle }} {{ name.last }}
+    </span>
 
     <LanguageSwitchDesktop />
 
@@ -37,7 +37,8 @@
         class="nav-item"
       >
         <a class="nav-link scrollspy" :href="navigation.url">
-          <span class="d-lg-none ps-3" />{{ navigation.title }}
+          <span class="d-lg-none ps-3" />
+          {{ navigation.title }}
         </a>
       </li>
     </div>
@@ -66,19 +67,26 @@ export default {
       windowHeight: height,
     };
   },
-  data() {
-    return {
-      navigationList: [
-        { title: 'Executive Summary', url: '#about' },
-        { title: 'Experience', url: '#experience' },
-        { title: 'Skills', url: '#skills' },
-        { title: 'Activities', url: '#activities' },
-        { title: 'Life Goals', url: '#lifeGoals' },
-        { title: 'Volunteering & Donations', url: '#volunteering' },
-        { title: 'Education', url: '#education' },
-        { title: 'Ancestry', url: '#ancestry' },
-      ],
-    };
+  computed: {
+    // By placing this in global options computed, Vue tracks global state changes
+    navigationList() {
+      return [
+        {
+          title: this.$t('navigation.ExecutiveSummary'),
+          url: '#executiveSummary',
+        },
+        { title: this.$t('navigation.Experience'), url: '#experience' },
+        { title: this.$t('navigation.Skills'), url: '#skills' },
+        { title: this.$t('navigation.Activities'), url: '#activities' },
+        { title: this.$t('navigation.LifeGoals'), url: '#lifeGoals' },
+        {
+          title: this.$t('navigation.VolunteerDonations'),
+          url: '#volunteering',
+        },
+        { title: this.$t('navigation.Education'), url: '#education' },
+        { title: this.$t('navigation.Ancestry'), url: '#ancestry' },
+      ];
+    },
   },
 };
 </script>

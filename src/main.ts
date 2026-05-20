@@ -22,8 +22,8 @@ import { createApp } from 'vue';
 import VideoBackground from 'vue-responsive-video-background-player';
 
 import App from './App.vue';
-import CollapseSubheading from './components/CollapseSubheading.vue';
-import SectionContainer from './containers/SectionContainer.vue';
+import { CollapseSubheading } from './components';
+import { SectionContainer } from './containers';
 dom.watch();
 
 library.add(fab, fas, far);

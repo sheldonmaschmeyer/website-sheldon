@@ -13,9 +13,9 @@ import {
   Dropdown,
   Menu,
   Tooltip,
-  VClosePopper,
+  vClosePopper,
   // Directives
-  VTooltip,
+  vTooltip,
 } from 'floating-vue';
 import { createApp } from 'vue';
 import VideoBackground from 'vue-responsive-video-background-player';
@@ -32,8 +32,8 @@ import './assets/scss/resume.scss';
 import 'floating-vue/dist/style.css';
 
 createApp(App)
-  .directive('tooltip', VTooltip)
-  .directive('close-popper', VClosePopper)
+  .directive('tooltip', vTooltip)
+  .directive('close-popper', vClosePopper)
   .component('VDropdown', Dropdown)
   .component('VTooltip', Tooltip)
   .component('VMenu', Menu)

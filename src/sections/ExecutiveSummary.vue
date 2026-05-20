@@ -1,3 +1,6 @@
+/**
+ * Executive Summary Section
+**/
 <template>
   <section id="about" :class="[...classes.section, 'text-white']">
     <div class="w-100">
@@ -18,10 +21,10 @@
         </div>
       </div>
       <p class="lead mb-4 ps-4">
-        • {{ $t('about.info1') }} <br />
-        • {{ $t('about.info2') }} <br />
-        • {{ $t('about.info3') }} <br />
-        • {{ $t('about.info4') }}
+        • {{ $t('executiveSummary.info1') }} <br />
+        • {{ $t('executiveSummary.info2') }} <br />
+        • {{ $t('executiveSummary.info3') }} <br />
+        • {{ $t('executiveSummary.info4') }}
       </p>
       <!-- TODO: fix and re-enable Professional Network and Latest Résumé links -->
       <!-- <div>

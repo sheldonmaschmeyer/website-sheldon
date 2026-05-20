@@ -31,11 +31,11 @@ import { reactive } from 'vue';
 
 import BorderSpacer from './components/Border.vue';
 import VideoNav from './components/VideoNav.vue';
-import VideoContainer from './containers/VideoContainer.vue';
-import AboutSection from './sections/About.vue';
+import VideoContainer from './containers/VideoContainer.vue'
 import ActivitiesSection from './sections/Activities.vue';
 import AncestrySection from './sections/Ancestry.vue';
 import EducationSection from './sections/Education.vue';
+import ExecutiveSummary from './sections/ExecutiveSummary.vue';
 import ExperienceSection from './sections/Experience.vue';
 import LifeGoalsSection from './sections/lifeGoals.vue';
 import SkillsSection from './sections/Skills.vue';
@@ -57,7 +57,7 @@ export default {
   },
   data() {
     return {
-      AboutSection: reactive(AboutSection),
+      AboutSection: reactive(ExecutiveSummary),
       name: {
         first: 'Sheldon',
         middle: 'W.B.',

@@ -1,7 +1,10 @@
 <template>
   <div :class="classes.item">
     <div class="resume-content white-space: pre-wrap;">
-      <div class="subheading">2024</div>
+      <div class="subheading">2025</div>
+      <div class="ps-4">▪ No donations due to income situation.</div>
+
+      <div class="subheading pt-4">2024</div>
       <div class="ps-4">
         ▪ My partner and I donate monthly to Amnesty International since July
         2024. <br />
@@ -56,7 +59,7 @@
         needed. Before university, I volunteered at the Aurora Food Pantry.
       </div>
 
-      <div class="subheading pt-4">IMRSV</div>
+      <div class="subheading pt-4">ANVIL</div>
       • Donated to Canadian Red Cross for:11
       <div class="ps-4">▪ COVID-19 aid in India</div>
       <div class="ps-4">▪ Canadian flood or fires</div>

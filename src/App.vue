@@ -19,6 +19,8 @@
       <VolunteerSection :classes="classes" />
       <BorderSpacer />
       <EducationSection :classes="classes" />
+      <BorderSpacer />
+      <AncestrySection :classes="classes" />
     </div>
   </div>
 </template>
@@ -32,6 +34,7 @@ import VideoNav from './components/VideoNav.vue';
 import VideoContainer from './containers/VideoContainer.vue';
 import AboutSection from './sections/About.vue';
 import ActivitiesSection from './sections/Activities.vue';
+import AncestrySection from './sections/Ancestry.vue';
 import EducationSection from './sections/Education.vue';
 import ExperienceSection from './sections/Experience.vue';
 import LifeGoalsSection from './sections/lifeGoals.vue';
@@ -50,6 +53,7 @@ export default {
     ActivitiesSection,
     LifeGoalsSection,
     VideoContainer,
+    AncestrySection,
   },
   data() {
     return {

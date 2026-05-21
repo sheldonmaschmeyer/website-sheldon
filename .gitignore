@@ -1,6 +1,7 @@
 node_modules
 dist
 .zsh_history
+vite.config.mts.timestamp-*.mjs
 
 # Yarn version 4
 .pnp.*

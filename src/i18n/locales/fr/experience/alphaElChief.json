@@ -1,0 +1,14 @@
+{
+  "intro1": "ALPHA-EL Inc. est une entreprise de conseil en intelligence artificielle et en apprentissage automatique détenue et gérée par des Premières Nations, qui souhaite travailler dans différentes régions du Canada. Travail à distance depuis Ottawa. Disponible pour se rendre sur place à Whitehorse sur demande.",
+  "intro2": "Je suis le directeur de la technologie chez Alpha-El, axé sur CORAX VISION : un système de capacité de surveillance optique d'intelligence géo-intelligente.",
+  "details": [
+    "Développement de sites Web et d'applications Web mobiles (Full Stack) : React, Vite, Zustand, Express, PostgreSQL.",
+    "Formation et mise en œuvre d'un réseau de neurones (frameworks YOLO) pour détecter la faune, les incendies et la fumée.",
+    "Création de modules personnalisés pour les fonctionnalités d'exécution qui s'intègrent à la caméra.",
+    "Supervision des stagiaires assistant avec un script automatisé pour les séquences de caméras de sentier et des expériences telles que les simulations d'incendie.",
+    "Utilisation de conteneurs Docker pour chaque service et intégration de tous les composants du système logiciel.",
+    "Écoute des besoins des clients et mise en œuvre de nouvelles fonctionnalités en Python et dans l'application Web full stack, y compris les outils de science des données.",
+    "Intégration des services AWS appropriés (EC2, S3, Kinesis Video) pour le stockage et la fiabilité des données/vidéos/actifs.",
+    "Philosophie indépendante de la plate-forme utilisant l'accélération matérielle : appareils NVIDIA Jetson edge (ARM64). Les conteneurs Docker garantissent que le code fonctionne sur les architectures x64 et ARM."
+  ]
+}

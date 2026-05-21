@@ -1,3 +1,4 @@
+/** Experience section items. **/
 <template>
   <div
     v-for="(experience, index) in experienceList"
@@ -19,16 +20,14 @@
       />
     </div>
     <div class="resume-date text-md-right">
-      <span v-for="(date, i) in experience.dates" :key="i" class="text-primary"
-        >{{ date.start }} - {{ date.end }}</span
-      >
+      <span v-for="(date, i) in experience.dates" :key="i" class="text-primary">
+        {{ date.start }} - {{ date.end }}
+      </span>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { shallowRef } from 'vue';
-
 import { classes } from '../definitions/props';
 import AlphaElSummaryChief from './experience/AlphaElChief.vue';
 import ANVILSummary from './experience/ANVIL.vue';
@@ -38,35 +37,35 @@ export default {
   props: {
     classes: classes,
   },
-  data() {
-    return {
-      experienceList: [
+  computed: {
+    experienceList() {
+      return [
         {
-          position: 'Chief Technology Officer',
+          position: this.$t('experience.items.alphaEl_position'),
           company: 'Alpha-El Inc.',
-          SUMMARY: shallowRef(AlphaElSummaryChief),
+          SUMMARY: AlphaElSummaryChief,
           dates: [
             {
-              start: 'March 2023',
-              end: 'Present',
+              start: this.$t('experience.items.alphaEl_start'),
+              end: this.$t('experience.items.present'),
             },
           ],
           id: 'AlphaElChief',
         },
         {
-          position: 'Full Stack Developer',
+          position: this.$t('experience.items.anvil_position'),
           company: 'ANVIL',
-          SUMMARY: shallowRef(ANVILSummary),
+          SUMMARY: ANVILSummary,
           dates: [
             {
-              start: 'Jan 2021',
-              end: 'Oct 2022',
+              start: this.$t('experience.items.anvil_start'),
+              end: this.$t('experience.items.anvil_end'),
             },
           ],
           id: 'ANVIL',
         },
-      ],
-    };
+      ];
+    },
   },
 };
 </script>

@@ -1,0 +1,24 @@
+{
+  "skillsHeading": "Skills",
+  "heading": "Programming Languages & Tools",
+  "workflowList": [
+    "React.JS, Vue.JS, TypeScript, JavaScript, SASS (with CSS Modules), HTML5, Bootstrap-5.2, PHP.",
+    "Git for collaboration and version control.",
+    "Databases: PostgreSQL, Oracle, mySQL, MongoDB.",
+    "Linux and Windows.",
+    "C++ and Java (Carleton U courses).",
+    "Windows (Batch scripting) and Linux (Bash scripting).",
+    "OS Kernel programming on Linux.",
+    "Computer/Network Security: Burp, Wireshark, and Packet Tracing.",
+    "Adobe Photoshop, Animate and Premier."
+  ],
+  "toolsList": {
+    "linux": "Linux OS",
+    "windows": "Windows OS",
+    "network": "Network Security: Burp, Wireshark tools",
+    "terminal": "Shell Script, Bash, Batch, Terminal, CMD, PowerShell",
+    "database": "PostgreSQL, Oracle, mySQL, MongoDB, Access, SPSS",
+    "microsoft": "VSCode, GitHub, Microsoft Office: Word, Excel, PowerPoint, Access",
+    "latex": "LaTeX: Used for all academic and computer science documents"
+  }
+}

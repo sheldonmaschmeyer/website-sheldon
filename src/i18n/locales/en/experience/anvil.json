@@ -1,0 +1,13 @@
+{
+  "intro1": "Full Stack Developer for web and mobile (Android and iPhone) app development, working on projects that required a Level III Top Secret clearance for the Canadian government. development, working on projects that required a Level III Top Secret clearance for the Canadian government.",
+  "details": [
+    "Website and mobile, Android and iPhone, app development.",
+    "Gained experience working with agile teams.",
+    "Accumulated experience with REST APIs and front-end development utilizing JavaScript frameworks such as React Native, React, and Vue.",
+    "Back-end PostgreSQL databases where I wrote and tested migrations and troubleshot issues.",
+    "Set up Docker environments using Docker Compose.",
+    "Wrote unit and end-to-end tests to ensure product quality and test for edge cases.",
+    "Utilized TypeScript for static typing, classes, and interfaces.",
+    "Set up ESLint and StyleLint for code quality, consistency, and readability."
+  ]
+}

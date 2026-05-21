@@ -1,5 +1,9 @@
 <template>
-  <SectionContainer id="education" heading="Education" :classes="classes">
+  <SectionContainer
+    id="education"
+    :heading="$t('education.heading')"
+    :classes="classes"
+  >
     <EducationItems :classes="classes" />
   </SectionContainer>
 </template>

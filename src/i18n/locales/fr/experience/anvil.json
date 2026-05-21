@@ -1,0 +1,13 @@
+{
+  "intro1": "Développeur Full Stack spécialisé dans le développement d'applications Web et mobiles (Android et iPhone), travaillant sur des projets nécessitant une habilitation de sécurité de niveau III « Top Secret » pour le gouvernement canadien.",
+  "details": [
+    "Développement de sites Web et d'applications mobiles, Android et iPhone.",
+    "Expérience de travail avec des équipes agiles.",
+    "Expérience accumulée avec les API REST et le développement front-end utilisant des frameworks JavaScript tels que React Native, React et Vue.",
+    "Bases de données PostgreSQL back-end où j'ai écrit et testé des migrations et résolu des problèmes.",
+    "Configuration d'environnements Docker à l'aide de Docker Compose.",
+    "Rédaction de tests unitaires et de tests de bout en bout pour assurer la qualité du produit et tester les cas limites.",
+    "Utilisation de TypeScript pour le typage statique, les classes et les interfaces.",
+    "Configuration d'ESLint et de StyleLint pour la qualité du code, la cohérence et la lisibilité."
+  ]
+}

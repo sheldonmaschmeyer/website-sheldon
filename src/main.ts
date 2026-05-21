@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
+import i18n from './i18n';
 
 // Font Awesome Vue
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -13,16 +14,16 @@ import {
   Dropdown,
   Menu,
   Tooltip,
-  VClosePopper,
+  vClosePopper,
   // Directives
-  VTooltip,
+  vTooltip,
 } from 'floating-vue';
 import { createApp } from 'vue';
 import VideoBackground from 'vue-responsive-video-background-player';
 
 import App from './App.vue';
-import CollapseSubheading from './components/CollapseSubheading.vue';
-import SectionContainer from './containers/SectionContainer.vue';
+import { CollapseSubheading } from './components';
+import { SectionContainer } from './containers';
 dom.watch();
 
 library.add(fab, fas, far);
@@ -32,8 +33,9 @@ import './assets/scss/resume.scss';
 import 'floating-vue/dist/style.css';
 
 createApp(App)
-  .directive('tooltip', VTooltip)
-  .directive('close-popper', VClosePopper)
+  .use(i18n)
+  .directive('tooltip', vTooltip)
+  .directive('close-popper', vClosePopper)
   .component('VDropdown', Dropdown)
   .component('VTooltip', Tooltip)
   .component('VMenu', Menu)

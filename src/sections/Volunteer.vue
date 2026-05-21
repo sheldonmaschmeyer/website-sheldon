@@ -1,7 +1,7 @@
 <template>
   <SectionContainer
     id="volunteering"
-    heading="Volunteering & Donations"
+    :heading="$t('volunteer.heading')"
     :classes="classes"
   >
     <VolunteerItems :classes="classes" />

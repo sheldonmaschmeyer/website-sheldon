@@ -2,7 +2,7 @@
   <LanguageSwitchMobile />
 
   <a class="navbar-brand" href="#executiveSummary">
-    <span class="d-block d-lg-none ps-3">
+    <span class="d-block d-lg-none ps-3 navigation-mobile-name">
       {{ name.first }} {{ name.middle }} {{ name.last }}
     </span>
 
@@ -90,3 +90,22 @@ export default {
   },
 };
 </script>
+
+<style scoped lang="scss">
+.navigation-mobile-name {
+  display: inline-block;
+  max-width: calc(100% - 6rem);
+  font-size: 18pt;
+  line-height: 1.1;
+  padding-right: 4rem;
+  word-break: break-word;
+}
+
+@media (max-width: 550px) {
+  .navigation-mobile-name {
+    font-size: 12pt;
+    max-width: calc(100% - 5rem);
+    padding-right: 4.5rem;
+  }
+}
+</style>

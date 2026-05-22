@@ -5,10 +5,35 @@ import i18n from './i18n';
 // Font Awesome Vue
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { dom } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import {
+  faCheck,
+  faNetworkWired,
+  faTerminal,
+  faDatabase,
+  faFilePdf,
+} from '@fortawesome/free-solid-svg-icons';
+import {
+  faSquareCaretRight,
+  faSquareCaretDown,
+} from '@fortawesome/free-regular-svg-icons';
+import {
+  faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faReact,
+  faNodeJs,
+  faSass,
+  faYarn,
+  faNpm,
+  faPython,
+  faLinux,
+  faWindows,
+  faMicrosoft,
+  faCanadianMapleLeaf,
+  faGithub,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 import {
   // Components
   Dropdown,
@@ -26,7 +51,30 @@ import { CollapseSubheading } from './components';
 import { SectionContainer } from './containers';
 dom.watch();
 
-library.add(fab, fas, far);
+library.add(
+  faCheck,
+  faNetworkWired,
+  faTerminal,
+  faDatabase,
+  faFilePdf,
+  faSquareCaretRight,
+  faSquareCaretDown,
+  faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faReact,
+  faNodeJs,
+  faSass,
+  faYarn,
+  faNpm,
+  faPython,
+  faLinux,
+  faWindows,
+  faMicrosoft,
+  faCanadianMapleLeaf,
+  faGithub,
+  faLinkedin,
+);
 
 // Main SCSS File
 import './assets/scss/resume.scss';

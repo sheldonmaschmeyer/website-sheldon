@@ -4,25 +4,6 @@ import { defineConfig } from 'vite';
 
 const cache = new Map();
 
-const normalize = (id: string): string => {
-  if (cache.has(id)) {
-    return cache.get(id);
-  }
-
-  const parts = id.split('/node_modules/');
-  const dirPaths = parts[parts.length - 1].split('/');
-
-  let n = `vender~${dirPaths[0]}`;
-
-  if (dirPaths[0].startsWith('@')) {
-    n = `vender~${dirPaths[0]}~${dirPaths[1]}}`;
-  }
-
-  cache.set(id, n);
-
-  return n;
-};
-
 export default defineConfig({
   plugins: [
     vue(),
@@ -46,17 +27,47 @@ export default defineConfig({
     },
   },
   build: {
-    minify: 'oxc',
     outDir: 'dist',
-    rollupOptions: {
+    rolldownOptions: {
       output: {
-        manualChunks(id) {
-          if (id.includes('node_modules')) {
-            return normalize(id);
-          }
+        codeSplitting: {
+          groups: [
+            { name: 'vendor-vue', test: /node_modules\/(vue|@vue)/ },
+            {
+              name: 'vendor-bootstrap',
+              test: /(bootstrap|@popperjs)/,
+            },
+            {
+              name: 'vendor-fontawesome-core',
+              test: /@fortawesome\/fontawesome-svg-core/,
+            },
+            {
+              name: 'vendor-fa-solid',
+              test: /@fortawesome\/free-solid-svg-icons/,
+            },
+            {
+              name: 'vendor-fa-regular',
+              test: /@fortawesome\/free-regular-svg-icons/,
+            },
+            {
+              name: 'vendor-fa-brands',
+              test: /@fortawesome\/free-brands-svg-icons/,
+            },
+            { name: 'vendor-floating-vue', test: /floating-vue/ },
+            {
+              name: 'vendor-video-bg',
+              test: /vue-responsive-video-background-player/,
+            },
+            {
+              name: 'vendor-window-size',
+              test: /vue-window-size/,
+            },
+          ],
         },
       },
     },
+    chunkSizeWarningLimit: 1000,
+    sourcemap: false,
   },
   publicDir: 'public',
 });

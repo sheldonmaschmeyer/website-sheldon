@@ -178,62 +178,74 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <strong>{{ $t('ancestry.european') }}</strong>
-            <div class="mt-2" style="min-width: 350px">
+            <div class="mt-2">
               <div class="d-flex justify-content-between">
                 <span>{{ $t('ancestry.europeanTotal') }}</span>
-                <strong class="ms-3 text-nowrap">
+                <strong class="text-nowrap text-end">
                   {{ $n(0.487, 'percent') }}
                 </strong>
               </div>
-              <div class="d-flex justify-content-between ps-3">
-                <span>{{ $t('ancestry.westernEuropean') }}</span>
-                <span class="ms-3 text-nowrap">{{ $n(0.43, 'percent') }}</span>
+              <div class="d-flex justify-content-between">
+                <span class="ps-3">{{ $t('ancestry.westernEuropean') }}</span>
+                <span class="text-nowrap text-end">
+                  {{ $n(0.43, 'percent') }}
+                </span>
               </div>
-              <div class="d-flex justify-content-between ps-3">
-                <span>{{ $t('ancestry.britishIrish') }}</span>
-                <span class="ms-3 text-nowrap">{{ $n(0.057, 'percent') }}</span>
+              <div class="d-flex justify-content-between">
+                <span class="ps-3">{{ $t('ancestry.britishIrish') }}</span>
+                <span class="text-nowrap text-end">
+                  {{ $n(0.057, 'percent') }}
+                </span>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <strong>{{ $t('ancestry.westernAsianNorthAfrican') }}</strong>
-            <div class="mt-2" style="min-width: 350px">
+            <div class="mt-2">
               <div class="d-flex justify-content-between">
                 <span>{{ $t('ancestry.total') }}</span>
-                <strong class="ms-3 text-nowrap">
+                <strong class="text-nowrap text-end">
                   {{ $n(0.38, 'percent') }}
                 </strong>
               </div>
-              <div class="d-flex justify-content-between ps-3">
-                <span>{{ $t('ancestry.iranianCaucasian') }}</span>
-                <span class="ms-3 text-nowrap">{{ $n(0.375, 'percent') }}</span>
+              <div class="d-flex justify-content-between">
+                <span class="ps-3">{{ $t('ancestry.iranianCaucasian') }}</span>
+                <span class="text-nowrap text-end">
+                  {{ $n(0.375, 'percent') }}
+                </span>
               </div>
-              <div class="d-flex justify-content-between ps-3">
-                <span>{{ $t('ancestry.arabEgyptian') }}</span>
-                <span class="ms-3 text-nowrap">{{ $n(0.005, 'percent') }}</span>
+              <div class="d-flex justify-content-between">
+                <span class="ps-3">{{ $t('ancestry.arabEgyptian') }}</span>
+                <span class="text-nowrap text-end">
+                  {{ $n(0.005, 'percent') }}
+                </span>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <strong>{{ $t('ancestry.centralSouthAsian') }}</strong>
-            <div class="mt-2" style="min-width: 350px">
+            <div class="mt-2">
               <div class="d-flex justify-content-between">
                 <span>{{ $t('ancestry.total') }}</span>
-                <strong class="ms-3 text-nowrap">
+                <strong class="text-nowrap text-end">
                   {{ $n(0.133, 'percent') }}
                 </strong>
               </div>
-              <div class="d-flex justify-content-between ps-3">
-                <span style="white-space: nowrap">
+              <div class="d-flex justify-content-between">
+                <span class="ps-3 text-break">
                   {{ $t('ancestry.northernIndian') }}
                 </span>
-                <span class="ms-3 text-nowrap">{{ $n(0.12, 'percent') }}</span>
+                <span class="text-nowrap text-end ms-2">
+                  {{ $n(0.12, 'percent') }}
+                </span>
               </div>
-              <div class="d-flex justify-content-between ps-3">
-                <span style="white-space: nowrap">
+              <div class="d-flex justify-content-between">
+                <span class="ps-3 text-break">
                   {{ $t('ancestry.southernIndian') }}
                 </span>
-                <span class="ms-3 text-nowrap">{{ $n(0.013, 'percent') }}</span>
+                <span class="text-nowrap text-end ms-2">
+                  {{ $n(0.013, 'percent') }}
+                </span>
               </div>
             </div>
           </div>

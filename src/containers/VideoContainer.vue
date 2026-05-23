@@ -2,7 +2,7 @@
   <video-background
     ref="aboutBackground"
     src="background.mp4"
-    style="max-height: 100vh; height: 100vh"
+    style="max-height: 100vh; height: 100vh; width: 100%"
     overlay="linear-gradient(-10deg,#FF2980B9,#6DD5FAE6)"
   >
     <component

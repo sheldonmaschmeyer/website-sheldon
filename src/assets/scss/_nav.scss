@@ -2,6 +2,18 @@
 @use 'variables' as *;
 
 #sideNav {
+  overflow: hidden;
+
+  .navbar-brand {
+    white-space: normal;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 991.98px) {
+      max-width: calc(100% - 6rem);
+    }
+  }
+
   .navbar-nav .nav-item .nav-link {
     font-weight: 800;
     letter-spacing: 0.05rem;
@@ -31,6 +43,8 @@
 
       margin: auto auto 0;
       padding: 0.5rem;
+      max-width: 100%;
+
       .img-profile {
         max-width: 10rem;
         max-height: 10rem;

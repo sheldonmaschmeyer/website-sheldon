@@ -94,7 +94,6 @@ export default {
 <style scoped lang="scss">
 .navigation-mobile-name {
   display: inline-block;
-  max-width: calc(100% - 6rem);
   font-size: 18pt;
   line-height: 1.1;
   padding-right: 4rem;
@@ -103,8 +102,7 @@ export default {
 
 @media (max-width: 550px) {
   .navigation-mobile-name {
-    font-size: 12pt;
-    max-width: calc(100% - 5rem);
+    font-size: 10pt;
     padding-right: 4.5rem;
   }
 }

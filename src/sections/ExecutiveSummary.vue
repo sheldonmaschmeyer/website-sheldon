@@ -3,8 +3,9 @@
   <section id="executiveSummary" :class="[...classes.section, 'text-white']">
     <div class="w-100">
       <h1 class="pb-0 text-white w-100">
-        {{ name.first }} {{ name.middle }}
-        <span style="color: lightblue">{{ name.last }}</span>
+        {{ name.first }}
+        <span style="color: lightblue">{{ name.middle }}</span>
+        <span>{{ name.last }}</span>
       </h1>
       <div class="subheading mb-4">
         {{ address.street }}, {{ address.city }}, {{ address.province }},

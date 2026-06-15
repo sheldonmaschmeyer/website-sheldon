@@ -20,7 +20,6 @@
       <BorderSpacer />
       <EducationSection :classes="classes" />
       <BorderSpacer />
-      <AncestrySection :classes="classes" />
     </div>
   </div>
 </template>
@@ -33,7 +32,6 @@ import { BorderSpacer, VideoNav } from './components';
 import { VideoContainer } from './containers';
 import {
   ActivitiesSection,
-  AncestrySection,
   EducationSection,
   ExecutiveSummary,
   ExperienceSection,
@@ -54,14 +52,13 @@ export default {
     ActivitiesSection,
     LifeGoalsSection,
     VideoContainer,
-    AncestrySection,
   },
   data() {
     return {
       AboutSection: reactive(ExecutiveSummary),
       name: {
         first: 'Sheldon',
-        middle: 'W.B.',
+        middle: 'Walter Bruce ',
         last: 'Maschmeyer',
       },
       classes: {

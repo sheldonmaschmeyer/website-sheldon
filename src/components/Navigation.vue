@@ -83,7 +83,8 @@ export default {
           title: this.$t('navigation.VolunteerDonations'),
           url: '#volunteering',
         },
-        { title: this.$t('navigation.Education'), url: '#education' }
+        { title: this.$t('navigation.Education'), url: '#education' },
+        { title: this.$t('navigation.AlphaEl'), url: 'https://alpha-el.ca' },
       ];
     },
   },

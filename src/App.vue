@@ -58,7 +58,7 @@ export default {
       AboutSection: reactive(ExecutiveSummary),
       name: {
         first: 'Sheldon',
-        middle: 'W.B.',
+        middle: 'Walter Bruce ',
         last: 'Maschmeyer',
       },
       classes: {
